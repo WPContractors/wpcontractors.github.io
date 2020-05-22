@@ -1,6 +1,4 @@
 language: ruby
-rvm:
-  - 2.6.3
 
 script: npm i && bundle exec jekyll build
 
