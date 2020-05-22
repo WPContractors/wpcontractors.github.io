@@ -16,6 +16,7 @@ sudo: false
 
 deploy:
   provider: pages
+  keep_history: true
   skip-cleanup: true
   github-token: $GITHUB_ACCESS_TOKEN
   target-branch: master
