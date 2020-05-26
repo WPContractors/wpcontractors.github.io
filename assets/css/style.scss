@@ -13,3 +13,8 @@
 @import "setup/setup";
 @import "radix/radix";
 @import "partials/partials";
+@import "slick";
+
+.quicktabs-hide {
+  display: none;
+}
