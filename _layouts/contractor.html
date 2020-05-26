@@ -28,7 +28,10 @@ class: "page-profile-main"
         </h4>
         <div class="field field-name-field-title field-type-taxonomy-term-reference field-label-hidden">
           <div class="field-items">
-            <div class="field-item even">{{ page.titles | map: "text" | join: ", " }}</div>
+            {% assign last_title = page.titles | last %}
+            {% for title in page.titles %}
+            <div class="field-item">{{ site.data.config.valueMap[title] }}{% if title != last_title %}, {% endif %}</div>
+            {% endfor %}
           </div>
         </div>
         <div class="field field-name-field-summary field-type-text-with-summary field-label-hidden">
@@ -45,7 +48,7 @@ class: "page-profile-main"
           <div class="field-items">
             {% for skill in page.skills %}
             <div class="field-item">
-              <a href="/skills/{{ skill.value }}" typeof="skos:Concept" property="rdfs:label skos:prefLabel">{{ skill.text }}</a>
+              <a href="/skills/{{ skill }}" typeof="skos:Concept" property="rdfs:label skos:prefLabel">{{ site.data.config.valueMap[skill] }}</a>
             </div>
             {% endfor %}
           </div>
@@ -57,7 +60,7 @@ class: "page-profile-main"
         <h2><span>Availability</span></h2>
         <div class="field field-name-field-availability field-type-taxonomy-term-reference field-label-hidden">
           <div class="field-items">
-            <div class="field-item even">{{ page.availability }}</div>
+            <div class="field-item even">{{ site.data.config.valueMap[page.availability] }}</div>
           </div>
         </div>
       </section>
@@ -65,13 +68,13 @@ class: "page-profile-main"
         <div class="field field-name-field-citizenship field-type-list-float field-label-above">
           <div class="field-label">Citizenship:&nbsp;</div>
           <div class="field-items">
-            <div class="field-item even">{{ page.citizenship }}</div>
+            <div class="field-item even">{{ site.data.config.valueMap[page.citizenship] }}</div>
           </div>
         </div>
         <div class="field field-name-field-experience-level field-type-taxonomy-term-reference field-label-above">
           <div class="field-label">Experience Level:&nbsp;</div>
           <div class="field-items">
-            <div class="field-item even">{{ page.wp_experience }}</div>
+            <div class="field-item even">{{ site.data.config.valueMap[page.wp_experience] }}</div>
           </div>
         </div>
       </section>
@@ -80,7 +83,7 @@ class: "page-profile-main"
         <div class="field field-name-field-english-proficiency field-type-taxonomy-term-reference field-label-above">
           <div class="field-label">English Proficiency:&nbsp;</div>
           <div class="field-items">
-            <div class="field-item even">{{ page.english }}</div>
+            <div class="field-item even">{{ site.data.config.valueMap[page.english] }}</div>
           </div>
         </div>
       </section>

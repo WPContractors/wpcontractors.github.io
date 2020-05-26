@@ -3,13 +3,7 @@ layout: default
 ---
 
 {% if page.collection == "contractors" %}
-{% assign profiles = "" | split: "" %}
-{% for profile in site.data.profiles %}
-{% assign has_title = profile.titles | where: "value", page.filter | size %}
-{% if has_title != 0 %}
-{% assign profiles = profiles | push: profile %}
-{% endif %}
-{% endfor %}
+{% assign profiles = site.data.profiles | where: 'title', page.filter %}
 <div class="block block-menu-block contractorsMenu block--none">
   <div class="block__content">
     <div class="menu-block-wrapper menu-block-6 menu-name-main-menu parent-mlid-669 menu-level-1 container">
@@ -28,12 +22,7 @@ layout: default
   </div>
 </div>
 {% else %}
-{% for profile in site.data.profiles %}
-{% assign has_skill = profile.skills | where: "value", page.filter | size %}
-{% if has_skill != 0 %}
-{% assign profiles = profiles | push: profile %}
-{% endif %}
-{% endfor %}
+{% assign profiles = site.data.profiles | where: 'skills', page.filter %}
 {% endif %}
 <div class="block block-views sectionGrey block--none">
   <div class="block__content">
