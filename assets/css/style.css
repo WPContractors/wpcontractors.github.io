@@ -2664,6 +2664,27 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 @media print { .hidden-print { display: none !important; } }
 
+/** @file Global theme styles */
+*, *:before, *:after { box-sizing: border-box; }
+
+body { position: relative; right: 0; min-width: 320px; margin: 0; padding: 56px 0 0; font-family: "Lato",sans-serif; font-size: 16px; line-height: 1.2; overflow-x: hidden; transition: right .5s; }
+
+@media only screen and (min-width: 62.063em) { body { padding: 76px 0 0; } }
+
+body.is-openMenu { right: 300px; overflow: hidden; }
+
+@media only screen and (min-width: 30.062em) { body.is-openMenu { right: 300px; } }
+
+body.page-homepage { padding-top: 0; }
+
+img { max-width: 100%; }
+
+i.fa.fa-bars { font-size: 30px !important; }
+
+h4.pane-title, .employer-dashboard .employer-layouts-content .panel-pane.pane-recent-job-posts .pane-title .pane-title.view-title-job, .employer-dashboard .employer-layouts-content .panel-pane.pane-recent-job-posts .pane-title .view-counter-job a.pane-title { font-family: "poppinsregular",Helvetica,Arial,sans-serif; font-size: 18px; font-weight: 500; margin-bottom: 10px; text-align: left; }
+
+@media only screen and (max-width: 48.063em) { h4.pane-title, .employer-dashboard .employer-layouts-content .panel-pane.pane-recent-job-posts .pane-title .pane-title.view-title-job, .employer-dashboard .employer-layouts-content .panel-pane.pane-recent-job-posts .pane-title .view-counter-job a.pane-title { font-size: 16px; } }
+
 /** RANGES We use these functions to define ranges for various things, like media queries. */
 /* 0, 480px */
 /* 481px, 768px */
