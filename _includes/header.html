@@ -153,26 +153,11 @@
                 <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span
                     class="nolink">Browse Contractors<span class="caret"></span></span>
                   <ul class="menu nav">
-                    <li class="first leaf menu-link-architect"><a href="/contractors/architect"
-                        title="Architect">Architect</a></li>
-                    <li class="leaf menu-link-art-director"><a href="/contractors/art-director" title="Art Director">Art
-                        Director</a></li>
-                    <li class="leaf menu-link-backend-developer"><a href="/contractors/backend-developer"
-                        title="Backend Developer">Backend Developer</a></li>
-                    <li class="leaf menu-link-frontend-developer"><a href="/contractors/frontend-developer"
-                        title="Frontend Developer">Frontend Developer</a></li>
-                    <li class="leaf menu-link-full-stack-developer"><a href="/contractors/full-stack-developer"
-                        title="Full-Stack Developer">Full-Stack Developer</a></li>
-                    <li class="leaf menu-link-project-manager"><a href="/contractors/project-manager"
-                        title="Project Manager">Project Manager</a></li>
-                    <li class="leaf menu-link-qa-tester"><a href="/contractors/qa-tester" title="QA Tester">QA
-                        Tester</a></li>
-                    <li class="leaf menu-link-system-administrators"><a href="/contractors/system-administrators"
-                        title="System Administrators">System Administrators</a></li>
-                    <li class="leaf menu-link-ux-designer"><a href="/contractors/ux-designer" title="UX Designer">UX
-                        Designer</a></li>
-                    <li class="leaf menu-link-visual-designer"><a href="/contractors/visual-designer"
-                        title="Visual Designer">Visual Designer</a></li>
+                    {% for title in site.data.config.titles %}
+                    <li class="leaf">
+                      <a href="/contractors/{{ title.key }}" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
+                    </li>
+                    {% endfor %}
                     <li class="last leaf menu-link-see-all"><a href="/search/contractors?search=">See All</a></li>
                   </ul>
                 </li>
@@ -181,25 +166,12 @@
                 <li class="last expanded siteMenu-third js-secondLvl menu-link-trending-skills"><span
                     class="nolink">Trending Skills<span class="caret"></span></span>
                   <ul class="menu nav">
-                    <li class="first leaf menu-link-agile-development"><a href="/skills/agile-development"
-                        title="Agile Development">Agile Development</a></li>
-                    <li class="leaf menu-link-analytics"><a href="/skills/analytics" title="Analytics">Analytics</a>
+                    {% for skill in site.data.config.skills %}
+                    {% assign key = skill[0] %}
+                    <li class="leaf">
+                      <a href="/skills/{{ key }}" title="{{ site.data.config.valueMap[key] }}">{{ site.data.config.valueMap[key] }}</a>
                     </li>
-                    <li class="leaf menu-link-command-line-interface"><a href="/skills/command-line-interface"
-                        title="Command Line Interface">Command Line Interface</a></li>
-                    <li class="collapsed menu-link-development"><a href="/skills/development"
-                        title="Development">Development</a></li>
-                    <li class="leaf menu-link-git"><a href="/skills/git" title="GIT">GIT</a></li>
-                    <li class="leaf menu-link-waterfall-development"><a href="/skills/waterfall-development"
-                        title="Waterfall Development">Waterfall Development</a></li>
-                    <li class="collapsed menu-link-architecture"><a href="/skills/architecture"
-                        title="Architecture">Architecture</a></li>
-                    <li class="leaf menu-link-information-architecture"><a href="/skills/information-architecture"
-                        title="Information Architecture">Information Architecture</a></li>
-                    <li class="leaf menu-link-intranet-solutions"><a href="/skills/intranet-solutions"
-                        title="Intranet Solutions">Intranet Solutions</a></li>
-                    <li class="leaf menu-link-python"><a href="/skills/python" title="Python">Python</a></li>
-                    <li class="last leaf menu-link-see-all"><a href="/view-all-categories" title="See All">See All</a>
+                    {% endfor %}
                     </li>
                   </ul>
                 </li>
