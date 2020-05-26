@@ -1,4 +1,0 @@
----
-title: "Architects"
-filter: "architect"
----

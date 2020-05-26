@@ -69,9 +69,8 @@
                         class="nolink">Browse Contractors<span class="caret"></span></span>
                       <ul class="menu nav">
                         {% for title in site.data.config.titles %}
-                        {% assign key = title[0] %}
                         <li class="leaf">
-                          <a href="/contractors/{{ key }}" title="{{ site.data.config.valueMap[key] }}">{{ site.data.config.valueMap[key] }}</a>
+                          <a href="/contractors/{{ title.key }}" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
                         </li>
                         {% endfor %}
                         <li class="last leaf menu-link-see-all"><a href="/search/contractors?search=">See All</a></li>

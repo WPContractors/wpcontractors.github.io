@@ -4,9 +4,6 @@ url: "https://www.wpcontractors.com"
 email: service@esteemed.io
 
 collections:
-  contractors:
-    output: true
-    permalink: /:collection/:name
   skills:
     output: true
     permalink: /:collection/:name
@@ -30,6 +27,11 @@ page_gen:
     name: "id"
     dir: "profile"
     extension: "md"
+  - data: "config.titles"
+    template: "contractors"
+    name: "key"
+    dir: "contractors"
+    extension: "md"
 
 defaults:
   -
@@ -37,11 +39,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
-      type: "contractors"
-    values:
-      layout: "contractors"
   -
     scope:
       type: "skills"
