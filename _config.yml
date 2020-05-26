@@ -26,12 +26,10 @@ page_gen:
     template: "contractor"
     name: "id"
     dir: "profile"
-    extension: "md"
   - data: "config.titles"
     template: "contractors"
     name: "key"
     dir: "contractors"
-    extension: "md"
 
 defaults:
   -
