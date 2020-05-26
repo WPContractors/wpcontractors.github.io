@@ -82,9 +82,8 @@
                         class="nolink">Trending Skills<span class="caret"></span></span>
                       <ul class="menu nav">
                         {% for skill in site.data.config.skills %}
-                        {% assign key = skill[0] %}
                         <li class="leaf">
-                          <a href="/skills/{{ key }}" title="{{ site.data.config.valueMap[key] }}">{{ site.data.config.valueMap[key] }}</a>
+                          <a href="/skills/{{ skill.key }}" title="{{ site.data.config.valueMap[skill.key] }}">{{ site.data.config.valueMap[skill.key] }}</a>
                         </li>
                         {% endfor %}
                       </ul>
@@ -167,9 +166,8 @@
                     class="nolink">Trending Skills<span class="caret"></span></span>
                   <ul class="menu nav">
                     {% for skill in site.data.config.skills %}
-                    {% assign key = skill[0] %}
                     <li class="leaf">
-                      <a href="/skills/{{ key }}" title="{{ site.data.config.valueMap[key] }}">{{ site.data.config.valueMap[key] }}</a>
+                      <a href="/skills/{{ skill.key }}" title="{{ site.data.config.valueMap[skill.key] }}">{{ site.data.config.valueMap[skill.key] }}</a>
                     </li>
                     {% endfor %}
                     </li>
