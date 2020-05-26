@@ -68,26 +68,12 @@
                     <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span
                         class="nolink">Browse Contractors<span class="caret"></span></span>
                       <ul class="menu nav">
-                        <li class="first leaf menu-link-architect"><a href="/contractors/architect"
-                            title="Architect">Architect</a></li>
-                        <li class="leaf menu-link-art-director"><a href="/contractors/art-director"
-                            title="Art Director">Art Director</a></li>
-                        <li class="leaf menu-link-backend-developer"><a href="/contractors/backend-developer"
-                            title="Backend Developer">Backend Developer</a></li>
-                        <li class="leaf menu-link-frontend-developer"><a href="/contractors/frontend-developer"
-                            title="Frontend Developer">Frontend Developer</a></li>
-                        <li class="leaf menu-link-full-stack-developer"><a href="/contractors/full-stack-developer"
-                            title="Full-Stack Developer">Full-Stack Developer</a></li>
-                        <li class="leaf menu-link-project-manager"><a href="/contractors/project-manager"
-                            title="Project Manager">Project Manager</a></li>
-                        <li class="leaf menu-link-qa-tester"><a href="/contractors/qa-tester" title="QA Tester">QA
-                            Tester</a></li>
-                        <li class="leaf menu-link-system-administrators"><a href="/contractors/system-administrators"
-                            title="System Administrators">System Administrators</a></li>
-                        <li class="leaf menu-link-ux-designer"><a href="/contractors/ux-designer" title="UX Designer">UX
-                            Designer</a></li>
-                        <li class="leaf menu-link-visual-designer"><a href="/contractors/visual-designer"
-                            title="Visual Designer">Visual Designer</a></li>
+                        {% for title in site.data.config.titles %}
+                        {% assign key = title[0] %}
+                        <li class="first leaf">
+                          <a href="/contractors/{{ key }}" title="{{ site.data.config.valueMap[key] }}">{{ site.data.config.valueMap[key] }}</a>
+                        </li>
+                        {% endfor %}
                         <li class="last leaf menu-link-see-all"><a href="/search/contractors?search=">See All</a></li>
                       </ul>
                     </li>
