@@ -22,7 +22,7 @@ layout: default
   </div>
 </div>
 {% else %}
-{% assign profiles = site.data.profiles | where: 'skills', page.filter %}
+{% assign profiles = site.data.profiles | where: 'skills', page.key %}
 {% endif %}
 <div class="block block-views sectionGrey block--none">
   <div class="block__content">

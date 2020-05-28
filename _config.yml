@@ -30,6 +30,10 @@ page_gen:
     template: "contractors"
     name: "key"
     dir: "contractors"
+  - data: "config.skills"
+    template: "contractors"
+    name: "key"
+    dir: "skills"
 
 defaults:
   -
@@ -37,11 +41,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
-      type: "skills"
-    values:
-      layout: "contractors"
 sass:
   load_paths:
     - _sass
