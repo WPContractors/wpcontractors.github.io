@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if page.dir == "/contractors/" %}
+{% if dir == "contractors" %}
 {% assign profiles = site.data.profiles | where: 'titles', page.key %}
 <div class="block block-menu-block contractorsMenu block--none">
   <div class="block__content">

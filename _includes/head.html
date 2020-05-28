@@ -1,7 +1,9 @@
-{%- if page.dir == "/contractors/" or page.dir == "/skills/" -%}
+{% assign dir = page.dir | split: "/" %}
+{% assign dir = dir[1] %}
+{%- if dir == "contractors" or dir == "skills" -%}
 {%- assign title = page.value -%}
 {%- assign image = site.url | append: "/assets/img/StartUp-Programming-Team-509559078_2125x1416.jpeg" -%}
-{%- elsif page.dir == "/profile/" -%}
+{%- elsif dir == "profile" -%}
 {%- assign title = page._name -%}
 {%- assign image = page.image -%}
 {%- else -%}
