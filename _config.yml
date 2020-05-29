@@ -18,6 +18,8 @@ plugins:
 jekyll_get_json:
   - data: profiles
     json: 'https://8mrb1284ud.execute-api.us-east-1.amazonaws.com/dev/profiles?channel=CUN3PEEAY'
+  - data: jobs
+    json: 'https://8mrb1284ud.execute-api.us-east-1.amazonaws.com/dev/jobs'
   - data: config
     json: 'https://8mrb1284ud.execute-api.us-east-1.amazonaws.com/dev/config'
 
@@ -35,6 +37,10 @@ page_gen:
     template: "contractors"
     name: "key"
     dir: "skills"
+  - data: "jobs"
+    template: "job"
+    name: "key"
+    dir: "job"
 
 defaults:
   -
