@@ -17,11 +17,11 @@ plugins:
 
 jekyll_get_json:
   - data: profiles
-    json: 'https://8mrb1284ud.execute-api.us-east-1.amazonaws.com/dev/profiles?channel=CUN3PEEAY'
+    json: 'https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/profiles?channel=CUN3PEEAY'
   - data: jobs
-    json: 'https://8mrb1284ud.execute-api.us-east-1.amazonaws.com/dev/jobs'
+    json: 'https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/jobs'
   - data: config
-    json: 'https://8mrb1284ud.execute-api.us-east-1.amazonaws.com/dev/config'
+    json: 'https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/config'
 
 page_gen-dirs: true
 page_gen:
