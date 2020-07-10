@@ -25,8 +25,6 @@ jekyll_get_json:
   - data: config
     json: 'https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/config'
 
-author_dir: "blogs/author"
-author_title_prefix: "Blog - By "
 pagination:
   enabled: true
   per_page: 10
@@ -41,7 +39,7 @@ autopages:
   categories:
     layouts:
       - 'categories.html'
-    permalink: "/blogs/category/:cat/"
+    permalink: "/blog/category/:cat/"
   collections:
     enabled: false
   tags:
@@ -66,6 +64,14 @@ page_gen:
     name: "key"
     dir: "job"
 
+collections:
+  authors:
+    title: Authors
+    output: true
+  categories:
+    title: Categories
+    output: true
+
 defaults:
   -
     scope:
@@ -78,6 +84,23 @@ defaults:
     values:
       layout: "post"
       permalink: /blog/:year/:month/:day/:title/
+  -
+    scope:
+      path: ''
+      type: authors
+    values:
+      permalink: "/blog/author/:title/"
+      layout: authors
+      image: /img/profile-pic.png
+      sitemap: false
+  -
+    scope:
+      path: ''
+      type: categories
+    values:
+      permalink: "/blog/category/:title/"
+      layout: categories
+      sitemap: false
 sass:
   load_paths:
     - _sass
