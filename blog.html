@@ -1,35 +1,81 @@
 ---
-title: "WP Contractors Blog"
-permalink: "/blog/"
+title: Blog
+description: If you're growing your business, looking for opportunities, or learning new skills, we're here to help you. Our blog aims to provide advice, support, and the right tools to get you started.
+permalink: /blog/
+sitemap: false
 pagination:
   enabled: true
 ---
 
-{% for post in paginator.posts %}
-<article class="node node-blog node-teaser clearfix" about="{{ post.url }}" typeof="sioc:Post sioct:BlogPost">
-  <h2>><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <span property="dc:title" content="{{ post.title }}" class="rdf-meta element-hidden"></span>
-  <span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
-  <div class="content">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-      <div class="field-items">
-        <div class="field-item even" property="content:encoded">
-          <p>By: Chris McGrath, Founder - Esteemed.io / WP Contractors</p>
+{% assign featured_posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
+
+<div class="container page--blog">
+  <h1 class="u-text-bold main-title">Blog</h1>
+  <div class="heading-subtitle">WPContractors makes it easier for you to get flexible jobs, meet like-minded colleagues, and build your business with confidence. But we know your work doesn’t stop there. Our blog is here to help! With insights into all aspects of running a remote business, WPContractors helps you succeed.</div>
+  <div class="row blog-featured-posts">
+    {% for featured_post in featured_posts limit:3 %}
+      {% assign author = site.data.authors[featured_post.author] %}
+      <a href="{{ featured_post.url }}" class="blog-card blog-featured-card col-xs-12 col-md-4">
+        <div class="blog-card__wrapper">
+          {% if featured_post.image %}
+            <div class="blog-card__wrapper--image" style="background-image: url('{{ featured_post.image }}'); background-size: cover;">
+            </div>
+          {% endif %}
+          <div class="blog-card__bottom">
+            <h2>{{ featured_post.title }}</h2>
+            <div class="blog-card__bottom--author">{{ author.name }}</div>
+            <div class="blog-card__bottom--date-categories">
+              <span class="blog-card__bottom--date">{{ featured_post.date | date: "%b %d, %Y" }}</span>
+              <span class="blog-card__bottom--line">|</span>
+              <span class="blog-card__bottom--categories">{{ featured_post.categories | first }}</span>
+            </div>
+          </div>
         </div>
-      </div>
+      </a>
+    {% endfor %}
+  </div>
+
+  <h2 class="u-text-bold">All Posts</h2>
+  <div class="row blog-all-posts">
+    {% for post in paginator.posts %}
+    {% assign author = site.data.authors[post.author] %}
+    <a href="{{ post.url }}" class="blog-card col-xs-6 col-md-4">
+        <div class="blog-card__wrapper">
+          {% if post.image %}
+            <div class="blog-card__wrapper--image" style="background-image: url('{{ post.image }}'); background-size: cover;">
+            </div>
+          {% else %}
+            <div class="blog-card__wrapper--image" style="background-image: url('/img/blog-performance.jpg'); background-size: cover;">
+            </div>
+          {% endif %}
+          <div class="blog-card__bottom">
+            <h2>{{ post.title }}</h2>
+            <div class="blog-card__bottom--author">{{ author.name }}</div>
+            <div class="blog-card__bottom--date-categories">
+              <span class="blog-card__bottom--date">{{ post.date | date: "%b %d, %Y" }}</span>
+              <span class="blog-card__bottom--line">|</span>
+              <span class="blog-card__bottom--categories">{{ post.categories | first }}</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
     </div>
-  </div>
-  <div class="container">
-    <ul class="links inline">
-      <li class="node-readmore first">
-        <a href="{{ post.url }}" rel="tag"
-          title="{{ post.title }}">Read more<span class="element-invisible"> about {{ post.title }}</span>
-        </a>
-      </li>
-      <li class="blog_usernames_blog">
-        <a href="/blogs/coadmin" title="Read COAdmin&#039;s latest blog entries.">COAdmin&#039;s blog</a>
-      </li>
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager">
+        {% if paginator.previous_page %}
+        <li class="previous">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        </li>
+        {% endif %}
+        {% if paginator.next_page %}
+        <li class="next">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        </li>
+        {% endif %}
     </ul>
+    {% endif %}
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   </div>
-</article>
-{% endfor %}
+</div>
