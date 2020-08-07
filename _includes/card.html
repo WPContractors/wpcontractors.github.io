@@ -7,7 +7,7 @@
             <div class="contractorBoxWrap">
               <div class="contractorBox">
                 <div class="contractorBox-img">
-                  <img typeof="foaf:Image" src="{{ profile.image }}" width="110" height="110" alt="" />
+                  <img typeof="foaf:Image" src="{{ profile.image }}" width="110" height="110" alt="{{ profile.name }}" />
                 </div>
                 <div class="contractorBox-name">{{ profile.name }}</div>
                 {% assign last_title = profile.titles | last %}

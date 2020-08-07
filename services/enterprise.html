@@ -29,7 +29,7 @@ class: "node-type-page"
           <div class="heroBanner--grouped_buttons">
             <div class="field field-name-field-hero-button field-type-link-field field-label-hidden">
               <div class="field-items">
-                <div class="field-item even"><a href="/contact" class="btn btn--blue">Get Started with Enterprise</a>
+                <div class="field-item even"><a href="mailto:{{ site.email }}" class="btn btn--blue">Get Started with Enterprise</a>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ class: "node-type-page"
           <div class="field field-name-field-hero-image field-type-image field-label-hidden">
             <div class="field-items">
               <div class="field-item even">
-                <img typeof="foaf:Image" src="/assets/img/wpcon-enterprise-hero.png" width="602" height="492" alt="">
+                <img typeof="foaf:Image" src="/assets/img/wpcon-enterprise-hero.png" width="602" height="492" alt="WP Enterprise">
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ class: "node-type-page"
       <div class="map-bar">
         <div class="col-md-6  description">
           <h2>We search the world every day building relationships with the best WordPress talent. <a
-              href="../employers/register">Let's work together</a>.</h2>
+              href="{{ site.bot_link }}">Let's work together</a>.</h2>
         </div>
         <div class="col-md-6">
           <div class="img-wrapper"><img alt="We know the WordPress community" src="/assets/img/map.png">
@@ -111,7 +111,7 @@ class: "node-type-page"
           <h3>Centralized WordPress Contractor management</h3>
           <p>The WP Contractors Employer Dashboard provides a single&nbsp;source to manage WordPress&nbsp;contract job
             postings, prospective resource lists by project, time reports, invoices, WordPress community news and more.
-            Need permanent resources for your team? Talk to us about <a href="../contact">Recruitment
+            Need permanent resources for your team? Talk to us about <a href="mailto:{{ site.email }}">Recruitment
               Solutions</a>&nbsp;through our parent Esteemed Inc.</p>
         </div>
         <div class="col-md-6">

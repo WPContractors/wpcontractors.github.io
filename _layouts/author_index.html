@@ -6,7 +6,7 @@ layout: default
 {% assign posts = site.posts | where:'author', author %}
 <div class="container author-post-item">
   <div class="top-area">
-    <h1 class="u-text-bold main-title text-center"><img src="{% if author.image %}{{ author.image }}{% else %}/img/profile-pic.png{% endif %}" />{{ author.name }}'s Posts</h1>
+    <h1 class="u-text-bold main-title text-center"><img src="{% if author.image %}{{ author.image }}{% else %}/img/profile-pic.png{% endif %}" alt="Profile Image" />{{ author.name }}'s Posts</h1>
     <div class="heading-subtitle">{{ author.bio }}</div>
   </div>
   <div class="row blog-all-posts">

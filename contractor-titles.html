@@ -1,0 +1,22 @@
+---
+title: Contractor Categories
+permalink: /view-all-categories/
+---
+
+<div class="block block-menu-block contractorsMenu block--none">
+  <div class="block__content">
+    <div class="menu-block-wrapper menu-block-6 menu-name-main-menu parent-mlid-669 menu-level-1 container">
+      <button type="button" class="contractorsMenu-btn js-contractorsMenuBtn jquery-once-1-processed">CHOOSE FROM BELOW...</button>
+      <ul class="menu nav nav-pills nav-stacked">
+        {% for title in site.data.config.titles %}
+        <li class="leaf">
+          <a href="/contractors/{{ title.key }}/" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
+        </li>
+        {% endfor %}
+        <li class="last leaf menu-mlid-3516 menu-link-see-all">
+          <a href="/contractors/">See All</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

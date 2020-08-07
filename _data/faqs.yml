@@ -1,0 +1,29 @@
+---
+contractors:
+  - question: "Do I sign a contract? If So who with?"
+    answer: 'Yes, you would sign a Contractors agreement, and then a Statement of Work for each assignment with http://esteemed.io" target="_blank" class="ext" rel="noopener noreferrer">Esteemed Inc.<span class="ext" aria-label="(link is external)"></span></a>, our parent company.</p>'
+  - question: "Do you work with Agencies?"
+    answer: |-
+      Yes! We work with agencies as small as one and those with hundreds of employees. No matter your size, just follow these steps:
+      1. Register as an Employer on our site [here](/);
+      2. Have your team follow on after [registering as Contractors](https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg) and list your company as the agency that represents them;
+      3. Then list the appropriate contact name and info for interaction on new engagements;
+
+      Once we locate opportunities that are a match for your team's skills, we will contact them individually and let them know. If they are selected by a client for engagement, we will let you know. They then would record time and invoice us, we would pay your company, you then pay them as normal. If you have any questions on this please don't hesitate to [contact us](mailto:service@esteemed.io).
+  - question: "As a Contractor Resource, when and how do I get paid?"
+    answer: "Contractors are paid on a Monthly basis, or if the project is short term no more than 30 days following the date of invoice to the platform. Those on projects that extend beyond a month should be billing on the last day of the month and should expect to be paid via Paypal or via another method such as Bank wire transfer if International no more than 30 days following your invoice."
+  - question: "I am incorporated, can you work 'Corp-to-Corp'?"
+    answer: "Yes! We most often work with either 1099 or corp-to-corp arrangements with our resources. This is defined following being selected for an engagement by one of our clients."
+  - question: "What size projects do you normally see as a platform?"
+    answer: "We see all manner of projects and opportunities on our platform. We cater to WP Agencies, as well as direct employers using WordPress. Thus, projects can range from State government or a large employer building mulit-site WordPress configurations, to a 2 week project troubleshooting an existing site that has a bug in need of attention."
+  - question: "How do you resolve conflicts with clients?"
+    answer: "When working with WP Contractors, every individual is assigned a Resource Manager who stays in constant communication via Slack and deals with the end client on administrative elements. If you should need time off, have an issue with the project dynamic or any other concern, you can share this with your resource manager during your regular weekly check-in and they will address these points with the client on your behalf."
+  - question: "Is my profile and sensitive info open to the public? If not, what is publicly accessible?"
+    answer: 'We make minimal information available to the public on our platform. Please feel free to view a sample [here](/u/tommy-25955) and you can see it listing first name, first initial of last name, general location, a short summary, skills, and availability. Any other information is shared privately with clients upon request.'
+employers:
+  - question: "As an Employer / Project Owner, how do I pay my Contractor?"
+    answer: "As our client, you will be billed on a bi-monthly or monthly basis. Payment can be made via Credit Card, Paypal or ACH Wire Transfer. Our normal terms are net 30."
+  - question: "As a Developer or Technical Resource, how does the program work?"
+    answer: "Our platform works like most other staffing companies. An individual creates a free profile on our site listing their skills and experience, rate and availability. Some list as little as 10 hours a week, all the way to full-time. We then add our margin, and go to work matching your talents with available client requests aligned with your skills and availability."
+  - question: "What is normally required for code review?"
+    answer: "We normally request a sample of code from every technical resource be reviewed by a senior full-stack WordPress developer. What is supplied would normally depend on where your area of focus lies. A back-end developer for example would do best to supply a module that displays mastery over WP best practices and some functionality. A front-end developer would supply a sample of code with accompanying examples of the output. If you are master of both, a sampling of each would be best. Following the review, we normally have a discussion via Slack of our findings and let you know if we feel confident making you available to our clients."

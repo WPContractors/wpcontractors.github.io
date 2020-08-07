@@ -7,7 +7,7 @@ layout: default
 
 {% if page.image %}
   <div class="blog-post__content--image">
-    <img src="{{ page.image }}">
+    <img src="{{ page.image }}" alt="Header Image">
   </div>
 {% endif %}
 
@@ -46,7 +46,7 @@ layout: default
         <div class="row">
           <div class="col-12 col-md-3">
             <div class="blog-post__author-block--image">
-              <a href="{{ author.url }}"><img src="{% if author.image %}{{ author.image }}{% else %}/img/profile-pic.png{% endif %}"></a>
+              <a href="{{ author.url }}"><img src="{% if author.image %}{{ author.image }}{% else %}/img/profile-pic.png{% endif %}" alt="Profile Image"></a>
             </div>
           </div>
           <div class="col-12 col-md-9">
