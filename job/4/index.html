@@ -795,6 +795,10 @@
       $(this).siblings().toggle('slow');
     }
   });
+  $('.js-showLvl').on('click', function() {
+    $(this).toggleClass('is-active');
+    $('.js-itemsLvl').slideToggle('slow');
+  });
 </script>
 
 </body>
