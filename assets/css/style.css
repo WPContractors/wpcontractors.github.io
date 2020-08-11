@@ -5157,6 +5157,8 @@ _::-webkit-full-page-media, _:future, :root .pane-homepage-find-to-perfect-addit
 
 .blog-card:hover { opacity: .9; }
 
+@media (min-width: 992px) { .blog-card:hover .blog-card__wrapper { box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3); } }
+
 .blog-card__wrapper { background-color: #001f2b; border-radius: 15px; display: flex; height: 600px; overflow: hidden; position: relative; transition: .3s; }
 
 @media only screen and (min-width:62.063em) and (max-width:75em) { .blog-card__wrapper { height: 400px; } }
