@@ -3497,37 +3497,6 @@ h3.employer { text-align: center; }
 
 #edit-profile-company-field-company-logo-und-0-ajax-wrapper .image-widget .image-widget-data .file-icon { margin-top: -5px; }
 
-/** @file FAQ accordions. */
-.view-faq { padding-bottom: 30px; padding-top: 30px; }
-
-@media only screen and (min-width:48.063em) { .view-faq { padding-bottom: 50px; padding-top: 50px; } }
-
-@media only screen and (min-width:62.063em) { .view-faq { padding-bottom: 100px; padding-top: 100px; } }
-
-.view-faq .views-accordion-header.ui-accordion-header { border-radius: 5px; padding: 10px; transition: 0.3s; }
-
-.view-faq .views-accordion-header.ui-accordion-header:hover { opacity: 0.9; }
-
-.view-faq .views-accordion-header.ui-accordion-header a { font-family: "poppinsMedium",Helvetica,Arial,sans-serif; color: #333333; }
-
-.view-faq .views-field-body { padding: 8px 20px 0 35px; }
-
-.views-accordion-header.ui-accordion-header { background: none; border: 0; font-family: "poppinslight", Helvetica, Arial, sans-serif; padding: 0; }
-
-.views-accordion-header.ui-accordion-header a { color: #333333; }
-
-.views-accordion-header.ui-accordion-header .ui-accordion-header-icon { background-color: #333333; background-image: none; border-radius: 100%; display: inline-block; left: 0; margin: 0 5px 0 0; position: relative; text-indent: 0; top: 0; }
-
-.views-accordion-header.ui-accordion-header .ui-accordion-header-icon::before { border: solid #ffffff; border-width: 0 2px 2px 0; content: ''; display: inline-block; left: 4px; padding: 3px; position: absolute; top: 2px; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
-
-.views-accordion-header.ui-accordion-header.ui-state-active .ui-accordion-header-icon::before { top: 5px; -webkit-transform: rotate(-135deg); transform: rotate(-135deg); }
-
-.ui-accordion .ui-accordion-content { background: none; border: 0; font-family: "poppinslight", Helvetica, Arial, sans-serif; padding: 0; }
-
-.views-accordion-faq-page-header { text-align: center; }
-
-.views-accordion-faq-page-header:last-of-type { margin-top: 30px; }
-
 .page-profile-company-dashboard .siteHeader-body-left > .region .logo.logo--dark { display: none; }
 
 .page-profile-company-dashboard .siteHeader-body-left > .region .logo.logo--light { display: block; opacity: 1; }
