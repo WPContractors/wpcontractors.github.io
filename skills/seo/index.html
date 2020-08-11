@@ -88,9 +88,8 @@
           <div class="block block-system siteMenu block-menu block--none">
             <div class="block__content">
               <ul class="menu nav">
-                <li class="first expanded siteMenu-second js-firstLvl menu-link-browse"><span class="nolink">Browse<span
-                      class="caret"></span></span>
-                  <ul class="menu nav">
+                <li class="first expanded siteMenu-second js-firstLvl menu-link-browse"><span class="nolink">Browse<span class="caret"></span></span>
+                  <ul class="menu nav" style="display:none">
                     <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span
                         class="nolink">Browse Contractors<span class="caret"></span></span>
                       <ul class="menu nav">
@@ -736,6 +735,10 @@
 
   (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/zrqksojs';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
+  $('.expanded > span').on('click', function(e) {
+    if (e.target != this) return;
+    $(this).parent().find('> .menu').toggle();
+  });
   $('.siteFooter-body .block__title').on('click', function() {
     if ($(window).width() <= 768) {
       $(this).siblings().toggle('slow');
