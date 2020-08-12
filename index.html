@@ -164,15 +164,19 @@ class: "front page-homepage"
       <p>Innovative Solutions for both Employers and Contractors</p>
     </div>
   </div>
-  <ul class="nav nav-tabs nav-justified" role="tablist">
-    <li role="presentation" class="active"><a href="#works-for-employers" aria-controls="employers" role="tab" data-toggle="tab">For Employers</a></li>
-    <li role="presentation"><a href="#works-for-contractors" aria-controls="contractors" role="tab" data-toggle="tab">For Contractors</a></li>
+  <ul class="nav nav-tabs justify-content-center quicktabs-tabs" role="tablist">
+    <li role="presentation" class="nav-item">
+      <a id="employers-tab" class="nav-link active" href="#works-for-employers"  aria-selected="true" aria-controls="employers" role="tab" data-toggle="tab">For Employers</a>
+    </li>
+    <li role="presentation">
+      <a id="contractors-tab" class="nav-link" href="#works-for-contractors" aria-selected="false" aria-controls="contractors" role="tab" data-toggle="tab">For Contractors</a>
+    </li>
   </ul>
   <div class="tab-content container">
-    <div role="tabpanel" class="tab-pane active" id="works-for-employers">
+    <div role="tabpanel" aria-labelledby="employers-tab" class="tab-pane active" id="works-for-employers">
       {% include howitworks-foremployers.html %}
     </div>
-    <div role="tabpanel" class="tab-pane" id="works-for-contractors">
+    <div role="tabpanel" aria-labelledby="contractors-tab" class="tab-pane" id="works-for-contractors">
       {% include howitworks-forcontractors.html %}
     </div>
   </div>
