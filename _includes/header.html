@@ -24,10 +24,9 @@
             <div class="block__content">
               <ul class="menu nav">
                 <li class="first expanded siteMenu-second js-firstLvl menu-link-browse"><span class="nolink">Browse<span class="caret"></span></span>
-                  <ul class="menu nav" style="display:none">
-                    <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span
-                        class="nolink">Browse Contractors<span class="caret"></span></span>
-                      <ul class="menu nav">
+                  <ul class="menu nav-pills nav-stacked nav flex-column" style="display:none">
+                    <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span class="nolink">Browse Contractors<span class="caret"></span></span>
+                      <ul class="menu nav-pills nav-stacked nav flex-column">
                         {% for title in site.data.config.titles %}
                         <li class="leaf">
                           <a href="/contractors/{{ title.key }}" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
@@ -108,10 +107,10 @@
         <div class="block__content">
           <ul class="menu nav">
             <li class="first expanded siteMenu-second js-firstLvl menu-link-browse"><span class="nolink">Browse<span class="caret"></span></span>
-              <ul class="menu nav">
+              <ul class="menu nav-pills nav-stacked nav flex-column">
                 <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span
                     class="nolink">Browse Contractors<span class="caret"></span></span>
-                  <ul class="menu nav">
+                  <ul class="menu nav-pills nav-stacked nav flex-column">
                     {% for title in site.data.config.titles %}
                     <li class="leaf">
                       <a href="/contractors/{{ title.key }}" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
