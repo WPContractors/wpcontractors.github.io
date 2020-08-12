@@ -53,12 +53,13 @@
   <meta name="dcterms.format" content="text/html" />
   <title>Roger C. | WP Contractors</title>
   <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" media="all" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" integrity="sha384-7tY7Dc2Q8WQTKGz2Fa0vC4dWQo07N4mJjKvHfIGnxuC4vPqFGFQppd9b3NWpf18/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
   <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
   <link type="text/css" rel="stylesheet" href="/assets/css/jquery-ui.min.css" media="all" />
   <link type="text/css" rel="stylesheet" href="/assets/css/slick.theme.css" media="all" />
   <link type="text/css" rel="stylesheet" href="/assets/css/style.css" media="all" />
 </head>
+
 
 
 
@@ -89,10 +90,9 @@
             <div class="block__content">
               <ul class="menu nav">
                 <li class="first expanded siteMenu-second js-firstLvl menu-link-browse"><span class="nolink">Browse<span class="caret"></span></span>
-                  <ul class="menu nav" style="display:none">
-                    <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span
-                        class="nolink">Browse Contractors<span class="caret"></span></span>
-                      <ul class="menu nav">
+                  <ul class="menu nav-pills nav-stacked nav flex-column" style="display:none">
+                    <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span class="nolink">Browse Contractors<span class="caret"></span></span>
+                      <ul class="menu nav-pills nav-stacked nav flex-column">
                         
                         <li class="leaf">
                           <a href="/contractors/architect" title="Architect">Architect</a>
@@ -269,10 +269,10 @@
         <div class="block__content">
           <ul class="menu nav">
             <li class="first expanded siteMenu-second js-firstLvl menu-link-browse"><span class="nolink">Browse<span class="caret"></span></span>
-              <ul class="menu nav">
+              <ul class="menu nav-pills nav-stacked nav flex-column">
                 <li class="first expanded siteMenu-third js-secondLvl menu-link-browse-contractors"><span
                     class="nolink">Browse Contractors<span class="caret"></span></span>
-                  <ul class="menu nav">
+                  <ul class="menu nav-pills nav-stacked nav flex-column">
                     
                     <li class="leaf">
                       <a href="/contractors/architect" title="Architect">Architect</a>
@@ -598,14 +598,12 @@
           <div class="footerMenu">
             <h4 class="block__title">About</h4>
             <div class="block__content">
-              <div class="menu-block-wrapper menu-block-1 menu-name-menu-footer-nav parent-mlid-497 menu-level-1">
-                <ul class="menu nav nav-pills nav-stacked">
-                  <li><a href="https://celebratedrupal.com/team" target="_blank">Our Team</a></li>
-                  <li><a href="/our-history/">Our History</a></li>
-                  <li><a href="/blog/">WP Contractors Blog</a></li>
-                  <li><a href="/partner-us/">Partner with Us</a></li>
-                </ul>
-              </div>
+              <ul class="menu nav-pills nav-stacked nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="https://celebratedrupal.com/team" target="_blank">Our Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="/our-history/">Our History</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog/">WP Contractors Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="/partner-us/">Partner with Us</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -615,19 +613,17 @@
           <div class="footerMenu">
             <h4 class="block__title">Services</h4>
             <div class="block__content">
-              <div class="menu-block-wrapper">
-                <ul class="menu nav nav-pills nav-stacked">
-                  <li>
-                    <a href="/services/professional/">WP Contractors Professional</a>
-                  </li>
-                  <li>
-                    <a href="/services/enterprise/">WP Contractors Enterprise</a>
-                  </li>
-                  <li>
-                    <a href="https://esteemed.io/">Recruitment Solutions</a>
-                  </li>
-                </ul>
-              </div>
+              <ul class="menu nav-pills nav-stacked nav flex-column">
+                <li>
+                  <a href="/services/professional/">WP Contractors Professional</a>
+                </li>
+                <li>
+                  <a href="/services/enterprise/">WP Contractors Enterprise</a>
+                </li>
+                <li>
+                  <a href="https://esteemed.io/">Recruitment Solutions</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -638,7 +634,7 @@
             <h4 class="block__title">Resources</h4>
             <div class="block__content">
               <div class="menu-block-wrapper menu-block-4 menu-name-menu-footer-nav parent-mlid-512 menu-level-1">
-                <ul class="menu nav nav-pills nav-stacked">
+                <ul class="menu nav-pills nav-stacked nav flex-column">
                   <li><a href="https://help.esteemed.io/">Help &amp; FAQ</a></li>
                 </ul>
               </div>
@@ -651,25 +647,23 @@
           <div class="footerMenu">
             <h4 class="block__title">Find</h4>
             <div class="block__content">
-              <div class="menu-block-wrapper menu-block-5 menu-name-menu-footer-nav parent-mlid-518 menu-level-1">
-                <ul class="menu nav nav-pills nav-stacked">
-                  <li>
-                    <a href="/view-all-categories/">Browse Contractors by Skill</a>
-                  </li>
-                  <li>
-                    <a href="/jobs/">Contracting Opportunties</a>
-                  </li>
-                  <li>
-                    <a href="/contractors/">Contractors in the U.S.</a>
-                  </li>
-                </ul>
-              </div>
+              <ul class="menu nav-pills nav-stacked nav flex-column">
+                <li>
+                  <a href="/view-all-categories/">Browse Contractors by Skill</a>
+                </li>
+                <li>
+                  <a href="/jobs/">Contracting Opportunties</a>
+                </li>
+                <li>
+                  <a href="/contractors/">Contractors in the U.S.</a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="footerMenu">
             <h4 class="block__title">Community</h4>
             <div class="block__content">
-              <ul class="menu nav">
+              <ul class="menu nav-pills nav-stacked nav flex-column">
                 <li>
                   <a href="https://make.wordpress.org/community/handbook/wordcamp-organizer/become-an-organizer/regional-wordcamps/">Regional Word Camps</a>
                 </li>
@@ -699,7 +693,7 @@
 <script src="https://code.jquery.com/jquery-1.10.2.min.js" integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js" integrity="sha512-Xky5qcc+hy/TW2ju3EXCFG0J4wgaRIPiW5I1qdqW+tGLCzM+EeNH+1fLO8ElsGAYUKI28vY1GfpNPoLnTXGjgA==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js" integrity="sha512-An4a3FEMyR5BbO9CRQQqgsBscxjM7uNNmccUSESNVtWn53EWx5B9oO7RVnPvPG6EcYcYPp0Gv3i/QQ4KUzB5WA==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" integrity="sha384-oFMgcGzKX7GaHtF4hx14KbxdsGjyfHK6m1comHjI1FH6g4m6qYre+4cnZbwaYbHD" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
 <script type="text/javascript">
   <!--//--><![CDATA[//><!--
   (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-141057075-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
