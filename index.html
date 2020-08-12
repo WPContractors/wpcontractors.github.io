@@ -593,12 +593,16 @@
       <p>Innovative Solutions for both Employers and Contractors</p>
     </div>
   </div>
-  <ul class="nav nav-tabs nav-justified" role="tablist">
-    <li role="presentation" class="active"><a href="#works-for-employers" aria-controls="employers" role="tab" data-toggle="tab">For Employers</a></li>
-    <li role="presentation"><a href="#works-for-contractors" aria-controls="contractors" role="tab" data-toggle="tab">For Contractors</a></li>
+  <ul class="nav nav-tabs justify-content-center quicktabs-tabs" role="tablist">
+    <li role="presentation" class="nav-item">
+      <a id="employers-tab" class="nav-link active" href="#works-for-employers"  aria-selected="true" aria-controls="employers" role="tab" data-toggle="tab">For Employers</a>
+    </li>
+    <li role="presentation">
+      <a id="contractors-tab" class="nav-link" href="#works-for-contractors" aria-selected="false" aria-controls="contractors" role="tab" data-toggle="tab">For Contractors</a>
+    </li>
   </ul>
   <div class="tab-content container">
-    <div role="tabpanel" class="tab-pane active" id="works-for-employers">
+    <div role="tabpanel" aria-labelledby="employers-tab" class="tab-pane active" id="works-for-employers">
       <div class="container">
   <div class="icon-card col-md-3" about="" typeof="">
     <div class="icon-card__icon">
@@ -650,7 +654,7 @@
 </div>
 
     </div>
-    <div role="tabpanel" class="tab-pane" id="works-for-contractors">
+    <div role="tabpanel" aria-labelledby="contractors-tab" class="tab-pane" id="works-for-contractors">
       <div class="container">
   <div class="icon-card col-md-3" about="" typeof="">
     <div class="icon-card__icon">
@@ -752,7 +756,7 @@
     <div class="container sliderTestimonial">
       <div id="slick-views-homepage-reviews-1-slider" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="item active">
+          <div class="carousel-item active">
             <div class="boxTestimonial">
               <div class="boxTestimonial-img">
                 <img src="/assets/img/iStock-607597128.jpg" alt="Testimonial" title="" />
@@ -770,7 +774,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="carousel-item">
             <div class="boxTestimonial">
               <div class="boxTestimonial-img">
                 <img src="/assets/img/StartUp-Programming-Team-509559078_2125x1416.jpeg" alt="Team Programming"
@@ -789,7 +793,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="carousel-item">
             <div class="boxTestimonial">
               <div class="boxTestimonial-img">
                 <img src="/assets/img/img_4.jpg" alt="Collaboration" title="" />
@@ -806,7 +810,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="carousel-item">
             <div class="boxTestimonial">
               <div class="boxTestimonial-img">
                 <img src="/assets/img/iStock-598256704.jpg" alt="Testimonial" title="" />
