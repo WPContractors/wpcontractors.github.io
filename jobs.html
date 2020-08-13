@@ -5,21 +5,21 @@ permalink: /jobs/
 class: "jobs-listing"
 ---
 
-<div class="right-column col-xs-12">
-  <div class="right-title">Available Jobs</div>
+<div class="container">
+  <h1>Available Jobs</h1>
   <div class="view-content">
     {% for job in site.data.jobs %}
     <div class="views-row">
-      <div class="views-field views-field-title">
-        <span class="field-content"><a href="/job/{{ job.key }}">{{ job.title }}</a></span>
+      <div class="views-field-title">
+        <a href="/job/{{ job.key }}">{{ job.title }}</a>
       </div>
-      <div class="views-field views-field-field-job-location">
-        <div class="field-content"><span class="country">{{ job.location_req }}</span></div>
+      <div class="views-field-field-job-location">
+        {{ job.location_req }}
       </div>
-      <div class="views-field views-field-body">
-        <div class="field-content">{{ job.description | strip | strip_html | truncatewords: 40 }}</div>
+      <div class="views-field-body">
+        {{ job.description | strip | strip_html | truncatewords: 40 }}
       </div>
-      <div class="views-field views-field-field-job-category">
+      <div class="views-field-field-job-category">
         <div class="field-content">
           <div class="item-list">
             <ul>
