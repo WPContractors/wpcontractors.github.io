@@ -140,3 +140,11 @@
   overflow: hidden;
   height: 1px;
 }
+
+span.ext {
+  background: url("/assets/img/extlink_s.png") 2px center no-repeat;
+  height: 10px;
+  padding-right: 12px;
+  text-decoration: none;
+  width: 10px;
+}
