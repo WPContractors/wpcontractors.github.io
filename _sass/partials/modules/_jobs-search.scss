@@ -174,7 +174,7 @@
         }
       }
 
-      .right-column {
+      .container {
 
         @media #{$xsmall-down} {
           padding: 0 12px 12px 12px;
@@ -214,6 +214,7 @@
               font-weight: bold;
               margin-bottom: 5px;
               margin-top: 5px;
+              text-transform: capitalize;
             }
 
             .views-field-created {
@@ -240,7 +241,7 @@
           padding: 10px 20px;
 
           @media #{$xsmall-down} {
-            display: none;
+            padding-top: 20px;
           }
         }
 
