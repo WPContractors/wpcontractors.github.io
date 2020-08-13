@@ -19,9 +19,9 @@
   {% include header.html %}
   <div id="main-wrapper"{%- if dir == "profile" or dir == "job" -%} class="container"{%- endif -%}>
     <div id="main" class="main">
-      <div id="container" class="jobs-wrapper">
-        <div id="content">
-          <div class="region region-content">
+      <div id="content" class="container jobs-wrapper">
+        <div class="jobs-wrapper-content">
+          <div class="columns-wrapper">
             {{ content }}
           </div>
         </div>

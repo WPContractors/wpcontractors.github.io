@@ -5,29 +5,32 @@ permalink: /jobs/
 class: "jobs-listing"
 ---
 
-<div class="view-content">
-  {% for job in site.data.jobs %}
-  <div class="views-row">
-    <div class="views-field views-field-title">
-      <span class="field-content"><a href="/job/{{ job.key }}">{{ job.title }}</a></span>
-    </div>
-    <div class="views-field views-field-field-job-location">
-      <div class="field-content"><span class="country">{{ job.location_req }}</span></div>
-    </div>
-    <div class="views-field views-field-body">
-      <div class="field-content">{{ job.description | strip | strip_html | truncatewords: 40 }}</div>
-    </div>
-    <div class="views-field views-field-field-job-category">
-      <div class="field-content">
-        <div class="item-list">
-          <ul>
-            {% for category in job.categories %}
-            <li>{{ category }}</li>
-            {% endfor %}
-          </ul>
+<div class="right-column col-xs-12">
+  <div class="right-title">Available Jobs</div>
+  <div class="view-content">
+    {% for job in site.data.jobs %}
+    <div class="views-row">
+      <div class="views-field views-field-title">
+        <span class="field-content"><a href="/job/{{ job.key }}">{{ job.title }}</a></span>
+      </div>
+      <div class="views-field views-field-field-job-location">
+        <div class="field-content"><span class="country">{{ job.location_req }}</span></div>
+      </div>
+      <div class="views-field views-field-body">
+        <div class="field-content">{{ job.description | strip | strip_html | truncatewords: 40 }}</div>
+      </div>
+      <div class="views-field views-field-field-job-category">
+        <div class="field-content">
+          <div class="item-list">
+            <ul>
+              {% for category in job.categories %}
+              <li>{{ category }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
