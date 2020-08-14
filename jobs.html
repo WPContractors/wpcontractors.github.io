@@ -24,7 +24,7 @@ class: "jobs-listing"
           <div class="item-list">
             <ul>
               {% for category in job.categories %}
-              <li>{{ category }}</li>
+              <li>{{ site.data.config.valueMap[category] }}</li>
               {% endfor %}
             </ul>
           </div>
