@@ -14,7 +14,7 @@ class: "jobs-listing"
         <a href="/job/{{ job.key }}">{{ job.title }}</a>
       </div>
       <div class="views-field-field-job-location">
-        {{ job.location_req }}
+        {{ site.data.config.valueMap[job.location_req] }}
       </div>
       <div class="views-field-body">
         {{ job.description | strip | strip_html | truncatewords: 40 }}
