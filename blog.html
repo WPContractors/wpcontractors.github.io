@@ -11,7 +11,7 @@ pagination:
 
 <div class="container page--blog">
   <h1 class="u-text-bold main-title">Blog</h1>
-  <div class="heading-subtitle">WPContractors makes it easier for you to get flexible jobs, meet like-minded colleagues, and build your business with confidence. But we know your work doesn’t stop there. Our blog is here to help! With insights into all aspects of running a remote business, WPContractors helps you succeed.</div>
+  <div class="heading-subtitle">{{ site.title }} makes it easier for you to get flexible jobs, meet like-minded colleagues, and build your business with confidence. But we know your work doesn’t stop there. Our blog is here to help! With insights into all aspects of running a remote business, {{ site.title }} helps you succeed.</div>
   <div class="row blog-featured-posts">
     {% for featured_post in featured_posts limit:3 %}
       {% assign author = site.data.authors[featured_post.author] %}

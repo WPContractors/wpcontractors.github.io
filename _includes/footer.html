@@ -4,10 +4,10 @@
       <h6>Get Started</h6>
       <div class="getStartBlocks-row">
         <div class="getStartBlocks-row-btn">
-          <a class="btn btn--light" href="{{ site.bot_link }}">Find a WordPress Contractor</a>
+          <a class="btn btn--light" href="{{ site.bot_link }}">Find a {{ site.vertical }} Contractor</a>
         </div>
         <div class="getStartBlocks-row-btn">
-          <a class="btn btn--light" href="{{ site.slack_signup_link }}">Become a WordPress Contractor</a>
+          <a class="btn btn--light" href="{{ site.slack_signup_link }}">Become a {{ site.vertical }} Contractor</a>
         </div>
       </div>
     </div>
@@ -19,7 +19,7 @@
         <div class="region region-footer-top-left">
           <div class="footerCopyBlock">
             <div class="block__content">
-              <h2><strong><span>WP Contractors</span></strong> matches pre-screened <strong>WordPress</strong> talent with the needs of your business.</h2>
+              <h2><strong><span>{{ site.title }}</span></strong> matches pre-screened <strong>{{ site.vertical }}</strong> talent with the needs of your business.</h2>
             </div>
           </div>
         </div>
@@ -32,13 +32,13 @@
               </div>
               <div class="footerSocials-body">
                 <div class="footerSocials-body-link">
-                  <a href="https://twitter.com/wp_contractors" class="custom-icon custom-icon--twitter" target="_blank"></a>
+                  <a href="https://twitter.com/{{ site.twitter }}" class="custom-icon custom-icon--twitter" target="_blank"></a>
                 </div>
                 <div class="footerSocials-body-link">
-                  <a href="https://www.linkedin.com/company/wpcontractors/" class="custom-icon custom-icon--linkedin" target="_blank"></a>
+                  <a href="https://www.linkedin.com/company/{{ site.linkedin }}/" class="custom-icon custom-icon--linkedin" target="_blank"></a>
                 </div>
                 <div class="footerSocials-body-link">
-                  <a href="https://www.facebook.com/wpcontractors" class="custom-icon custom-icon--facebook" target="_blank"></a>
+                  <a href="https://www.facebook.com/{{ site.facebook }}" class="custom-icon custom-icon--facebook" target="_blank"></a>
                 </div>
                 <div class="footerSocials-body-link">
                   <a href="mailto:{{ site.email }}" class="custom-icon custom-icon--email"></a>
@@ -58,7 +58,7 @@
               <ul class="menu nav-pills nav-stacked nav flex-column">
                 <li class="nav-item"><a class="nav-link" href="https://celebratedrupal.com/team" target="_blank">Our Team</a></li>
                 <li class="nav-item"><a class="nav-link" href="/our-history/">Our History</a></li>
-                <li class="nav-item"><a class="nav-link" href="/blog/">WP Contractors Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog/">{{ site.title }} Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="/partner-us/">Partner with Us</a></li>
               </ul>
             </div>
@@ -72,10 +72,10 @@
             <div class="block__content">
               <ul class="menu nav-pills nav-stacked nav flex-column">
                 <li>
-                  <a href="/services/professional/">WP Contractors Professional</a>
+                  <a href="/services/professional/">{{ site.title }} Professional</a>
                 </li>
                 <li>
-                  <a href="/services/enterprise/">WP Contractors Enterprise</a>
+                  <a href="/services/enterprise/">{{ site.title }} Enterprise</a>
                 </li>
                 <li>
                   <a href="https://esteemed.io/">Recruitment Solutions</a>
@@ -140,7 +140,7 @@
       <div class="region region-footer-bottom">
         <div class="footerCopyright">
           <div class="block__content">
-            <p>Copyright &copy; {{ "now" | date: "%Y" }} WP Contractors, an Esteemed Inc business. All right reserved. <a href="/terms-use/">Terms of Use</a> | <a href="/privacy/">Privacy Policy</a></p>
+            <p>Copyright &copy; {{ "now" | date: "%Y" }} {{ site.title }}, an Esteemed Inc business. All right reserved. <a href="/terms-use/">Terms of Use</a> | <a href="/privacy/">Privacy Policy</a></p>
           </div>
         </div>
       </div>
