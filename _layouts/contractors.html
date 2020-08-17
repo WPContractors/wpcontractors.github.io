@@ -1,84 +1,4 @@
 ---
-profiles:
-  architect:
-    - UKBRBK1R9
-    - UL8N9QSLU
-    - UKBRBK1R9
-    - UKBRBK1R9
-    - UL8N9QSLU
-    - UL8N9QSLU
-  art_director:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  backend:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  frontend:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  full_stack:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  pm:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  qa_tester:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  sys_admin:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  ux_designer:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  visual_designer:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  api:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  adobe_creative_suite:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  bootstrap:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  cli:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  communication:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  custom_themes:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  ecommerce:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  gitflow:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  jquery:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  lamp:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  mobile_design:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  mysql:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  sass:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  seo:
-    - UKBRBK1R9
-    - UL8N9QSLU
-  ui:
-    - UKBRBK1R9
-    - UL8N9QSLU
 layout: default
 ---
 
@@ -132,7 +52,7 @@ layout: default
       <div class="view-content">
         <div id="contractorsSlider" class="contractorsSlider carousel slide" data-interval="false" data-wrap="false">
           <div class="carousel-inner row w-100 mx-auto flex-nowrap" role="listbox">
-            {% for profile_id in page.profiles[page.key] %}
+            {% for profile_id in site.data.contractors[page.key].profiles %}
             {% assign profile = profiles | where: 'id', profile_id | first %}
             {% include card.html content=profile first=forloop.first %}
             {% endfor %}
