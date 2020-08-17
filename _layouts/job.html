@@ -15,7 +15,7 @@ class: "node-type-job"
               <img src="/assets/img/wp_logo.png" alt="WP logo">
             </div>
             <p class="job-title">{{ page.title }}</p>
-            <div class="profile-location"><i class="fa fa-map-marker"></i>&nbsp;&nbsp; {{ site.data.config.valueMap[page.attendance] }}</div>
+            <div class="profile-location"><i class="fa fa-map-marker"></i> {{ site.data.config.valueMap[page.attendance] }}</div>
           </div>
         </div>
         <div class="col-sm-3">
@@ -88,26 +88,26 @@ class: "node-type-job"
                 {% endfor %}
               </div>
               <div class="field field-name-field-type-of-job field-type-taxonomy-term-reference field-label-above">
-                <div class="field-label">Type of Job:&nbsp;</div>
+                <div class="field-label">Type of Job:</div>
                 <div class="field-items">
                   <div class="field-item">{{ site.data.config.valueMap[page.engagement] }}</div>
                 </div>
               </div>
               <div class="field field-name-field-start-date field-type-datetime field-label-above">
-                <div class="field-label">Start Date:&nbsp;</div>
+                <div class="field-label">Start Date:</div>
                 <div class="field-items">
                   <div class="field-item even"><span class="date-display-single" property="dc:date"
                       datatype="xsd:dateTime" content="{{ page.start_date | date: "%FT%T%z" }}">{{ page.start_date | date: "%A, %B %e, %Y" }}</span></div>
                 </div>
               </div>
               <div class="field field-name-field-attendance field-type-list-text field-label-above">
-                <div class="field-label">Attendance:&nbsp;</div>
+                <div class="field-label">Attendance:</div>
                 <div class="field-items">
                   <div class="field-item even">{{ site.data.config.valueMap[page.attendance] }}</div>
                 </div>
               </div>
               <div class="field field-name-field-status field-type-list-integer field-label-above">
-                <div class="field-label">Status:&nbsp;</div>
+                <div class="field-label">Status:</div>
                 <div class="field-items">
                   <div class="field-item even">Open</div>
                 </div>
