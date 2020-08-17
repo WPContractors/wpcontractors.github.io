@@ -5,50 +5,6 @@
  * Located on the pages: contractors/*
  */
 
-_::-webkit-full-page-media,
-_:future,
-:root .pane-homepage-find-to-perfect-addition .categoryList-row {
-  display: flex;
-  padding: 0;
-  @media #{$xsmall-up} {
-    flex: 0 0 calc(100% / 2 - 1px);
-  }
-  @media #{$medium-only} {
-    flex: 0 0 calc(100% / 3 - 1px);
-  }
-  @media #{$large-up} {
-    flex: 0 0 calc(25% - 1px);
-  }
-}
-
-_::-webkit-full-page-media,
-_:future,
-:root .pane-homepage-find-to-perfect-addition .categoryList-row .views-field-nothing {
-  display: flex;
-  height: initial;
-  flex: 1;
-  padding: 5px;
-}
-
-_::-webkit-full-page-media,
-_:future,
-:root .pane-homepage-find-to-perfect-addition .categoryList-row .views-field-nothing span.field-content {
-  display: flex;
-  height: initial;
-  flex: 1;
-}
-
-_::-webkit-full-page-media,
-_:future,
-:root .pane-homepage-find-to-perfect-addition .categoryList-row .views-field-nothing span.field-content a.categoryBox {
-  height: initial;
-  flex: 1;
-}
-
-#views-exposed-form-browse-contractors-contractors-skill-block {
-  display: none;
-}
-
 .contractorBoxWrap {
   height: 100%;
   background: $white;

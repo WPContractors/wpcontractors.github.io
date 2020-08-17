@@ -1,18 +1,7 @@
 ul.nav-tabs {
-  border-bottom: 1px solid $grey--border;
-  margin: 0;
-  text-align: center;
-
-  li {
-    &.active {
-      border-bottom: 1px solid $white;
-    }
-  }
-
   > li > a,
   > li.active > a {
     color: $black;
-    display: block;
     font-family: $fontFamily-medium;
     padding: 15px;
   }

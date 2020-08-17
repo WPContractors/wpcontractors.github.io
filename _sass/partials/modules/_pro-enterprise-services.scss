@@ -9,7 +9,7 @@
     height: auto;
     padding: 20px;
 
-    @media #{$medium-up} {
+    @include media-breakpoint-up(md) {
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -29,7 +29,7 @@
     max-width: 100%;
     padding: 30px;
 
-    @media #{$medium-up} {
+    @include media-breakpoint-up(md) {
       min-height: 300px;
     }
 
@@ -57,7 +57,7 @@
   padding-right: 20px;
   padding-top: 25px;
 
-  @media #{$medium-up} {
+  @include media-breakpoint-up(md) {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -142,7 +142,7 @@
   height: auto;
   min-height: 250px;
 
-  @media #{$medium-up} {
+  @include media-breakpoint-up(md) {
     background: #5d5d5d url("/assets/img/code-sprint.png") no-repeat bottom right;
     background-size: contain;
   }
@@ -157,7 +157,7 @@
   padding-right: 20px;
   padding-top: 25px;
 
-  @media #{$medium-up} {
+  @include media-breakpoint-up(md) {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -214,7 +214,7 @@
   padding-right: 20px;
   padding-top: 25px;
 
-  @media #{$medium-up} {
+  @include media-breakpoint-up(md) {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;

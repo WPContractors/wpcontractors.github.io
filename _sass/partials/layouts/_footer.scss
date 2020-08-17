@@ -11,7 +11,7 @@
   &-top {
     padding: 60px 0 20px;
 
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       padding: 90px 0 20px;
       display: flex;
       flex-direction: row;
@@ -23,7 +23,8 @@
     display: flex;
     flex-direction: column;
     padding: 40px 0 40px;
-    @media #{$small-up} {
+
+    @include media-breakpoint-up(sm) {
       flex-direction: row;
       padding: 65px 0 50px;
     }
@@ -55,14 +56,16 @@
       margin-bottom: 3px;
     }
   }
+
   &-bottom {
     padding: 0 15px;
     text-align: center;
 
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       padding: 0;
     }
   }
+
   .block.block-addtoany {
     .block__content {
       left: 0;
@@ -85,7 +88,8 @@
   font-family: $fontFamily-regular;
   color: $white;
   border-bottom: 1px solid $newblue--dark;
-  @media #{$small-up} {
+
+  @include media-breakpoint-up(sm) {
     margin-bottom: 30px;
     padding: 0;
     border: 0;
@@ -98,7 +102,8 @@
     font-size: 18px;
     text-transform: uppercase;
     cursor: pointer;
-    @media #{$small-up} {
+
+    @include media-breakpoint-up(sm) {
       margin-bottom: 15px;
       font-size: 24px;
       text-transform: none;
@@ -117,11 +122,12 @@
       content: '';
       transform: rotate(45deg);
       transition: 0.2s;
-      @media #{$small-up} {
+      @include media-breakpoint-up(sm) {
         display: none;
       }
     }
   }
+
   &.is-open {
     h4 {
       &:after {
@@ -133,7 +139,7 @@
     display: none;
     padding-top: 15px;
 
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       display: block;
       padding-top: 0;
     }
@@ -173,7 +179,7 @@
     display: block;
     font-size: 25px;
 
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       font-size: 31px;
       margin-right: initial;
       margin-left: initial;
@@ -190,13 +196,13 @@
 .footerSocials {
   padding: 20px 0;
 
-  @media #{$small-up} {
+  @include media-breakpoint-up(sm) {
     padding: 0;
   }
   .block__content {
     text-align: center;
 
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       text-align: left;
       flex-direction: row;
       display: flex;
@@ -208,7 +214,7 @@
     padding-bottom: 10px;
     font-style: italic;
 
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       white-space: nowrap;
       padding-bottom: 0;
     }
@@ -226,7 +232,6 @@
   &-body {
     display: flex;
     justify-content: center;
-
 
     &-link {
       margin: 0 6px;
@@ -249,12 +254,15 @@
         &--twitter {
           background: url('/assets/img/twitter.svg') center center no-repeat;
         }
+
         &--linkedin {
           background: url('/assets/img/linkedin.svg') center center no-repeat;
         }
+
         &--facebook {
           background: url('/assets/img/facebook.svg') center center no-repeat;
         }
+
         &--email {
           background: url('/assets/img/email.svg') center center no-repeat;
         }
@@ -270,7 +278,7 @@
   font-size: 13px;
   text-align: left;
 
-  @media #{$small-up} {
+  @include media-breakpoint-up(sm) {
     margin-bottom: 25px;
     padding: 40px 0;
   }
@@ -281,9 +289,11 @@
 
   a {
     color: $newblue--light;
-    @media #{$small-up} {
+
+    @include media-breakpoint-up(sm) {
       color: $newblue--lightest2;
     }
+
     &:hover,
     &:focus {
       color: lighten($newblue--lightest2, 10%);
@@ -296,17 +306,20 @@
   background: $newblue;
   text-align: center;
   color: $white;
+
   &-row {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    @media #{$small-up} {
+
+    @include media-breakpoint-up(sm) {
       flex-direction: row;
     }
     &-btn {
       margin-bottom: 15px;
-      @media #{$small-up} {
-        flex: 0 0 260px;
+
+      @include media-breakpoint-up(sm) {
+        flex: 0 0 270px;
         margin: 0 10px 0;
       }
     }
@@ -318,10 +331,11 @@
     font-size: 24px;
     text-transform: uppercase;
   }
+
   .btn {
     display: block;
     width: 100%;
-    max-width: 260px;
+    max-width: 270px;
     margin: 0 auto;
   }
 }

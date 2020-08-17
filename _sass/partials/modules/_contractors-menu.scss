@@ -8,25 +8,6 @@
 $bg-contractors-menu: $blue--darkest;
 $bg-active-link: $grey--lightest;
 
-.view-contactors {
-  .slick--view--contactors {
-    > .panel-1col {
-      @media #{$xsmall-down} and (orientation: landscape) {
-        max-width: 50%;
-      }
-      @media #{$medium-only} {
-        max-width: 50%;
-      }
-      @media #{$large-only} {
-        max-width: calc(100% / 3);
-      }
-      @media #{$xlarge-up} {
-        max-width: calc(100% / 4);
-      }
-    }
-  }
-}
-
 .contractorsMenu {
   position: relative;
   background: $bg-contractors-menu;
@@ -40,7 +21,7 @@ $bg-active-link: $grey--lightest;
     text-align: left;
     text-transform: uppercase;
     padding: 0;
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       display: none;
     }
     &.is-open {
@@ -71,19 +52,19 @@ $bg-active-link: $grey--lightest;
     z-index: 1;
     background: $grey--darkest;
     left: 0;
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       position: static;
       background: transparent;
       display: flex !important;
     }
-    @media #{$large-up} {
+    @include media-breakpoint-up(lg) {
       flex-wrap: nowrap;
     }
     li {
       flex: 1 1 20%;
       text-align: center;
       margin: 0;
-      @media #{$large-up} {
+      @include media-breakpoint-up(lg) {
         flex: 1;
       }
       > a {

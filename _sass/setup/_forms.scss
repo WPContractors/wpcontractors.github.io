@@ -14,11 +14,6 @@ textarea {
   width: 100%;
 }
 
-textarea {
-  height: 150px;
-  resize: vertical;
-}
-
 /* Buttons */
 button,
 input[type="button"],
@@ -41,7 +36,7 @@ input[type="submit"],
   transition: all .3s ease-out;
   -webkit-appearance: none;
 
-  @media #{$medium-up} {
+  @include media-breakpoint-up(md) {
     padding: 14px 15px 12px;
   }
 
@@ -50,19 +45,6 @@ input[type="submit"],
     cursor: pointer;
   }
 }
-
-.btn--fullWidth {
-  width: 100%;
-}
-
-.btn--large {
-  font-size: 16px;
-
-  @media #{$medium-up} {
-    font-size: 18px;
-  }
-}
-
 
 .btn--blue {
   background: $newblue--lightest2;
@@ -99,64 +81,5 @@ input[type="submit"],
     background: $newblue--lightest2;
     border-color: $newblue--lightest2;
     color: $white !important;
-  }
-}
-
-.btn--white2 {
-  background: $white;
-  border-color: $blue--dark;
-  color: $newblue--lightest2 !important;
-  font-size: 16px;
-
-  &:hover,
-  &:focus {
-    background: $newblue--lightest2;
-    border-color: $newblue--lightest2;
-    color: $white !important;
-  }
-}
-
-.btn--notification {
-  &::before {
-    content: '\e901';
-    font-family: 'MobiriseIcons';
-    font-size: 25px;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-}
-
-
-.register-form {
-  .form-actions {
-    font-size: 12px;
-  }
-
-  input[value="Get Started"] {
-    display: block;
-    margin-bottom: 5px;
-  }
-}
-
-.chosen-container {
-  border: none;
-  padding: 0;
-
-  .chosen-single {
-    height: 100%;
-  }
-}
-
-.chosen-container-multi .chosen-choices {
-  height: inherit;
-  overflow: auto;
-
-  li.search-field input[type="text"].chosen-search-input {
-    padding: 7px 0;
-  }
-
-  li.search-choice {
-    clear: none;
   }
 }

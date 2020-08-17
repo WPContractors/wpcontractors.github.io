@@ -2,21 +2,6 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// @file
-// SASS partials import
-// -----------------------------------------------------------------------------
-
-// Bootstrap global partials
-// -----------------------------------------------------------------------------
-@import "bootstrap-sass/assets/stylesheets/bootstrap";
-
-@import "global";
 @import "setup/setup";
-@import "radix/radix";
+@import "global";
 @import "partials/partials";
-@import "slick";
-@import "partials/modules/testimonial";
-
-.quicktabs-hide {
-  display: none;
-}

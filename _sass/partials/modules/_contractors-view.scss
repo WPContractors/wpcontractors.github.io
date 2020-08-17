@@ -23,7 +23,7 @@
   #edit-search-wrapper {
     width: 40%;
 
-    @media #{$xsmall-down} {
+    @include media-breakpoint-down(xs) {
       width: 100%;
     }
   }

@@ -53,7 +53,7 @@
   height: 100%;
   border-left: 1px solid $grey--light;
   transition: right .5s;
-  @media #{$xsmall-up} {
+  @include media-breakpoint-up(xs) {
     right: -($mobileMenuWidth--tablet);
     width: $mobileMenuWidth--tablet;
   }
@@ -197,7 +197,7 @@
           color: $grey;
           background: transparent;
         }
-        @media #{$small-down} {
+        @include media-breakpoint-down(sm) {
           color: $grey--darkest !important;
           font-size: 16px !important;
           transition: none;
@@ -224,14 +224,14 @@
   }
   .scrollHeader {
     right: $mobileMenuWidth--mobile;
-    @media #{$xsmall-up} {
+    @include media-breakpoint-up(xs) {
       right: $mobileMenuWidth--tablet;
     }
   }
 }
 
 .block-system-user-menu-instance {
-  @media #{$large-down} {
+  @include media-breakpoint-down(lg) {
     display: none;
   }
 }

@@ -9,10 +9,10 @@
   padding: 20px 0;
   position: relative;
   overflow: hidden;
-  @media #{$small-up} {
+  @include media-breakpoint-up(sm) {
     padding: 40px 0;
   }
-  @media #{$medium-up} {
+  @include media-breakpoint-up(md) {
     padding: 75px 0;
   }
   &:hover {
@@ -36,7 +36,7 @@
   .slick__arrow {
     display: none;
     opacity: 0;
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       display: block;
     }
   }
@@ -76,19 +76,19 @@
 .boxTestimonial {
   display: flex;
   flex-direction: column;
-  @media #{$small-up} {
+  @include media-breakpoint-up(sm) {
     flex-direction: row;
     padding: 0 30px;
   }
   &-img {
     margin-bottom: 20px;
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       margin-bottom: 0;
     }
     img {
       width: 100%;
       height: auto;
-      @media #{$small-up} {
+      @include media-breakpoint-up(sm) {
         width: inherit;
         height: inherit;
         max-width: none;
@@ -96,44 +96,44 @@
     }
   }
   &-body {
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       padding-left: 20px;
     }
-    @media #{$medium-up} {
+    @include media-breakpoint-up(md) {
       padding-left: 20px;
     }
-    @media #{$large-up} {
+    @include media-breakpoint-up(lg) {
       padding-left: 30px;
     }
-    @media #{$xlarge-up} {
+    @include media-breakpoint-up(xl) {
       padding-left: 50px;
     }
     i {
       font-size: 30px;
       color: $blue--light;
-      @media #{$small-up} {
+      @include media-breakpoint-up(sm) {
         font-size: 20px;
       }
-      @media #{$medium-up} {
+      @include media-breakpoint-up(md) {
         font-size: 30px;
       }
-      @media #{$large-up} {
+      @include media-breakpoint-up(lg) {
         font-size: 40px;
       }
     }
     &-description {
       font-family: $fontFamily-thin;
       font-size: 20px;
-      @media #{$small-up} {
+      @include media-breakpoint-up(sm) {
         font-size: 22px;
       }
-      @media #{$medium-up} {
+      @include media-breakpoint-up(md) {
         font-size: 30px;
       }
-      @media #{$large-up} {
+      @include media-breakpoint-up(lg) {
         font-size: 36px;
       }
-      @media #{$xlarge-up} {
+      @include media-breakpoint-up(xl) {
         font-size: 40px;
       }
     }
@@ -143,10 +143,10 @@
       font-family: $fontFamily-extrabold;
       font-size: 14px;
       color: $blue;
-      @media #{$medium-up} {
+      @include media-breakpoint-up(md) {
         font-size: 16px;
       }
-      @media #{$xlarge-up} {
+      @include media-breakpoint-up(xl) {
         font-size: 20px;
       }
       span {
@@ -156,7 +156,7 @@
     &-btn {
       padding-top: 30px;
       text-align: center;
-      @media #{$small-up} {
+      @include media-breakpoint-up(sm) {
         text-align: right;
       }
       a {

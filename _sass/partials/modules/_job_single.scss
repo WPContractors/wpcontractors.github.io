@@ -205,13 +205,14 @@
   .block {
     margin-bottom: 20px;
   }
+
   .block-drupalcontractors-notification {
     .btn--notification {
-      @media #{$large-up} {
+      @include media-breakpoint-up(lg) {
         font-size: 14px;
       }
 
-      @media #{$xlarge-up} {
+      @include media-breakpoint-up(xl) {
         font-size: 16px;
       }
     }
@@ -219,49 +220,44 @@
 }
 
 .view-jobs {
-
   .view-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    @media #{$large-up} {
+    @include media-breakpoint-up(lg) {
       .views-row {
         width: 31%;
         margin-right: 20px;
         margin-bottom: 20px;
       }
+
       .views-row:nth-child(3n+3) {
         margin-right: 0;
       }
     }
 
-    @media #{$large-down} {
+    @include media-breakpoint-down(lg) {
       .views-row {
         width: 48%;
         margin-right: 20px;
         margin-bottom: 20px;
       }
+
       .views-row:nth-child(2n+2) {
         margin-right: 0;
       }
     }
 
-    @media #{$small-down} {
+    @include media-breakpoint-down(sm) {
       .views-row {
         width: 48%;
         margin-right: 20px;
         margin-bottom: 20px;
       }
+
       .views-row:nth-child(2n+2) {
         margin-right: 0;
-      }
-    }
-    @media #{$xxsmall-only} {
-      .views-row {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
       }
     }
   }
@@ -271,11 +267,13 @@
       border-bottom: 1px solid $grey--border;
       line-height: 1.5;
       padding: 10px 0;
+
       & img {
         width: 80px;
         max-height: 80px;
         height: auto;
       }
+
       &:last-of-type {
         border-bottom: none;
       }
@@ -283,7 +281,6 @@
   }
 
   &.view-display-id-block_3 {
-
     .views-field-title {
       a {
         font-family: $fontFamily-semibold;

@@ -8,7 +8,7 @@
 .sectionLevels {
   padding-top: 30px;
   padding-bottom: 40px;
-  @media #{$medium-up} {
+  @include media-breakpoint-up(md) {
     padding-top: 70px;
     padding-bottom: 70px;
   }
@@ -23,7 +23,7 @@
     font-size: 22px;
     text-align: center;
     margin-bottom: 30px;
-    @media #{$medium-up} {
+    @include media-breakpoint-up(md) {
       font-size: 38px;
       margin-bottom: 50px;
     }
@@ -34,7 +34,7 @@
     flex-wrap: wrap;
     > div {
       flex: 1 100%;
-      @media #{$small-up} {
+      @include media-breakpoint-up(sm) {
         flex: 1;
       }
     }
@@ -71,12 +71,12 @@
 
   &-footer {
     display: none;
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       display: block;
       padding-bottom: 40px;
       padding-top: 40px;
     }
-    @media #{$large-up} {
+    @include media-breakpoint-up(lg) {
       padding-top: 80px;
     }
     &-title {
@@ -148,7 +148,7 @@
 .levelBox {
   margin-bottom: 40px;
 
-  @media #{$small-up} {
+  @include media-breakpoint-up(sm) {
     margin-bottom: 0;
   }
   &-body {
@@ -159,16 +159,16 @@
     border-top: 0;
     text-align: center;
     padding: 30px 15px;
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       border-left: 0;
     }
-    @media #{$medium-up} {
+    @include media-breakpoint-up(md) {
       height: 400px;
       padding: 0 40px;
     }
     &.is-open {
       border-bottom: 0;
-      @media #{$medium-up} {
+      @include media-breakpoint-up(md) {
         border-bottom: 1px solid $grey--light;
       }
     }
@@ -176,7 +176,7 @@
       font-family: $fontFamily-bold;
       font-size: 24px;
       margin-bottom: 20px;
-      @media #{$medium-up} {
+      @include media-breakpoint-up(md) {
         font-family: $fontFamily-medium;
         font-size: 40px;
         margin-bottom: 40px;
@@ -185,7 +185,7 @@
     &-subtitle {
       font-size: 16px;
       margin-bottom: 30px;
-      @media #{$medium-up} {
+      @include media-breakpoint-up(md) {
         font-size: 22px;
         margin-bottom: 50px;
       }
@@ -195,7 +195,7 @@
         width: 100%;
         max-width: 220px;
         box-shadow: none !important;
-        @media #{$medium-up} {
+        @include media-breakpoint-up(md) {
           max-width: 260px;
         }
       }
@@ -208,7 +208,7 @@
     border: 1px solid $grey--light;
     border-top: 0;
     padding: 20px;
-    @media #{$medium-up} {
+    @include media-breakpoint-up(md) {
       background: transparent;
       border: 0;
       padding: 0;
@@ -218,13 +218,13 @@
       font-family: $fontFamily-bold;
       font-size: 18px;
       margin-bottom: 15px;
-      @media #{$small-up} {
+      @include media-breakpoint-up(sm) {
         display: none;
       }
     }
 
     &-detail {
-      @media #{$large-up} {
+      @include media-breakpoint-up(lg) {
         border-right: 1px solid $grey--light;
         border-bottom: 1px solid $grey--light;
         height: 60px;
@@ -248,13 +248,13 @@
           margin-top: 4px;
           margin-right: 20px;
         }
-        @media #{$large-up} {
+        @include media-breakpoint-up(lg) {
           display: none;
         }
       }
       &-check {
         display: none;
-        @media #{$large-up} {
+        @include media-breakpoint-up(lg) {
           display: block;
           font-size: 22px;
           color: $blue--darkest;
@@ -267,7 +267,7 @@
   &-more {
     border-bottom: 1px solid $grey--light;
     padding: 5px 0;
-    @media #{$small-up} {
+    @include media-breakpoint-up(sm) {
       display: none;
     }
     button {
@@ -302,7 +302,7 @@
     .levelBox-body {
       border-top: 10px solid $blue--light;
       border-left: 1px solid $grey--light;
-      @media #{$large-up} {
+      @include media-breakpoint-up(lg) {
         border-left: 0;
       }
     }
@@ -320,7 +320,7 @@
 
   &--info {
     display: none;
-    @media #{$large-up} {
+    @include media-breakpoint-up(lg) {
       display: block;
     }
     .levelBox-body {

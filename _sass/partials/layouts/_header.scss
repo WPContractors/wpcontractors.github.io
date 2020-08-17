@@ -16,7 +16,8 @@
         > .region {
           > .block {
             display: none;
-            @media #{$large-up} {
+
+            @include media-breakpoint-up(lg) {
               display: block;
             }
           }
@@ -25,6 +26,7 @@
               display: none;
               opacity: 0;
             }
+
             &--light {
               display: block;
               opacity: 1;
@@ -38,9 +40,11 @@
             opacity: 0;
             display: none;
           }
+
           &--account {
             a {
               color: $white;
+
               &:hover {
                 color: $newblue--lightest;
               }
@@ -97,15 +101,18 @@
   background: $white;
   border-bottom: 1px solid $grey;
   transition: background .3s;
-  @media #{$large-up} {
+
+  @include media-breakpoint-up(lg) {
     height: 76px;
   }
+
   &-body {
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
     align-items: stretch;
-    @media #{$large-up} {
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+
+    @include media-breakpoint-up(lg) {
       height: 75px;
     }
 
@@ -178,9 +185,10 @@
 
         input {
           font-size: 14px;
-          padding: 10px 10px 10px 40px;
           height: 40px;
-          @media #{$xlarge-up} {
+          padding: 10px 10px 10px 40px;
+
+          @include media-breakpoint-up(xl) {
             min-width: 340px;
           }
         }
@@ -196,48 +204,60 @@
     &-left {
       display: flex;
       align-items: center;
+
       > .region {
         display: flex;
         height: 100%;
         align-items: center;
+
         > .block {
           display: none;
-          @media #{$large-up} {
+
+          @include media-breakpoint-up(lg) {
             display: block;
           }
         }
+
         .logo {
           display: block;
           flex: 0 0 220px;
           transition: opacity .3s;
-          @media #{$small-up} {
+
+          @include media-breakpoint-up(sm) {
             margin-right: 20px;
           }
-          @media #{$large-up} {
+
+          @include media-breakpoint-up(lg) {
             margin-right: 60px;
           }
+
           &--light {
             display: none;
             opacity: 0;
           }
         }
+
         .block-search {
-          @media #{$large-up} {
+          @include media-breakpoint-up(lg) {
             flex: 0 0 180px;
             margin: 0 10px;
           }
-          @media #{$large-up} {
+
+          @include media-breakpoint-up(lg) {
             flex: 0 0 200px;
             margin: $newblue--lightest2;
           }
-          @media #{$xlarge-up} {
+
+          @include media-breakpoint-up(xl) {
             flex: 0 0 270px;
             margin: 0 25px;
           }
+
           .form-inline {
             .form-group {
               display: block;
             }
+
             .form-control {
               width: 100%;
               display: block;
@@ -246,34 +266,42 @@
         }
       }
     }
+
     &-right {
       > .region {
+        align-items: center;
         display: none;
         height: 100%;
-        align-items: center;
-        @media #{$large-up} {
+
+        @include media-breakpoint-up(lg) {
           display: flex;
         }
       }
+
       &-link {
         margin-left: 10px;
         transition: opacity .3s;
-        @media #{$large-up} {
+
+        @include media-breakpoint-up(lg) {
           margin-left: 30px;
         }
-        @media #{$xlarge-up} {
+
+        @include media-breakpoint-up(xl) {
           margin-left: 45px;
         }
 
         &--scroll {
-          opacity: 0;
           display: none;
+          opacity: 0;
         }
+
         &--account {
           margin: 0 10px;
-          @media #{$large-up} {
+
+          @include media-breakpoint-up(lg) {
             margin: 0 15px;
           }
+
           a {
             font-family: $fontFamily-regular;
             font-size: 16px;
@@ -282,6 +310,7 @@
             white-space: nowrap;
             text-transform: uppercase;
             transition: all .3s;
+
             &:hover {
               color: $blue--darkest;
               text-decoration: none;
@@ -296,10 +325,6 @@
         }
       }
 
-      .login_button,
-      .sign_up-button {
-      }
-
       .btn {
         font-size: 16px;
         padding: $newblue--lightest2;
@@ -309,57 +334,8 @@
 
   .hamburger {
     display: block;
-    @media #{$large-up} {
+    @include media-breakpoint-up(lg) {
       display: none;
-    }
-  }
-}
-
-.siteHeader.dark,
-.dark-header .siteHeader {
-  background-color: $newblue--darkest;
-  border-bottom: none;
-
-  .siteMenu div > .menu > li > a,
-  .siteMenu div > .menu > li > span {
-    color: $grey--lightest;
-
-    &:hover {
-      color: $blue--light;
-    }
-  }
-
-  .siteMenu .user-menu {
-    .user-icon svg #user-icon {
-      fill: $grey--lightest;
-    }
-
-    &:hover {
-      .user-icon svg #user-icon {
-        fill: $blue--light;
-      }
-    }
-  }
-
-  .siteHeader-body-left {
-    > .region {
-      .logo--light {
-        display: block;
-        opacity: 1;
-      }
-      .logo--dark {
-        display: none;
-      }
-    }
-  }
-
-  .siteHeader-body-right-link--account {
-    a {
-      color: $white;
-
-      &:hover {
-        color: $blue--light;
-      }
     }
   }
 }
@@ -380,41 +356,48 @@
   background: #fff;
   border-bottom: 1px solid #999;
   transition: transform .3s, right .5s;
+
   &.is-show {
     transform: translateY(0);
   }
+
   &-body {
     > .region {
       display: flex;
       height: 56px;
       align-items: center;
       justify-content: space-between;
-      @media #{$large-up} {
+
+      @include media-breakpoint-up(lg) {
         height: 76px;
       }
     }
+
     &-logo {
       img {
         width: 220px;
       }
     }
+
     &-btn {
       display: none;
-      @media #{$large-up} {
+
+      @include media-breakpoint-up(lg) {
         display: block;
         flex: 1;
         text-align: right;
       }
     }
   }
+
   .hamburger {
     color: $grey;
-    @media #{$large-up} {
+
+    @include media-breakpoint-up(lg) {
       display: none;
     }
   }
 }
-
 
 html body.admin-menu {
   .scrollHeader {
