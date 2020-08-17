@@ -2539,8 +2539,6 @@ span.ext { background: url("/assets/img/extlink_s.png") 2px center no-repeat; he
 
 ul.nav-tabs > li > a, ul.nav-tabs > li.active > a { color: #000000; font-family: "poppinsmedium", Helvetica, Arial, sans-serif; padding: 15px; }
 
-.node-type-job .benefits .field-item { background-color: #efefef; border-radius: 30px; display: inline-block; font-family: "poppinssemibold", Helvetica, Arial, sans-serif; padding: 10px 20px; }
-
 @font-face { font-family: 'MobiriseIcons'; src: url("/assets/fonts/mobirise.eot"); src: url("/assets/fonts/mobirise.eot#iefix") format("embedded-opentype"), url("/assets/fonts/mobirise.ttf") format("truetype"), url("/assets/fonts/mobirise.woff") format("woff"), url("/assets/fonts/mobirise.svg#MobiriseIcons") format("svg"); font-weight: normal; font-style: normal; }
 
 [class^="mbri-"], [class*=" mbri-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'MobiriseIcons' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -4126,19 +4124,7 @@ h3.employer { text-align: center; }
 
 .node-type-job .content { background-color: #ffffff; border-color: #bfbfbf; box-shadow: 3px 4px 10px -3px #888888; padding: 20px; }
 
-.node-type-job #content, .node-type-job #sidebar-right { margin-bottom: 20px; margin-top: 20px; }
-
-.node-type-job #content .block__title { font-size: 24px; }
-
-.node-type-job #sidebar-right .block__title { font-family: "poppinssemibold", Helvetica, Arial, sans-serif; }
-
 .node-type-job .job-title { font-size: 30px; }
-
-.node-type-job #siteFooter { clear: both; }
-
-.node-type-job .flag-message { display: block !important; position: unset; font-size: 14px; margin-top: 10px; width: auto; }
-
-.node-type-job .flag-apply-the-job a:hover { background-color: #ffffff; color: #0099cc; }
 
 .node-type-job .profile-company__logo { margin-bottom: 10px; }
 
@@ -4150,88 +4136,12 @@ h3.employer { text-align: center; }
 
 .node-type-job .profile-company__location::before { content: "\2022"; }
 
-.node-type-job .job-metadata { margin-top: 10px; }
+.node-type-job h2, .node-type-job h3 { font-family: "poppinssemibold",Helvetica,Arial,sans-serif; }
 
-.node-type-job .job-metadata__stat { color: #a6a6a6; display: inline-block; margin-right: 5px; }
+.node-type-job h2 { font-size: 18px; text-align: left; }
 
-.node-type-job .job-metadata__stat:not(:last-of-type)::after { content: "\2022"; margin-left: 5px; }
+.node-type-job h3 { font-size: 16px; margin-bottom: 0; }
 
-.node-type-job .job-metadata__stat .view { display: inline-block; }
-
-.node-type-job .job-actions { text-align: right; }
-
-.node-type-job .job-actions .links { margin-top: 10px; padding: 0; }
-
-.node-type-job .job-actions .links .flag-apply_the_job { margin: 0; margin-top: 10px; }
-
-.node-type-job .job-actions .links .flag-apply_the_job a { display: inline-block; min-width: 100px; padding: 15px 40px; text-align: center; }
-
-.node-type-job .job-actions .links .flag-apply_the_job a.unflag-action { background-color: transparent; border: 2px solid #0099cc; padding: 15px 20px; }
-
-.node-type-job .job-share, .node-type-job .job-options { color: #000000; display: inline-block; min-width: 30px; padding: 0 10px; vertical-align: middle; }
-
-.node-type-job .job-details { padding-bottom: 10px; border-bottom: 1px solid #efefef; }
-
-.node-type-job .job-details .field, .node-type-job .job-details .job-details__skills { margin-bottom: 15px; }
-
-.node-type-job .job-details .job-details__label, .node-type-job .job-details .field-label { font-family: "poppinssemibold", Helvetica, Arial, sans-serif; }
-
-.node-type-job .job-details__title { font-family: "poppinssemibold", Helvetica, Arial, sans-serif; margin-top: 0; }
-
-.node-type-job .job-details__skills .job-details__label { margin-bottom: 5px; }
-
-.node-type-job .job-details__skills .field-item::before { content: '\F14A'; font-family: "FontAwesome"; margin-right: 5px; }
-
-.node-type-job .job-details__skills .field-item.skill-is-match::before { color: #0099cc; }
-
-.node-type-job .job-details__skills .field-item.skill-is-not-match::before { color: #a6a6a6; }
-
-.node-type-job .benefits { background-color: #ffffff; border-color: #bfbfbf; box-shadow: 3px 4px 10px -3px #888888; margin: 30px 0 20px; padding: 20px; }
-
-.node-type-job .benefits .field-item { margin-bottom: 20px; margin-right: 20px; }
-
-.region-sidebar-right .block { margin-bottom: 20px; }
-
-@media (min-width: 1200px) { .region-sidebar-right .block-drupalcontractors-notification .btn--notification { font-size: 14px; } }
-
-@media (min-width: 1450px) { .region-sidebar-right .block-drupalcontractors-notification .btn--notification { font-size: 16px; } }
-
-.view-jobs .view-content { display: flex; flex-wrap: wrap; justify-content: space-between; }
-
-@media (min-width: 1200px) { .view-jobs .view-content .views-row { width: 31%; margin-right: 20px; margin-bottom: 20px; } .view-jobs .view-content .views-row:nth-child(3n+3) { margin-right: 0; } }
-
-@media (max-width: 1449.98px) { .view-jobs .view-content .views-row { width: 48%; margin-right: 20px; margin-bottom: 20px; } .view-jobs .view-content .views-row:nth-child(2n+2) { margin-right: 0; } }
-
-@media (max-width: 991.98px) { .view-jobs .view-content .views-row { width: 48%; margin-right: 20px; margin-bottom: 20px; } .view-jobs .view-content .views-row:nth-child(2n+2) { margin-right: 0; } }
-
-.view-jobs.view-display-id-also_viewed .views-row { border-bottom: 1px solid #ddd; line-height: 1.5; padding: 10px 0; }
-
-.view-jobs.view-display-id-also_viewed .views-row img { width: 80px; max-height: 80px; height: auto; }
-
-.view-jobs.view-display-id-also_viewed .views-row:last-of-type { border-bottom: none; }
-
-.view-jobs.view-display-id-block_3 .views-field-title a { font-family: "poppinssemibold", Helvetica, Arial, sans-serif; }
-
-.view-jobs.view-display-id-block_3 .views-field-nothing-1 { margin-bottom: 15px; }
-
-.view-jobs.view-display-id-block_3 .views-field-field-job-location { margin-bottom: 30px; }
-
-.view-jobs.view-display-id-block_3 .views-field-created { margin-top: 10px; }
-
-.view-jobs .connections { display: inline-block; vertical-align: middle; }
-
-.view-jobs .connections-images { border-bottom: 1px solid #ddd; display: inline-block; margin-right: 10px; padding: 10px 0; vertical-align: middle; }
-
-.view-jobs .connections-images img { border-radius: 50px; float: left; height: 30px; margin-left: -20px; width: 30px; }
-
-.view-jobs .connections-images img:first-of-type { margin-left: 0; }
-
-progress { -webkit-appearance: none; border: none; }
-
-progress::-webkit-progress-bar { background: #ffffff; border: 1px solid #ddd; padding: 2px; box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2); }
-
-.red progress::-webkit-progress-value { background-color: #ff0000; }
-
-.orange progress::-webkit-progress-value { background-color: #ffcc00; }
+.node-type-job p { margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
