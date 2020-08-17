@@ -22,6 +22,17 @@ $('.js-showLvl').on('click', function() {
   $('.js-itemsLvl').slideToggle('slow');
 });
 
+$(function() {
+  if ($('#contractorsSlider')) {
+    var itemsPerSlide = 4;
+    var totalItems = $('.carousel-item', this).length;
+
+    if (totalItems <= itemsPerSlide) {
+      $('.carousel-control-next').hide();
+    }
+  }
+});
+
 $('#contractorsSlider').on('slide.bs.carousel', function (e) {
   var idx = $(e.relatedTarget).index();
   var itemsPerSlide = 4;
