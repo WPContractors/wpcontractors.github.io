@@ -1,0 +1,101 @@
+---
+architect:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+art_director:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+backend:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+frontend:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+full_stack:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+pm:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+qa_tester:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+sys_admin:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+ux_designer:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+visual_designer:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+api:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+adobe_creative_suite:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+bootstrap:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+cli:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+communication:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+custom_themes:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+ecommerce:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+gitflow:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+jquery:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+lamp:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+mobile_design:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+mysql:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+sass:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+seo:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
+ui:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+  phone: "888-649-2990"
