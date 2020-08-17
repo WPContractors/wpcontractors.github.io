@@ -3625,29 +3625,23 @@ h3.employer { text-align: center; }
 /** @file Contractors view Located on the pages: contractors/* */
 .contractorsView { padding-top: 60px; padding-bottom: 30px; }
 
-.view-dc-search #edit-profile2-field-address-country-1-wrapper { margin-top: 21px; }
+.contractorsHeader { background-color: #E6EDF5; }
 
-.view-dc-search #edit-profile2-field-address-country-1-wrapper #edit-profile2-field-address-country-1 { display: none; }
+.contractorsHeader__left { display: flex; flex-direction: column; justify-content: center; padding-bottom: 4rem; padding-top: 4rem; }
 
-.view-dc-search #edit-search-wrapper { width: 40%; width: 100%; }
+@media (min-width: 992px) { .contractorsHeader__left { min-height: 415px; padding-bottom: 3rem; padding-top: 3rem; } }
 
-.view-dc-search #edit-profile2-field-rate-wrapper { clear: both; }
+@media (max-width: 1199.98px) { .contractorsHeader__left { order: 2; } }
 
-.view-dc-search .form-type-radio label { display: block; margin-bottom: 7px; }
+.contractorsHeader__left h1, .contractorsHeader__left .block-title, .contractorsHeader__left .sectionLevels .pane-title, .sectionLevels .contractorsHeader__left .pane-title { text-align: left; }
 
-.view-dc-search .form-type-radio label:hover { color: #317ebc; }
+.contractorsHeader__left--button { margin-right: 3rem; }
 
-.view-dc-search .form-type-radio label.active:after { background: #317ebc; border-radius: 100%; content: ""; display: inline-block; height: 6px; left: 4px; position: absolute; top: 50%; transform: translateY(-50%); width: 6px; }
+@media (max-width: 1199.98px) { .contractorsHeader__right { min-height: 200px; order: 1; } }
 
-.view-dc-search .form-type-radio label:before { background: #d3d3d3; border-radius: 100%; content: ""; display: inline-block; height: 14px; left: 0; position: absolute; top: 50%; transform: translateY(-50%); width: 14px; }
+.contractorsHeader__right--image { background-position: center; background-repeat: no-repeat; background-size: cover; height: 100%; }
 
-.view-dc-search .form-type-radio label input { visibility: hidden; }
-
-.view-dc-search select { padding-top: 2px; }
-
-.view-dc-search .advanced-filters a { align-items: center; display: flex; font-weight: bold; }
-
-.view-dc-search .advanced-filters a:before { bottom: -2px; content: "\f4a6"; font-family: ionicons; font-size: 25px; font-weight: bold; padding-right: 9px; position: relative; }
+.contractorsContent { padding-top: 5rem; }
 
 /** @file Contractor box Located on the pages: contractors/* */
 .contractorBoxWrap { height: 100%; background: #ffffff; margin: 0 15px; padding: 5px; }
