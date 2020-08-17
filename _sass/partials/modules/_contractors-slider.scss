@@ -6,25 +6,31 @@
  */
 
 .contractorsSlider {
-  margin-bottom: 20px;
   position: relative;
+
   .slick-track {
     display: flex;
     align-items: stretch;
+
     > .slick-slide {
       height: auto;
       outline: 0;
+
       .views-field-nothing {
         height: 100%;
       }
+
       .panel-display {
         height: 100%;
       }
+
       .slide__content,
       .panel-panel {
         height: 100%;
+
         > div {
           height: 100%;
+
           > div,
           .contractorBoxWrap,
           .contractorBox.signUp {
@@ -34,6 +40,7 @@
       }
     }
   }
+
   > button {
     position: absolute;
     top: 50%;
@@ -55,6 +62,7 @@
         border-color: $white;
       }
     }
+
     &:before {
       content: "";
       position: absolute;
@@ -65,6 +73,7 @@
       border-bottom: 1px solid $grey--darkest;
       transition: all .3s;
     }
+
     &.slick-disabled {
       display: none !important;
     }
@@ -91,7 +100,7 @@
   margin-right: inherit;
 }
 
-@media (min-width: 768px) {
+@include media-breakpoint-up(md) {
   #contractorsSlider {
     /* show 3 items */
     .carousel-inner .active,
@@ -100,20 +109,20 @@
     .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
         display: block;
     }
-    
+
     .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
     .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
     .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
     .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
         transition: none;
     }
-    
+
     .carousel-inner .carousel-item-next,
     .carousel-inner .carousel-item-prev {
       position: relative;
       transform: translate3d(0, 0, 0);
     }
-    
+
     .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
         position: absolute;
         top: 0;
@@ -122,7 +131,7 @@
         display: block;
         visibility: visible;
     }
-    
+
     /* left or forward direction */
     .active.carousel-item-left + .carousel-item-next.carousel-item-left,
     .carousel-item-next.carousel-item-left + .carousel-item,
@@ -133,7 +142,7 @@
         transform: translate3d(-100%, 0, 0);
         visibility: visible;
     }
-    
+
     /* farthest right hidden item must be abso position for animations */
     .carousel-inner .carousel-item-prev.carousel-item-right {
         position: absolute;
@@ -143,7 +152,7 @@
         display: block;
         visibility: visible;
     }
-    
+
     /* right or prev direction */
     .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
     .carousel-item-prev.carousel-item-right + .carousel-item,

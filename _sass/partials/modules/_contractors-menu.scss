@@ -21,15 +21,18 @@ $bg-active-link: $grey--lightest;
     text-align: left;
     text-transform: uppercase;
     padding: 0;
+
     @include media-breakpoint-up(sm) {
       display: none;
     }
+
     &.is-open {
       &:before {
         transform: rotate(225deg) translateY(2px);
         right: 4px;
       }
     }
+
     &:before {
       content: '';
       position: absolute;
@@ -52,21 +55,26 @@ $bg-active-link: $grey--lightest;
     z-index: 1;
     background: $grey--darkest;
     left: 0;
+
     @include media-breakpoint-up(sm) {
       position: static;
       background: transparent;
       display: flex !important;
     }
+
     @include media-breakpoint-up(lg) {
       flex-wrap: nowrap;
     }
+
     li {
       flex: 1 1 20%;
       text-align: center;
       margin: 0;
+
       @include media-breakpoint-up(lg) {
         flex: 1;
       }
+
       > a {
         display: flex;
         align-items: center;
@@ -77,7 +85,9 @@ $bg-active-link: $grey--lightest;
         font-size: 14px;
         text-transform: uppercase;
         border-radius: 0;
+        padding: 10px 15px;
         transition: all .3s;
+
         &:hover,
         &:focus,
         &.active {

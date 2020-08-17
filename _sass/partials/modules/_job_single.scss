@@ -8,58 +8,62 @@
 .node-type-job {
   background: $grey--background;
 
-  #main-wrapper {
-    padding-bottom: 40px;
-  }
+  article {
+    margin: 40px 0;
 
-  .content {
-    background-color: $white;
-    border-color: $grey--mid;
-    box-shadow: $box-shadow;
-    padding: 20px;
-  }
-
-  .job-title {
-    font-size: 30px;
-  }
-
-  .profile-company__logo {
-    margin-bottom: 10px;
-
-    img {
-      max-height: 50px;
+    #main-wrapper {
+      padding-bottom: 40px;
     }
-  }
 
-  .profile-company__name {
-    display: inline-block;
-    font-family: $fontFamily-semibold;
-  }
-
-  .profile-company__location {
-    display: inline-block;
-
-    &::before {
-      content: "\2022";
+    .container {
+      background-color: $white;
+      border-color: $grey--mid;
+      box-shadow: $box-shadow;
+      padding: 20px;
     }
-  }
 
-  h2,
-  h3 {
-    font-family: "poppinssemibold",Helvetica,Arial,sans-serif;
-  }
+    .job-title {
+      font-size: 30px;
+    }
 
-  h2 {
-    font-size: 18px;
-    text-align: left;
-  }
+    .profile-company__logo {
+      margin-bottom: 10px;
 
-  h3 {
-    font-size: 16px;
-    margin-bottom: 0;
-  }
+      img {
+        max-height: 50px;
+      }
+    }
 
-  p {
-    margin-bottom: 20px;
+    .profile-company__name {
+      display: inline-block;
+      font-family: $fontFamily-semibold;
+    }
+
+    .profile-company__location {
+      display: inline-block;
+
+      &::before {
+        content: "\2022";
+      }
+    }
+
+    h2,
+    h3 {
+      font-family: "poppinssemibold",Helvetica,Arial,sans-serif;
+    }
+
+    h2 {
+      font-size: 18px;
+      text-align: left;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
   }
 }

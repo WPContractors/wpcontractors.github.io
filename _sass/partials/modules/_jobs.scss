@@ -7,6 +7,7 @@
 
 .jobs-listing {
   background: $grey--lightest;
+
   &:not(.page-jobs) {
     .jobs-wrapper-content {
       padding: 3px;
@@ -44,7 +45,7 @@
 
       .container {
         @include media-breakpoint-down(xs) {
-          padding: 0 12px 12px 12px;
+          padding: 30px 12px 12px;
         }
 
         .view-content,
