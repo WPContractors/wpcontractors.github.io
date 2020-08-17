@@ -3616,7 +3616,7 @@ h3.employer { text-align: center; }
 
 @media (min-width: 1200px) { .contractorsMenu ul.menu li { flex: 1; } }
 
-.contractorsMenu ul.menu li > a { display: flex; align-items: center; justify-content: center; height: 100%; color: #ffffff; font-family: "poppinsbold", Helvetica, Arial, sans-serif; font-size: 14px; text-transform: uppercase; border-radius: 0; transition: all .3s; }
+.contractorsMenu ul.menu li > a { display: flex; align-items: center; justify-content: center; height: 100%; color: #ffffff; font-family: "poppinsbold", Helvetica, Arial, sans-serif; font-size: 14px; text-transform: uppercase; border-radius: 0; padding: 10px 15px; transition: all .3s; }
 
 .contractorsMenu ul.menu li > a:hover, .contractorsMenu ul.menu li > a:focus, .contractorsMenu ul.menu li > a.active { background: #efefef; color: #317ebc; }
 
@@ -3639,7 +3639,7 @@ h3.employer { text-align: center; }
 
 .contractorsHeader__right--image { background-position: center; background-repeat: no-repeat; background-size: cover; height: 100%; }
 
-.contractorsContent { padding-top: 5rem; }
+.contractorsContent { padding-bottom: 5rem; padding-top: 5rem; }
 
 /** @file Contractor box Located on the pages: contractors/* */
 .contractorBoxWrap { height: 100%; background: #ffffff; margin: 0 15px; padding: 5px; }
@@ -3848,7 +3848,7 @@ h3.employer { text-align: center; }
 .portfolio .portfolio__items { clear: both; }
 
 /** @file Contractors slider Located on the pages: contractors/* */
-.contractorsSlider { margin-bottom: 20px; position: relative; }
+.contractorsSlider { position: relative; }
 
 .contractorsSlider .slick-track { display: flex; align-items: stretch; }
 
@@ -3884,7 +3884,7 @@ h3.employer { text-align: center; }
 
 #contractorsSlider .carousel-inner .carousel-item { margin-right: inherit; }
 
-@media (min-width: 768px) { #contractorsSlider { /* show 3 items */ /* left or forward direction */ /* farthest right hidden item must be abso position for animations */ /* right or prev direction */ } #contractorsSlider .carousel-inner .active, #contractorsSlider .carousel-inner .active + .carousel-item, #contractorsSlider .carousel-inner .active + .carousel-item + .carousel-item, #contractorsSlider .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item { display: block; } #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left), #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item, #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item, #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item { transition: none; } #contractorsSlider .carousel-inner .carousel-item-next, #contractorsSlider .carousel-inner .carousel-item-prev { position: relative; transform: translate3d(0, 0, 0); } #contractorsSlider .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item { position: absolute; top: 0; right: -25%; z-index: -1; display: block; visibility: visible; } #contractorsSlider .active.carousel-item-left + .carousel-item-next.carousel-item-left, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item { position: relative; transform: translate3d(-100%, 0, 0); visibility: visible; } #contractorsSlider .carousel-inner .carousel-item-prev.carousel-item-right { position: absolute; top: 0; left: 0; z-index: -1; display: block; visibility: visible; } #contractorsSlider .active.carousel-item-right + .carousel-item-prev.carousel-item-right, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item { position: relative; transform: translate3d(100%, 0, 0); visibility: visible; display: block; visibility: visible; } }
+@media (min-width: 992px) { #contractorsSlider { /* show 3 items */ /* left or forward direction */ /* farthest right hidden item must be abso position for animations */ /* right or prev direction */ } #contractorsSlider .carousel-inner .active, #contractorsSlider .carousel-inner .active + .carousel-item, #contractorsSlider .carousel-inner .active + .carousel-item + .carousel-item, #contractorsSlider .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item { display: block; } #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left), #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item, #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item, #contractorsSlider .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item { transition: none; } #contractorsSlider .carousel-inner .carousel-item-next, #contractorsSlider .carousel-inner .carousel-item-prev { position: relative; transform: translate3d(0, 0, 0); } #contractorsSlider .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item { position: absolute; top: 0; right: -25%; z-index: -1; display: block; visibility: visible; } #contractorsSlider .active.carousel-item-left + .carousel-item-next.carousel-item-left, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item { position: relative; transform: translate3d(-100%, 0, 0); visibility: visible; } #contractorsSlider .carousel-inner .carousel-item-prev.carousel-item-right { position: absolute; top: 0; left: 0; z-index: -1; display: block; visibility: visible; } #contractorsSlider .active.carousel-item-right + .carousel-item-prev.carousel-item-right, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item, #contractorsSlider .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item { position: relative; transform: translate3d(100%, 0, 0); visibility: visible; display: block; visibility: visible; } }
 
 [id^="edit-profile-main-field-skills"] .help-block .suggested-skill, .view .views-field-field-skills .item-list li { background: #efefef; border: 1px solid #efefef; border-radius: 5px; color: #262626; cursor: pointer; display: inline-block; font-size: 13px; margin-left: 2px; padding: 0 5px 3px 3px; transition: .3s; }
 
@@ -4099,7 +4099,7 @@ h3.employer { text-align: center; }
 
 .jobs-listing .jobs-wrapper .columns-wrapper { background: #ffffff; border: 3px solid #EDEDED; display: flex; padding: 20px; padding: 0; flex-direction: column; }
 
-.jobs-listing .jobs-wrapper .columns-wrapper .container { padding: 0 12px 12px 12px; }
+.jobs-listing .jobs-wrapper .columns-wrapper .container { padding: 30px 12px 12px; }
 
 .jobs-listing .jobs-wrapper .columns-wrapper .container .view-content, .jobs-listing .jobs-wrapper .columns-wrapper .container .view-empty { background: #ffffff; border: 3px solid #EDEDED; padding: 20px; }
 
@@ -4120,28 +4120,30 @@ h3.employer { text-align: center; }
 /** @file Job Located on the pages: job node type */
 .node-type-job { background: #EDEDED; }
 
-.node-type-job #main-wrapper { padding-bottom: 40px; }
+.node-type-job article { margin: 40px 0; }
 
-.node-type-job .content { background-color: #ffffff; border-color: #bfbfbf; box-shadow: 3px 4px 10px -3px #888888; padding: 20px; }
+.node-type-job article #main-wrapper { padding-bottom: 40px; }
 
-.node-type-job .job-title { font-size: 30px; }
+.node-type-job article .container { background-color: #ffffff; border-color: #bfbfbf; box-shadow: 3px 4px 10px -3px #888888; padding: 20px; }
 
-.node-type-job .profile-company__logo { margin-bottom: 10px; }
+.node-type-job article .job-title { font-size: 30px; }
 
-.node-type-job .profile-company__logo img { max-height: 50px; }
+.node-type-job article .profile-company__logo { margin-bottom: 10px; }
 
-.node-type-job .profile-company__name { display: inline-block; font-family: "poppinssemibold", Helvetica, Arial, sans-serif; }
+.node-type-job article .profile-company__logo img { max-height: 50px; }
 
-.node-type-job .profile-company__location { display: inline-block; }
+.node-type-job article .profile-company__name { display: inline-block; font-family: "poppinssemibold", Helvetica, Arial, sans-serif; }
 
-.node-type-job .profile-company__location::before { content: "\2022"; }
+.node-type-job article .profile-company__location { display: inline-block; }
 
-.node-type-job h2, .node-type-job h3 { font-family: "poppinssemibold",Helvetica,Arial,sans-serif; }
+.node-type-job article .profile-company__location::before { content: "\2022"; }
 
-.node-type-job h2 { font-size: 18px; text-align: left; }
+.node-type-job article h2, .node-type-job article h3 { font-family: "poppinssemibold",Helvetica,Arial,sans-serif; }
 
-.node-type-job h3 { font-size: 16px; margin-bottom: 0; }
+.node-type-job article h2 { font-size: 18px; text-align: left; }
 
-.node-type-job p { margin-bottom: 20px; }
+.node-type-job article h3 { font-size: 16px; margin-bottom: 0; }
+
+.node-type-job article p { margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
