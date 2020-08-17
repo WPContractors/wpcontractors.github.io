@@ -3085,11 +3085,11 @@ html body.admin-menu .scrollHeader { top: 29px; }
 
 .sectionWhite, .sectionWhite .sectionGrey { background: #ffffff; }
 
-.page-homepage .pane-1 { padding-top: 60px; }
+.page-homepage #how-it-works { padding-top: 60px; }
 
-.page-homepage .pane-1 .pane-title { margin-bottom: 15px; }
+.page-homepage #how-it-works .pane-title { margin-bottom: 15px; }
 
-.page-homepage .pane-1 .pane-content { color: #0099cc; font-family: "poppinsregular", Helvetica, Arial, sans-serif; font-size: 18px; margin-bottom: 60px; text-align: center; }
+.page-homepage #how-it-works .pane-content { color: #0099cc; font-family: "poppinsregular", Helvetica, Arial, sans-serif; font-size: 18px; margin-bottom: 60px; text-align: center; }
 
 .node-type-page #main-wrapper, .node-type-partners #main-wrapper, .page-sign-up #main-wrapper, .page-browse-contractors #main-wrapper, .page-messages #main-wrapper, .page-user #main-wrapper { padding-bottom: 40px; padding-top: 20px; }
 
