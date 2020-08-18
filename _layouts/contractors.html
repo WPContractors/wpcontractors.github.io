@@ -34,8 +34,7 @@ layout: default
       <div class="col-xs-12 col-lg-6 contractorsHeader__left">
         <h1>{{ contractor.title }}</h1>
         <div class="contractorsHeader__left--bottom">
-          <a class="contractorsHeader__left--button btn btn-primary" href="#">Get Started</a>
-          <a class="contractorsHeader__left--phone" yohref="tel:{{ contractor.phone }}">{{ contractor.phone }}</a>
+          <a class="contractorsHeader__left--button btn btn-primary" href="#contact-form">Get Started</a>
         </div>
       </div>
       <div class="col-xs-12 col-lg-6 contractorsHeader__right">
@@ -77,3 +76,5 @@ layout: default
 <div class="container" style="padding-bottom: 20px">
   {% include howitworks-foremployers.html %}
 </div>
+
+{% include contact-form.html%}
