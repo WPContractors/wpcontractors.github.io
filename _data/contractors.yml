@@ -1,7 +1,7 @@
 ---
 architect:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/architect.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
@@ -11,55 +11,55 @@ architect:
     - UL8N9QSLU
 art_director:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/art_director.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 backend:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/backend.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 frontend:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/frontend.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 full_stack:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/full_stack.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 pm:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/pm.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 qa_tester:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/qa_tester.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 sys_admin:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/sys_admin.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 ux_designer:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/ux_designer.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
 visual_designer:
   title: "Let's talk about what Creative Cloud can do for your business."
-  image: "/assets/img/contractors/contractor_example.png"
+  image: "/assets/img/contractors/visual_designer.png"
   profiles:
     - UKBRBK1R9
     - UL8N9QSLU
