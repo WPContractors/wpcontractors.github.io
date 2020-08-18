@@ -3641,6 +3641,20 @@ h3.employer { text-align: center; }
 
 .contractorsContent { padding-bottom: 5rem; padding-top: 5rem; }
 
+.contact-form { background: linear-gradient(0deg, #00719c 0%, #efefef); background-repeat: no-repeat; background-position: bottom; background-size: 100%; margin-top: 3rem; padding-top: 5rem; }
+
+.contact-form__header { margin-left: auto; margin-right: auto; }
+
+@media (min-width: 1200px) { .contact-form__header { max-width: 60%; } }
+
+.contact-form__description { font-size: 2rem; line-height: 2.8rem; margin: auto; text-align: left; }
+
+@media (min-width: 1450px) { .contact-form__description { max-width: 85%; } }
+
+.contact-form__wrapper { margin: 5rem auto 0 auto; }
+
+@media (min-width: 1450px) { .contact-form__wrapper { max-width: 85%; } }
+
 /** @file Contractor box Located on the pages: contractors/* */
 .contractorBoxWrap { height: 100%; background: #ffffff; margin: 0 15px; padding: 5px; }
 
