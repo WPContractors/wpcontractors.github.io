@@ -60,10 +60,8 @@
 }
 
 .contact-form {
-  background: linear-gradient(0deg, $newblue--light 0%, $grey--lightest);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
+  background: $newblue--light;
+  color: $white;
   margin-top: 3rem;
   padding-top: 5rem;
 
