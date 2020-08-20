@@ -3641,7 +3641,7 @@ h3.employer { text-align: center; }
 
 .contractorsContent { padding-bottom: 5rem; padding-top: 5rem; }
 
-.contact-form { background: linear-gradient(0deg, #00719c 0%, #efefef); background-repeat: no-repeat; background-position: bottom; background-size: 100%; margin-top: 3rem; padding-top: 5rem; }
+.contact-form { background: #00719c; color: #ffffff; margin-top: 3rem; padding-top: 5rem; }
 
 .contact-form__header { margin-left: auto; margin-right: auto; }
 
