@@ -186,13 +186,10 @@
   }
 }
 
-.map-bar-wrapper {
-  background-color: $grey--darkest;
-  height: auto;
-  min-height: 398px;
-}
-
 .map-bar {
+  background-color: $grey--darkest;
+  min-height: 398px;
+
   h2 {
     color: $grey--lightest;
     font-family: $fontFamily-thin;

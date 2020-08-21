@@ -145,3 +145,46 @@
     }
   }
 }
+
+ .historyBanner {
+  background-blend-mode: overlay;
+  background-image: url('/assets/img/history-hero3.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-color: #444;
+  color: #fff;
+  min-height: 500px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+
+  h3 {
+    font-family: "catamaranthin",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 2;
+  }
+
+  p {
+    font-family: "catamaranthin",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 48px;
+  }
+
+  @include media-breakpoint-down(md) {
+    h3 {
+      font-size: 2.3rem;
+      line-height: 2;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 183px;
+    padding-bottom: 132px;
+  }
+
+  &-body {
+    padding-bottom: 40px;
+    max-width: 850px;
+  }
+}
