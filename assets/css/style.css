@@ -3219,17 +3219,59 @@ h3.employer { text-align: center; }
 .companyItem img { height: 35px; width: auto; }
 
 /** @file Hero banner styles Located on the pages: Home page, */
-.heroBanner { background-blend-mode: overlay; background-image: url("/assets/img/history-hero3.png"); background-repeat: no-repeat; background-size: cover; background-position-y: top; background-color: #444; color: #fff; min-height: 500px; padding-top: 90px; padding-bottom: 50px; }
-
-.heroBanner h3 { font-family: "catamaranthin",Helvetica,Arial,sans-serif; font-weight: normal; font-size: 30px; line-height: 2; }
-
-.heroBanner p { font-family: "catamaranthin",Helvetica,Arial,sans-serif; font-weight: normal; font-size: 48px; }
-
-@media (max-width: 1199.98px) { .heroBanner h3 { font-size: 2.3rem; line-height: 2; } }
+.heroBanner { background-color: #00719c; padding-top: 90px; padding-bottom: 50px; }
 
 @media (min-width: 1200px) { .heroBanner { padding-top: 183px; padding-bottom: 132px; } }
 
+.heroBanner.dark { background-color: #001f2b; }
+
+@media (min-width: 992px) { .heroBanner.dark { padding-top: 90px; padding-bottom: 50px; } .heroBanner.dark .field-name-field-hero-title { padding-bottom: 0; } .heroBanner.dark .field-name-field-hero-subtitle2 { margin-bottom: 40px; } .heroBanner.dark .field-name-field-hero-subtitle2 h3 { font-size: 2.3rem; line-height: 2; } }
+
+@media (min-width: 1200px) { .heroBanner.dark .heroBanner-body { padding-left: 60px; } .heroBanner.dark .field-name-field-hero-title h2 { font-size: 6rem; } }
+
 .heroBanner-body { padding-bottom: 40px; max-width: 850px; }
+
+.heroBanner-body .field-name-field-hero-title { padding-bottom: 20px; padding-bottom: 30px; }
+
+.heroBanner-body .field-name-field-hero-title h2 { color: #ffffff; text-align: left; line-height: 1.25em; font-size: 3rem; font-size: 5rem; }
+
+@media (min-width: 1200px) { .heroBanner-body .field-name-field-hero-title h2 { font-size: 7rem; } }
+
+@media (min-width: 992px) { .heroBanner-body .field-name-field-hero-title { padding-bottom: 60px; } }
+
+.heroBanner-body .field-name-field-hero-subtitle2 { margin-bottom: 68px; }
+
+.heroBanner-body .field-name-field-hero-subtitle2 h3 { color: #ffffff; line-height: 1.5em; font-family: Georgia, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Bitstream Vera Serif", "Liberation Serif", serif; font-size: 2.3rem; font-size: 2.8rem; }
+
+.heroBanner-body .heroBanner--grouped_buttons { text-align: center; text-align: left; }
+
+.heroBanner-body .heroBanner--grouped_buttons div { display: inline-block; }
+
+.heroBanner-body .heroBanner--grouped_buttons .btn { border-width: 0; display: inline-block; font-size: 2rem; min-width: 300px; margin-bottom: 20px; height: auto; padding: 15px 8px 12px; }
+
+.heroBanner-body .heroBanner--grouped_buttons > div:first-child .btn { margin-right: 30px; }
+
+.heroBanner-image.homepage .field-name-field-hero-image { margin: 0 auto; position: relative; }
+
+@media (min-width: 1200px) { .heroBanner-image.homepage .field-name-field-hero-image { right: -150px; } }
+
+.heroBanner-image.homepage img { max-width: 100%; height: auto; width: 414px; margin: 0 auto; display: block; }
+
+.heroBanner-image:not(.homepage) { text-align: center; }
+
+.heroBanner-image:not(.homepage) img { height: auto; }
+
+.historyBanner { background-blend-mode: overlay; background-image: url("/assets/img/history-hero3.png"); background-repeat: no-repeat; background-size: cover; background-position-y: top; background-color: #444; color: #fff; min-height: 500px; padding-top: 90px; padding-bottom: 50px; }
+
+.historyBanner h3 { font-family: "catamaranthin",Helvetica,Arial,sans-serif; font-weight: normal; font-size: 30px; line-height: 2; }
+
+.historyBanner p { font-family: "catamaranthin",Helvetica,Arial,sans-serif; font-weight: normal; font-size: 48px; }
+
+@media (max-width: 1199.98px) { .historyBanner h3 { font-size: 2.3rem; line-height: 2; } }
+
+@media (min-width: 1200px) { .historyBanner { padding-top: 183px; padding-bottom: 132px; } }
+
+.historyBanner-body { padding-bottom: 40px; max-width: 850px; }
 
 .engageSection { background-color: #00415a; color: #ffffff; }
 
