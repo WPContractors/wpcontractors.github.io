@@ -3,45 +3,62 @@ architect:
   title: "Hire your next star architect to scale your business."
   image: "/assets/img/contractors/architect.png"
   profiles:
-    - U012DHF0TA9
-    - U012F4J8UBD
+    - U012DH9D68M
+    - U012R0VQH1U
     - UNDJ7V22Y
     - U012ESWV9LJ
-    - U012THLT1KK
+    - U012DHF0TA9
+    - U012F4J8UBD
     - U0133DNCLNM
+    - U013994ENLB
+    - U012THLRQL9
 art_director:
   title: "Hire your next star art director to scale your business."
   image: "/assets/img/contractors/art_director.png"
   profiles:
-    - U012NLYRH7H
-    - U0134S18C4R
-    - U012M45AEH2
-    - U0134P3GYJC
+    - U012074V5CP
+    - U012WB8KMGD
     - U012DH9D68M
-    - U0136457WF4
+    - U012R0VQH1U
     - U01399WSX54
+    - U013E5Y7M47
+    - U0136457WF4
+    - U0134P3GYJC
+    - U012M45AEH2
+    - U012ESWV9LJ
+    - U012NLYRH7H
+    - U013D172ZBK
 backend:
   title: "Hire your next star backend developer to scale your business."
   image: "/assets/img/contractors/backend.png"
   profiles:
     - U015HPUQ7K6
     - U015Z288332
+    - U012074TY87
     - U0134P3N9NC
     - U01399WSX54
+    - U013YK5RQRK
+    - UMKL2SY00
     - U012ETS5N02
+    - UTL3AG7J7
 frontend:
   title: "Hire your next star frontend developer to scale your business."
   image: "/assets/img/contractors/frontend.png"
   profiles:
-    - U012TGS3DNV
+    - U015Z288332
     - U012ETS5N02
     - U0134P3N9NC
     - U012EUCP47L
-    - U014UCSP5EH
+    - U012066M03Z
     - U01399WSX54
-    - U01803D5RC7
-    - U015Z288332
+    - U01399WSX54
     - U015HPUQ7K6
+    - U012074TY87
+    - U012DH9D68M
+    - U012074V5CP
+    - U013YK5RQRK
+    - UMKL2SY00
+    - UTL3AG7J7
 full_stack:
   title: "Hire your next star full-stack developer to scale your business."
   image: "/assets/img/contractors/full_stack.png"
@@ -50,63 +67,83 @@ full_stack:
     - U015HPUQ7K6
     - U012ETS5N02
     - U01399WSX54
-    - U012WB8L9CM
-    - U01803D5RC7
-    - U012WBB0ZSB
+    - U014UCSP5EH
+    - U01399WSX54
+    - U0134P3N9NC
+    - U012WB8KMGD
+    - U012EUCP47L
+    - UMKL2SY00
+    - UTL3AG7J7
+    - U012ETS05LJ
 pm:
   title: "Hire your next star project manager to scale your business."
   image: "/assets/img/contractors/pm.png"
   profiles:
-    - U017GGVRCP2
-    - U016E3LADQF
-    - U0177R05BRP
-    - U018QHCG3J9
     - U018GEVHY30
+    - U012ETS5N02
     - U018AHATYVD
+    - U014UCSP5EH
+    - U0134PQCB4Y
+    - UM9MUEMPH
+    - U012R0VQH1U
+    - U017GGVRCP2
 qa_tester:
   title: "Hire your next star QA tester to scale your business."
   image: "/assets/img/contractors/qa_tester.png"
   profiles:
-    - U012DGL703X
+    - U012ETS5N02
     - U012M3AF4CC
+    - U0132511T3P
+    - U0134PQCB4Y
+    - U0134GHPSQG
+    - U0128771HSS
     - U012F4J8UBD
     - U012074UB8X
-    - U0128771HSS
     - UMKL2SY00
-    - U012N86MCJ1
+    - U012DGL703X
 sys_admin:
   title: "Hire your next star system administrator to scale your business."
   image: "/assets/img/contractors/sys_admin.png"
   profiles:
-    - U013DDGU741
-    - U013YK5RQRK
+    - U014BB241SA
     - U012THLRQL9
-    - U012074TY87
+    - U012QAY1R4N
     - U012M48RDNG
     - U0128771HSS
-    - U0132J9F162
-    - U012QAY1R4N
+    - U012DGL703X
+    - U0132J3H5RU
+    - U0137UK6KMK
+    - U013DDGU741
 ux_designer:
   title: "Hire your next star UX designer to scale your business."
   image: "/assets/img/contractors/ux_designer.png"
   profiles:
     - U012DH9D68M
-    - U0134S18C4R
-    - U013DQM68A1
-    - U01399WSX54
+    - U012WB8KMGD
+    - U012WB8KXHB
+    - U012M3AF4CC
     - U012066M03Z
-    - U012DH9DKFF
+    - U0134PQCB4Y
+    - UM9MUEMPH
     - U012074V5CP
+    - U012ZLGQNBB
+    - U0143EPPM5Y
+    - U012R0VQH1U
 visual_designer:
   title: "Hire your next star visual designer to scale your business."
   image: "/assets/img/contractors/visual_designer.png"
   profiles:
-    - U0120779R71
-    - U0155V4BJ95
-    - U012VCVU30C
-    - U0134S18C4R
-    - U013H3D6ENQ
+    - U012066M03Z
+    - U012074V5CP
+    - U0134PQCB4Y
+    - U01399WSX54
+    - UM9MUEMPH
+    - U012DH9D68M
     - U012WB8KMGD
+    - U012ZLGQNBB
+    - U01399WSX54
+    - U0143EPPM5Y
+    - U012R0VQH1U
 api:
   title: "Let's talk about what Creative Cloud can do for your business."
   image: "/assets/img/contractors/contractor_example.png"
