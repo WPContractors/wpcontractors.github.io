@@ -104,3 +104,10 @@ $('.js-contractorsMenuBtn').on('click', function() {
   $(this).toggleClass('is-open');
   $(this).siblings('ul').slideToggle();
 })
+
+// Add active class to menu item based on current url.
+$(".contractorsMenu a").each(function() {
+  if (this.href == window.location.href) {
+    $(this).addClass("active-sidebar-link");
+  }
+});
