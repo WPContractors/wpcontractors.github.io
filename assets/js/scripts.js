@@ -108,6 +108,6 @@ $('.js-contractorsMenuBtn').on('click', function() {
 // Add active class to menu item based on current url.
 $(".contractorsMenu a").each(function() {
   if (this.href == window.location.href) {
-    $(this).addClass("active-sidebar-link");
+    $(this).addClass("active");
   }
 });
