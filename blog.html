@@ -40,27 +40,26 @@ pagination:
     {% for post in paginator.posts %}
     {% assign author = site.data.authors[post.author] %}
     <a href="{{ post.url }}" class="blog-card col-xs-6 col-md-4">
-        <div class="blog-card__wrapper">
-          {% if post.image %}
-            <div class="blog-card__wrapper--image" style="background-image: url('{{ post.image }}'); background-size: cover;">
-            </div>
-          {% else %}
-            <div class="blog-card__wrapper--image" style="background-image: url('/img/blog-performance.jpg'); background-size: cover;">
-            </div>
-          {% endif %}
-          <div class="blog-card__bottom">
-            <h2>{{ post.title }}</h2>
-            <div class="blog-card__bottom--author">{{ author.name }}</div>
-            <div class="blog-card__bottom--date-categories">
-              <span class="blog-card__bottom--date">{{ post.date | date: "%b %d, %Y" }}</span>
-              <span class="blog-card__bottom--line">|</span>
-              <span class="blog-card__bottom--categories">{{ post.categories | first }}</span>
-            </div>
+      <div class="blog-card__wrapper">
+        {% if post.image %}
+          <div class="blog-card__wrapper--image" style="background-image: url('{{ post.image }}'); background-size: cover;">
+          </div>
+        {% else %}
+          <div class="blog-card__wrapper--image" style="background-image: url('/img/blog-performance.jpg'); background-size: cover;">
+          </div>
+        {% endif %}
+        <div class="blog-card__bottom">
+          <h2>{{ post.title }}</h2>
+          <div class="blog-card__bottom--author">{{ author.name }}</div>
+          <div class="blog-card__bottom--date-categories">
+            <span class="blog-card__bottom--date">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="blog-card__bottom--line">|</span>
+            <span class="blog-card__bottom--categories">{{ post.categories | first }}</span>
           </div>
         </div>
-      </a>
+      </div>
+    </a>
     {% endfor %}
-    </div>
     {% if paginator.total_pages > 1 %}
     <ul class="pager">
         {% if paginator.previous_page %}
