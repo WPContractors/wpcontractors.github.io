@@ -20,10 +20,11 @@ $bg-active-link: $grey--lightest;
     background: transparent;
     text-align: left;
     text-transform: uppercase;
-    padding: 0;
+    padding: 15px 0 15px 0;
+    display: none;
 
-    @include media-breakpoint-up(sm) {
-      display: none;
+    @include media-breakpoint-down(sm) {
+      display: inline-block !important;
     }
 
     &.is-open {
@@ -59,11 +60,16 @@ $bg-active-link: $grey--lightest;
     @include media-breakpoint-up(sm) {
       position: static;
       background: transparent;
-      display: flex !important;
     }
 
     @include media-breakpoint-up(lg) {
       flex-wrap: nowrap;
+      display: flex !important;
+    }
+
+    @include media-breakpoint-down(sm) {
+      background: $grey--darkest !important;
+      position: absolute;
     }
 
     li {
