@@ -3616,15 +3616,19 @@ h3.employer { text-align: center; }
 /** @file Contractors menu Located on the pages: contractors/* */
 .contractorsMenu { position: relative; background: #317ebc; }
 
-.contractorsMenu-btn { position: relative; width: 100%; border: 0; color: #ffffff; background: transparent; text-align: left; text-transform: uppercase; padding: 0; display: none; }
+.contractorsMenu-btn { position: relative; width: 100%; border: 0; color: #ffffff; background: transparent; text-align: left; text-transform: uppercase; padding: 15px 0 15px 0; display: none; }
+
+@media (max-width: 991.98px) { .contractorsMenu-btn { display: inline-block !important; } }
 
 .contractorsMenu-btn.is-open:before { transform: rotate(225deg) translateY(2px); right: 4px; }
 
 .contractorsMenu-btn:before { content: ''; position: absolute; top: 50%; right: 15px; transform: rotate(45deg) translateY(-15px); width: 15px; height: 15px; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff; }
 
-.contractorsMenu ul.menu { position: absolute; display: none; align-items: stretch; flex-wrap: wrap; width: 100%; z-index: 1; background: #333333; left: 0; position: static; background: transparent; display: flex !important; }
+.contractorsMenu ul.menu { position: absolute; display: none; align-items: stretch; flex-wrap: wrap; width: 100%; z-index: 1; background: #333333; left: 0; position: static; background: transparent; }
 
-@media (min-width: 1200px) { .contractorsMenu ul.menu { flex-wrap: nowrap; } }
+@media (min-width: 1200px) { .contractorsMenu ul.menu { flex-wrap: nowrap; display: flex !important; } }
+
+@media (max-width: 991.98px) { .contractorsMenu ul.menu { background: #333333 !important; position: absolute; } }
 
 .contractorsMenu ul.menu li { flex: 1 1 20%; text-align: center; margin: 0; }
 
@@ -3637,7 +3641,7 @@ h3.employer { text-align: center; }
 /** @file Contractors view Located on the pages: contractors/* */
 .contractorsView { padding-top: 60px; padding-bottom: 30px; }
 
-.contractorsHeader { background-color: #E6EDF5; }
+.contractorsHeader { background-color: #9fcced; }
 
 .contractorsHeader__left { display: flex; flex-direction: column; justify-content: center; padding-bottom: 4rem; padding-top: 4rem; }
 

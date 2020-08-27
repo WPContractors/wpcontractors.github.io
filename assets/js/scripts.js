@@ -98,3 +98,9 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     });
   });
 });
+
+// Open headers menu on contractors by role page.
+$('.js-contractorsMenuBtn').on('click', function() {
+  $(this).toggleClass('is-open');
+  $(this).siblings('ul').slideToggle();
+})
