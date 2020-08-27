@@ -10,9 +10,9 @@ class: "page-profile-main"
         <h1 class="text-left">{{ page._name }}</h1>
         <h2>{{ page.location }}</h2>
         <p style="clear:left">
-        {% for title in page.titles %}
-        {{ site.data.config.valueMap[title] }}{% if forloop.last != true %} | {% endif %}
-        {% endfor %}
+        {%- for title in page.titles -%}
+        {{ site.data.config.valueMap[title] }}{%- if forloop.last != true %} | {% endif -%}
+        {%- endfor -%}
         </p>
         <p>{{ page.wp_bio }}</p>
       </section>
