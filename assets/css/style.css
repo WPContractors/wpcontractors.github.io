@@ -3707,9 +3707,9 @@ h3.employer { text-align: center; }
 /** @file Contractor box Located on the pages: profile/* */
 .page-profile-main { background: #EDEDED; font-size: 18px; line-height: 26px; }
 
-.page-profile-main section h1, .page-profile-main section .block-title, .page-profile-main section .sectionLevels .pane-title, .sectionLevels .page-profile-main section .pane-title, .page-profile-main section h2, .page-profile-main section h3 { font-family: "poppinsregular",Helvetica,Arial,sans-serif; }
+.page-profile-main section h1, .page-profile-main section .block-title, .page-profile-main section .sectionLevels .pane-title, .sectionLevels .page-profile-main section .pane-title, .page-profile-main section h2, .page-profile-main section h3 { font-family: "poppinsregular",Helvetica,Arial,sans-serif; font-size: 24px; }
 
-.page-profile-main section h1, .page-profile-main section .block-title, .page-profile-main section .sectionLevels .pane-title, .sectionLevels .page-profile-main section .pane-title { font-size: 24px; margin-top: 10px; }
+.page-profile-main section h1, .page-profile-main section .block-title, .page-profile-main section .sectionLevels .pane-title, .sectionLevels .page-profile-main section .pane-title { margin-top: 10px; }
 
 .page-profile-main section h2 { font-size: 18px; margin-bottom: 1em; text-align: left; font-weight: normal; }
 
