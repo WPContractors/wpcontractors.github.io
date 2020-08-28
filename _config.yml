@@ -13,6 +13,9 @@ contractor_profiles_link: /
 twitter: wp_contractors
 linkedin: wpcontractors
 facebook: wpcontractors
+logo:
+  white: /assets/img/wp-logo-horiz-white.svg
+  black: /assets/img/wp-logo-horizontal-blk.svg
 
 collections:
   skills:
