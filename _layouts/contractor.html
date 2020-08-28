@@ -14,7 +14,7 @@ class: "page-profile-main"
         {{ site.data.config.valueMap[title] }}{%- if forloop.last != true %} | {% endif -%}
         {%- endfor -%}
         </p>
-        <p>{{ page.wp_bio }}</p>
+        <p>{{ page[site.bio] }}</p>
       </section>
       <section class="c-card c-card--inverted-outline tags--main">
         <h3>Skills</h3>
