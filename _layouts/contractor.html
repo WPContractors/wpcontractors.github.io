@@ -34,7 +34,8 @@ class: "page-profile-main"
       </section>
       <section class="c-card c-card--inverted-outline">
         <h3>Experience Level</h3>
-        <p>{{ site.data.config.valueMap[page.wp_experience] }}</p>
+        {% assign experience = page[site.experience] %}
+        <p>{{ site.data.config.valueMap[experience] }}</p>
       </section>
       <section class="c-card c-card--inverted-outline">
         <h3>Languages</h3>
