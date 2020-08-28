@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign author = site.data.authors[page.author] %}
-{% assign categories = site.categories | where: 'categories', page.categories %}
+{% assign category = page.categories | first %}
 
 {% if page.image %}
   <div class="blog-post__content--image">
@@ -13,10 +13,9 @@ layout: default
 
 <div class="container breadcrumb">
   <a href="/blog/">Blog</a>
-  {% if categories %}
-  {% assign breadcrumb = categories | first %}
+  {% if category %}
   <span class="breadcrumb--chevron">></span>
-  <a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a>
+  <a href="/blog/category/{{ category | trim | downcase | uri_escape }}/">{{ category }}</a>
   {% endif %}
 </div>
 
@@ -32,8 +31,8 @@ layout: default
     <div class="row">
       <div class="col-lg-8">
         <span class="post-categories--title">Category: </span>
-        {% for category in categories %}
-        <a href="{{ category.url }}">{{ category.title }}</a>
+        {% for category in page.categories %}
+        <a href="/blog/category/{{ category }}/">{{ category }}</a>
         {% unless forloop.last %}<span class="space-between">,</span>{% endunless %}
         {% endfor %}
       </div>
