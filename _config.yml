@@ -24,13 +24,15 @@ collections:
     permalink: /:collection/:name
 
 # Build settings
+remote_theme: "EsteemedIO/esteemed-theme@develop"
 markdown: kramdown
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-get-json
-  - jekyll-datapage-generator
   - jekyll-menus
   - jekyll-paginate-v2
+  - jekyll-datapage-generator
 
 jekyll_get_json:
   - data: profiles
