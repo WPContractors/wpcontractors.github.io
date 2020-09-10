@@ -10,6 +10,7 @@
     background: transparent;
     border-bottom: 0;
     margin-top: 10px;
+    z-index: 0000;
 
     &-body {
       &-left {
@@ -440,7 +441,6 @@ html body.admin-menu {
   height: 50px;
   width: 100%;
   background: $white;
-  border-bottom: 1px solid $grey;
   transition: background .3s;
   @media #{$large-up} {
     height: 50px;
@@ -452,89 +452,6 @@ html body.admin-menu {
     align-items: stretch;
     @media #{$large-up} {
       height: 50px;
-    }
-
-    .block-custom-search-blocks {
-      height: 34px;
-      position: relative;
-
-      form.search-form {
-        position: relative;
-        z-index: 1;
-      }
-
-      .left-arrow {
-        position: absolute;
-        width: 100%;
-
-        .button {
-          display: block;
-          height: 34px;
-          position: relative;
-          z-index: 2;
-          width: 30px;
-
-          // Search icon
-          .fa-search {
-            color: $newblue;
-            font-size: 20px;
-            left: 11px;
-            position: relative;
-            top: 8px;
-            right: 15px;
-          }
-
-          &:hover {
-            cursor: pointer;
-          }
-        }
-        .options {
-          background: $white;
-          border: 1px solid $grey-darker;
-          border-top: 0;
-          display: none;
-          margin-top: -1px;
-          position: relative;
-          z-index: 2;
-
-          span {
-            display: block;
-            font-size: 16px;
-            padding: 6px 10px 11px 10px;
-            transition: 0.3s;
-
-            &.active {
-              color: $blue--darkest;
-              font-weight: bold;
-            }
-
-            &:hover {
-              background: $blue--darkest;
-              color: $white;
-              cursor: pointer;
-            }
-          }
-        }
-      }
-
-      .form-item-custom-search-blocks-form-1 {
-        margin: 0 20px 0 0;
-
-        input {
-          font-size: 14px;
-          padding: 10px 10px 10px 40px;
-          height: 40px;
-          @media #{$xlarge-up} {
-            min-width: 340px;
-          }
-        }
-      }
-
-      .form-item-custom-search-paths {
-        display: none;
-        position: absolute;
-        width: 100%;
-      }
     }
 
     &-left {
@@ -563,29 +480,6 @@ html body.admin-menu {
           &--light {
             display: none;
             opacity: 0;
-          }
-        }
-        .block-search {
-          @media #{$large-up} {
-            flex: 0 0 180px;
-            margin: 0 10px;
-          }
-          @media #{$large-up} {
-            flex: 0 0 200px;
-            margin: $newblue--lightest2;
-          }
-          @media #{$xlarge-up} {
-            flex: 0 0 270px;
-            margin: 0 25px;
-          }
-          .form-inline {
-            .form-group {
-              display: block;
-            }
-            .form-control {
-              width: 100%;
-              display: block;
-            }
           }
         }
       }
@@ -623,7 +517,6 @@ html body.admin-menu {
               color: $blue--darkest;
               text-decoration: none;
             }
-
             // Where are these icons from? Just hiding them from here.
             & .mbri-login:before,
             & .mbri-edit:before {
@@ -632,7 +525,6 @@ html body.admin-menu {
           }
         }
       }
-
       .right-two-button a
       {
         background: #000;
@@ -647,10 +539,7 @@ html body.admin-menu {
           color: #000;
           border: 2px solid #000;
         }
-
-
       }
-
       .right-button a{
         background: #fff;
         padding: 8px 40px;
