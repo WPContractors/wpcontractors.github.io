@@ -5,7 +5,7 @@
  * Located on the pages: All page
  */
 
-.page-homepage {
+ .page-homepage {
   .siteHeader {
     background: transparent;
     border-bottom: 0;
@@ -429,10 +429,7 @@ html body.admin-menu {
   }
 }
 
-
-
-
-//style for header (white)
+//Style for Global Header
 .global-header {
   position: absolute;
   top: 0;
@@ -603,7 +600,6 @@ html body.admin-menu {
       }
     }
   }
-
   .global-header-body-right-link--account {
     a {
       color: $white;
@@ -615,5 +611,5 @@ html body.admin-menu {
   }
 }
 .global-header-body .logo img {
-    width: 150px;
+  width: 150px;
 }

@@ -235,7 +235,6 @@
     padding: 20px;
   }
 }
-
 .is-openMenu {
   .mobileMenu {
     right: 0;
@@ -247,13 +246,11 @@
     }
   }
 }
-
 .block-system-user-menu-instance {
   @media #{$large-down} {
     display: none;
   }
 }
-
 .mobile-buttons{
   display: none;
   .right-button {
