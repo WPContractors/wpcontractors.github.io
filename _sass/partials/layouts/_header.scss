@@ -89,7 +89,7 @@
 //style for header (white)
 .siteHeader {
   position: absolute;
-  top: 74px;
+  top: 50px;
   right: 0;
   z-index: 99;
   height: 56px;
@@ -98,7 +98,7 @@
   border-bottom: 1px solid $grey;
   transition: background .3s;
   @media #{$large-up} {
-    height: 76px;
+    height: 60px;
   }
   &-body {
     height: 55px;
@@ -106,7 +106,7 @@
     justify-content: space-between;
     align-items: stretch;
     @media #{$large-up} {
-      height: 75px;
+      height: 50px;
     }
 
     .block-custom-search-blocks {
@@ -670,7 +670,7 @@ html body.admin-menu {
     }
   }
 
-  .hamburger {
+  .hamburger-top {
     display: block;
     @media #{$large-up} {
       display: none;
@@ -725,7 +725,6 @@ html body.admin-menu {
     }
   }
 }
-
 .global-header-body .logo img {
     width: 150px;
 }
