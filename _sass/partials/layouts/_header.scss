@@ -4,7 +4,6 @@
  *
  * Located on the pages: All page
  */
-
  .page-homepage {
   .siteHeader {
     background: transparent;
@@ -497,29 +496,8 @@ html body.admin-menu {
         @media #{$xlarge-up} {
           margin-left: 45px;
         }
-
-        &--scroll {
-          opacity: 0;
-          display: none;
-        }
         &--account {
           margin: 0 10px;
-          @media #{$large-up} {
-          }
-          a {
-            font-family: $fontFamily-regular;
-            color: $grey--darkest;
-            white-space: nowrap;
-            &:hover {
-              color: $blue--darkest;
-              text-decoration: none;
-            }
-            // Where are these icons from? Just hiding them from here.
-            & .mbri-login:before,
-            & .mbri-edit:before {
-              content: '';
-            }
-          }
         }
       }
       .right-two-button a
@@ -560,53 +538,6 @@ html body.admin-menu {
     display: block;
     @media #{$large-up} {
       display: none;
-    }
-  }
-}
-.global-header.dark,
-.dark-header .global-header {
-  background-color: $newblue--darkest;
-  border-bottom: none;
-
-  .siteMenu div > .menu > li > a,
-  .siteMenu div > .menu > li > span {
-    color: $grey--lightest;
-
-    &:hover {
-      color: $blue--light;
-    }
-  }
-
-  .siteMenu .user-menu {
-    .user-icon svg #user-icon {
-      fill: $grey--lightest;
-    }
-
-    &:hover {
-      .user-icon svg #user-icon {
-        fill: $blue--light;
-      }
-    }
-  }
-
-  .global-header-body-left {
-    > .region {
-      .logo--light {
-        display: block;
-        opacity: 1;
-      }
-      .logo--dark {
-        display: none;
-      }
-    }
-  }
-  .global-header-body-right-link--account {
-    a {
-      color: $white;
-
-      &:hover {
-        color: $blue--light;
-      }
     }
   }
 }

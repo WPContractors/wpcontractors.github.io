@@ -252,12 +252,11 @@
   }
 }
 .mobile-buttons{
-  display: none;
   .right-button {
     text-align: center;
     padding: 10px;
     border: 2px solid #000;
-    margin: 10px;
+    margin: 0px 10px;
     border-radius: 6px;
     a{
       color: #000;
@@ -277,8 +276,9 @@
 }
   .display-buttons{
     background: #fff;
-    padding: 5px;
     z-index: 9999999 !important;
     display: block;
+    .collapse{
+      padding:1px;
+    }
   }
-

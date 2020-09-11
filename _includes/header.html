@@ -28,14 +28,16 @@
             </div>
           </div>
         </div>
-        <button class="hamburger-top"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
       </div>
     </div>
-  </div>
-  <div class="mobile-buttons">
-    <div class="right-button"><a class="global-btn--white" href="http://esteemed.slack.com/">Log In</a></div>
-    <div class="right-two-button"><a class="global-btn--dark" href="#">Join Talent Network</a></div>
-  </div>
+</div>
+<div class="mobile-buttons display-buttons">
+ <button type="button" class="hamburger-top" data-toggle="collapse" data-target="#demo"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+ <div id="demo" class="collapse">
+   <div class="right-button"><a class="global-btn--white" href="http://esteemed.slack.com/">Log In</a></div>
+   <div class="right-two-button"><a class="global-btn--dark" href="#">Join Talent Network</a></div>
+ </div>
+</div>
 </header>
 <header id="header" class="siteHeader" role="header">
   <div class="container">
@@ -210,8 +212,3 @@
     </div>
   </div>
 </div>
-<script type="text/javascript">
-  jQuery(".hamburger-top").click(function(){
-  jQuery(".mobile-buttons").toggleClass("display-buttons");
-});
-</script>
