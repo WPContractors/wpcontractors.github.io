@@ -1,5 +1,5 @@
 <!--//--><![CDATA[//><!--
-(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-141057075-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-141057075-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
 //--><!]]>
 
 window.intercomSettings = {
@@ -80,7 +80,7 @@ function normalizeSlideHeights() {
     // set the height
     var maxHeight = Math.max.apply(null, items.map(function() {
       return $(this).outerHeight()})
-      .get()
+        .get()
     );
     items.css('min-height', maxHeight + 'px');
   })
@@ -99,8 +99,61 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
   });
 });
 
+$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+  var $subMenu = $(this).next('.dropdown-menu');
+  $subMenu.toggleClass('show');
+
+  if (!$(this).hasClass('open-caret')) {
+    $(this).addClass('open-caret');
+  }
+
+  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+    $('.dropdown-submenu .show').removeClass('show');
+    $(this).removeClass('open-caret');
+  });
+
+  if (!$(this).next().hasClass('show')) {
+    $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+    $(this).removeClass('open-caret');
+  }
+
+  return false;
+});
+
 // Open headers menu on contractors by role page.
 $('.js-contractorsMenuBtn').on('click', function() {
   $(this).toggleClass('is-open');
   $(this).siblings('ul').slideToggle();
 })
+
+var $mobileMenuHolder = $('.js-mobileMenuHolder'),
+    $mobileMenuClose = $('.js-closeMobileMenu'),
+    $hamburger = $('.js-hamburger'),
+    $body = $('body');
+
+$hamburger.on('click', function() {
+  $body.addClass('is-openMenu');
+  $mobileMenuHolder.show();
+});
+
+$mobileMenuHolder.on('click', function() {
+  $body.removeClass('is-openMenu');
+  $mobileMenuHolder.hide();
+});
+
+$mobileMenuClose.on('click', function() {
+  $body.removeClass('is-openMenu');
+  $mobileMenuHolder.hide();
+});
+
+$('.mobileMenu .js-firstLvlMobile > span').on('click', function() {
+  var $thisFirstLvl = $(this),
+      $thisParent = $thisFirstLvl.closest('.js-firstLvlMobile');
+  $thisParent.toggleClass('is-open');
+});
+
+$('.mobileMenu .js-secondLvl > span').on('click', function() {
+  var $thisFirstLvl = $(this),
+      $thisParent = $thisFirstLvl.closest('.js-secondLvl');
+  $thisParent.toggleClass('is-open');
+});
