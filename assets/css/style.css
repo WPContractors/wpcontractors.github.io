@@ -5046,7 +5046,7 @@ html body.admin-menu .scrollHeader { top: 29px; }
 
 @media (max-width: 1199.98px) { .navbar .navbar-collapse .navbar-nav li a { align-items: center; color: #000000; display: flex; font-weight: 700; justify-content: space-between; padding: 2rem; position: relative; text-transform: none; } }
 
-.navbar .navbar-collapse .navbar-nav li a .caret { position: absolute; top: 50%; right: 15px; margin-top: -5px; width: 10px; height: 10px; border: 0; border-right: 1px solid #999999; border-bottom: 1px solid #999999; transform: rotate(45deg); transition: all .3s; }
+.navbar .navbar-collapse .navbar-nav li a .caret { position: absolute; top: 50%; right: 15px; margin-top: -7px; width: 10px; height: 10px; border: 0; border-right: 1px solid #999999; border-bottom: 1px solid #999999; transform: rotate(45deg); transition: all .3s; }
 
 .navbar .navbar-collapse .navbar-nav li a[aria-expanded='true'] .caret, .navbar .navbar-collapse .navbar-nav li a.open-caret .caret { margin-top: -2px; transform: rotate(-135deg); }
 
