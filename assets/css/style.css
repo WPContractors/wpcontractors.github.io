@@ -4809,6 +4809,8 @@ ul.nav-tabs > li > a, ul.nav-tabs > li.active > a { color: #000000; font-family:
 
 @media (min-width: 576px) { .footerMenu h4:after { display: none; } }
 
+.footerMenu h4.opened:after { transform: rotate(225deg); }
+
 .footerMenu.is-open h4:after { transform: rotate(225deg); }
 
 .footerMenu .block__content { display: none; padding-top: 15px; }
@@ -5193,11 +5195,13 @@ h3.employer { text-align: center; }
 
 @media (min-width: 992px) { .categoryList .view-footer { padding-top: 65px; } }
 
-.categoryList-row { flex: 0 0 100%; padding: 5px; flex: 0 0 50%; }
+.categoryList-row { flex: 0 0 100%; padding: 5px; }
 
-@media (min-width: 576px) { .categoryList-row { flex: 0 0 33%; } }
+@media (min-width: 576px) { .categoryList-row { flex: 0 0 50%; } }
 
-@media (min-width: 992px) { .categoryList-row { flex: 0 0 25%; } }
+@media (min-width: 992px) { .categoryList-row { flex: 0 0 33%; } }
+
+@media (min-width: 1200px) { .categoryList-row { flex: 0 0 25%; } }
 
 .categoryList-row > div { height: 100%; }
 
@@ -5315,7 +5319,7 @@ h3.employer { text-align: center; }
 
 .engageSection .fieldable-panels-pane { padding: 65px 10px 60px; }
 
-@media (min-width: 576px) { .engageSection .fieldable-panels-pane { display: flex; flex-wrap: nowrap; padding: 130px 10px 115px; } }
+@media (min-width: 992px) { .engageSection .fieldable-panels-pane { display: flex; flex-wrap: nowrap; padding: 130px 10px 115px; } }
 
 .engageSection-copy { flex: 1.2; padding: 28px 20px 28px 0; }
 
@@ -5323,19 +5327,25 @@ h3.employer { text-align: center; }
 
 .engageSection-copy h3 { font-size: 16px; font-family: "poppinsregular", Helvetica, Arial, sans-serif; line-height: 1.45em; }
 
-.engageSection-options { background-color: #00719c; flex: 1.7; padding: 35px 30px; display: flex; flex-wrap: nowrap; }
+.engageSection-options { background-color: #00719c; flex: 1.7; padding: 35px 30px; }
+
+@media (min-width: 992px) { .engageSection-options { display: flex; flex-wrap: nowrap; } }
 
 .engageSection-options h3 { font-size: 23px; font-family: Georgia, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Bitstream Vera Serif", "Liberation Serif", serif; font-style: italic; margin-bottom: 5px; }
 
 .engageSection-options p { font-size: 14px; font-family: "poppinsregular", Helvetica, Arial, sans-serif; line-height: 1.8em; }
 
-.engageSection-option1 { flex: 0.8; padding-left: 10px; }
+.engageSection-option1 { flex: 0.8; }
 
-.engageSection-option2 { border-bottom: 3px solid #00b8ff; border-top: 3px solid #00b8ff; flex: 1; margin: 10px 0; padding: 10px 0; margin: 0 10px; padding: 0 10px; border-right: 3px solid #00b8ff; border-left: 3px solid #00b8ff; border-top: 0; border-bottom: 0; }
+@media (min-width: 992px) { .engageSection-option1 { padding-left: 10px; } }
 
-@media (min-width: 992px) { .engageSection-option2 { margin: 0 20px; padding: 0 20px; } }
+.engageSection-option2 { border-bottom: 3px solid #00b8ff; border-top: 3px solid #00b8ff; flex: 1; margin: 10px 0; padding: 10px 0; }
 
-@media (min-width: 1200px) { .engageSection-option2 { margin: 0 30px; padding: 0 30px; } }
+@media (min-width: 992px) { .engageSection-option2 { margin: 0 10px; padding: 0 10px; border-right: 3px solid #00b8ff; border-left: 3px solid #00b8ff; border-top: 0; border-bottom: 0; } }
+
+@media (min-width: 1200px) { .engageSection-option2 { margin: 0 20px; padding: 0 20px; } }
+
+@media (min-width: 1450px) { .engageSection-option2 { margin: 0 30px; padding: 0 30px; } }
 
 .engageSection-option3 { flex: 0.85; }
 
