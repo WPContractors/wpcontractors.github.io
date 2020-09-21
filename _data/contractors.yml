@@ -1,12 +1,26 @@
 ---
 main:
-  - UKBRBK1R9
-  - UL8N9QSLU
+    - 25966
+    - 25944
+    - 25952
+    - 25962
+    - 26034
+    - 26025
+    - 26044
+    - 25990
+    - 25997
+    - 25968
 architect:
   title: "Hire your next star architect to scale your business."
   image: "/assets/img/contractors/architect.png"
   profiles:
-    - U012R0VQH1U
+    - 25968
+    - 25981
+    - 26004
+    - 26010
+    - 26021
+    - 26050
+    - 26076
   description: |-
     What is a technical architect? And, on a related note, what is a solutions architect? A technical architect designs the technical road-map of a solution. They research, plan, and diagram the technical parts and pieces of a web application.
 
@@ -31,10 +45,13 @@ art_director:
   title: "Hire your next star art director to scale your business."
   image: "/assets/img/contractors/art_director.png"
   profiles:
-    - U012WB8KMGD
-    - U012DH9D68M
-    - U012R0VQH1U
-    - U01399WSX54
+    - 25966
+    - 25993
+    - 26004
+    - 26004
+    - 26029
+    - 26072
+    - 26087
   description: |-
     What is an art director and what does an art director do? An art director creates stand-out imagery for your brand. They head your creative projects, manage design teams, and get the internal stakeholders on board with campaigns. An art director is also responsible for guiding audiences through ideas, creating layouts, reviewing and approving designs, and communicating with clients. As you search for a great art director, look for someone with the following traits:
     ### They can communicate their design knowledge
@@ -55,15 +72,13 @@ backend:
   title: "Hire your next star backend developer to scale your business."
   image: "/assets/img/contractors/backend.png"
   profiles:
-    - U015HPUQ7K6
-    - U015Z288332
-    - U012074TY87
-    - U0134P3N9NC
-    - U01399WSX54
-    - U013YK5RQRK
-    - UMKL2SY00
-    - U012ETS5N02
-    - UTL3AG7J7
+    - 25944
+    - 25955
+    - 25956
+    - 25960
+    - 25962
+    - 25969
+    - 25972
   description: |-
     A back-end developer is responsible for scripting data, building, and coding/decoding a website. A WordPress back-end developer primarily works with PHP, one of the most popular languages used to power the web. All the formatting, fonts, headings, and colors of the page you’re currently reading are displaying on the front-end. The coding and decoding processes in the server have extracted this information from a database. Any action performed on the server, at the application layer that interacts with the database, usually MySQL in the case of WordPress is considered back-end development.
 
@@ -87,17 +102,13 @@ frontend:
   title: "Hire your next star frontend developer to scale your business."
   image: "/assets/img/contractors/frontend.png"
   profiles:
-    - U015Z288332
-    - U012ETS5N02
-    - U0134P3N9NC
-    - U012066M03Z
-    - U01399WSX54
-    - U015HPUQ7K6
-    - U012DH9D68M
-    - U012074V5CP
-    - U013YK5RQRK
-    - UMKL2SY00
-    - UTL3AG7J7
+    - 25944
+    - 25951
+    - 25952
+    - 25955
+    - 25956
+    - 25958
+    - 25959
   description: |-
     Front-end developers are responsible for what’s known as "the presentation layer" of a website. They deal with the look and feel of all layout, text, icons, images, and color schemes. A wide range of skills are needed to perform as a top Front-end Developer, involving both technical and creative abilities.
 
@@ -124,13 +135,13 @@ full_stack:
   title: "Hire your next star full-stack developer to scale your business."
   image: "/assets/img/contractors/full_stack.png"
   profiles:
-    - U015HPUQ7K6
-    - U014UCSP5EH
-    - U012WB8KMGD
-    - U012EUCP47L
-    - UMKL2SY00
-    - UTL3AG7J7
-    - U012ETS05LJ
+    - 25944
+    - 25953
+    - 25955
+    - 25960
+    - 25962
+    - 25964
+    - 25968
   description: |-
     Software architecture models possess a client and a server. Client computers send requests to server computers, where servers receive the request and execute operations. A full-stack developer develops both the client and system server networks within the computer system. As more companies, content, and experiences migrate online, more full-stack developers are needed.
 
@@ -155,9 +166,13 @@ pm:
   title: "Hire your next star project manager to scale your business."
   image: "/assets/img/contractors/pm.png"
   profiles:
-    - U012ETS5N02
-    - U0134PQCB4Y
-    - U012R0VQH1U
+    - 25951
+    - 25952
+    - 25968
+    - 26000
+    - 26003
+    - 26021
+    - 26034
   description: |-
     What is project management? In tech, project management is the process of planning, organizing, staffing, and executing a software project. A good project manager wears four hats: overseer, communicator, leader, and facilitator.
 
@@ -182,9 +197,13 @@ qa_tester:
   title: "Hire your next star QA tester to scale your business."
   image: "/assets/img/contractors/qa_tester.png"
   profiles:
-    - U012ETS5N02
-    - U012M3AF4CC
-    - U0134PQCB4Y
+    - 25956
+    - 25965
+    - 25968
+    - 25985
+    - 26025
+    - 26034
+    - 26044
   description: |-
     QA testers help to eliminate errors across websites, software, or mobile applications. Successful software projects require skilled individuals who can quickly resolve issues.
 
@@ -208,7 +227,13 @@ sys_admin:
   title: "Hire your next star system administrator to scale your business."
   image: "/assets/img/contractors/sys_admin.png"
   profiles:
-    - U014BB241SA
+    - 25956
+    - 26007
+    - 26030
+    - 26044
+    - 26056
+    - 26057
+    - 26058
   description: |-
     System administrators safeguard your operating systems and business applications. They keep tabs on the reliability of one-to-many computer systems and maintain their integrity. As you look to hire a system administrator, look for someone with the following traits.
     ### They’re patient
@@ -231,16 +256,13 @@ ux_designer:
   title: "Hire your next star UX designer to scale your business."
   image: "/assets/img/contractors/ux_designer.png"
   profiles:
-    - U012DH9D68M
-    - U012WB8KMGD
-    - U012WB8KXHB
-    - U012M3AF4CC
-    - U012066M03Z
-    - U0134PQCB4Y
-    - U012074V5CP
-    - U012ZLGQNBB
-    - U0143EPPM5Y
-    - U012R0VQH1U
+    - 25964
+    - 25966
+    - 25988
+    - 25989
+    - 25990
+    - 25993
+    - 25995
   description: |-
     The average UX designer job description covers a lot of ground. But what does a UX designer do? And what is UX design? UX designers — known as user interface designers or user experience designers — support user behavior by leveraging a deep understanding of both your customers and product.
 
@@ -269,14 +291,13 @@ visual_designer:
   title: "Hire your next star visual designer to scale your business."
   image: "/assets/img/contractors/visual_designer.png"
   profiles:
-    - U012066M03Z
-    - U012074V5CP
-    - U01399WSX54
-    - U012DH9D68M
-    - U012ZLGQNBB
-    - U01399WSX54
-    - U0143EPPM5Y
-    - U012R0VQH1U
+    - 25964
+    - 25965
+    - 25966
+    - 25990
+    - 25992
+    - 25993
+    - 25997
   description: |-
     What is visual design? It's the use of graphics and other media to shape a brand’s digital and physical image. As you look to hire a visual designer, find people with these skills and traits.
     ### They have a trained eye
