@@ -5661,6 +5661,14 @@ h3.employer { text-align: center; }
 
 .contractorsContent { padding-bottom: 5rem; padding-top: 5rem; }
 
+.role-description { margin-left: auto; margin-right: auto; max-width: 770px; }
+
+.role-description h2, .role-description h3, .role-description h4 { text-align: left; }
+
+.role-description h2:not(:first-child), .role-description h3:not(:first-child), .role-description h4:not(:first-child) { margin-top: 5rem; }
+
+.role-description p { font-size: 2rem; line-height: 2.8rem; }
+
 .contact-form { background: #00719c; color: #ffffff; margin-top: 3rem; padding-top: 5rem; }
 
 .contact-form__header { margin-left: auto; margin-right: auto; }
