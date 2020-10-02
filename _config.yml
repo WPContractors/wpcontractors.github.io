@@ -70,7 +70,7 @@ page_gen:
     template: "contractor"
     name: "id"
     dir: "profile"
-  - data: "config.titles"
+  - data: "titles"
     template: "contractors"
     name: "key"
     dir: "contractors"
