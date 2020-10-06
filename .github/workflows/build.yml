@@ -1,0 +1,26 @@
+name: Esteemed Build
+on:
+  push:
+    branches: develop
+jobs:
+  jekyll:
+    name: Jekyll build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache gems
+        id: bundler-cache
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gems-
+      - uses: helaili/jekyll-action@2.0.4
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+        with:
+          target_branch: 'master'
+env:
+  PROFILES_ENDPOINT: ${{ secrets.PROFILES_ENDPOINT }}
+  JOBS_ENDPOINT: ${{ secrets.JOBS_ENDPOINT}}
+  CONFIG_ENDPOINT: ${{ secrets.CONFIG_ENDPOINT }}

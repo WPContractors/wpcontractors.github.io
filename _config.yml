@@ -36,11 +36,11 @@ plugins:
 
 jekyll_get_json:
   - data: profiles
-    json: $PROFILES_ENDPOINT
+    json: '/mock/profiles.json'
   - data: jobs
-    json: $JOBS_ENDPOINT
+    json: https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/jobs
   - data: config
-    json: $CONFIG_ENDPOINT
+    json: https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/config
 
 author_dir: "blog/author"
 author_title_prefix: "Blog - By "
