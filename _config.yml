@@ -94,6 +94,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: /img/meta/main.jpg
   -
     scope:
       type: "posts"
