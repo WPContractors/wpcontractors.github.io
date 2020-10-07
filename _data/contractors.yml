@@ -21,6 +21,7 @@ architect:
     - 26021
     - 26050
     - 26076
+  description_image: "/assets/img/role-based-photos/architect.png"
   description: |-
     What is a technical architect? And, on a related note, what is a solutions architect? A technical architect designs the technical road-map of a solution. They research, plan, and diagram the technical parts and pieces of a web application.
 
@@ -51,6 +52,7 @@ art_director:
     - 26029
     - 26072
     - 26087
+  description_image: "/assets/img/role-based-photos/art-director.png"
   description: |-
     What is an art director and what does an art director do? An art director creates stand-out imagery for your brand. They head your creative projects, manage design teams, and get the internal stakeholders on board with campaigns. An art director is also responsible for guiding audiences through ideas, creating layouts, reviewing and approving designs, and communicating with clients. As you search for a great art director, look for someone with the following traits:
     ### They can communicate their design knowledge
@@ -78,6 +80,7 @@ backend:
     - 25962
     - 25969
     - 25972
+  description_image: "/assets/img/role-based-photos/back-end-developer.png"
   description: |-
     A back-end developer is responsible for scripting data, building, and coding/decoding a website. A WordPress back-end developer primarily works with PHP, one of the most popular languages used to power the web. All the formatting, fonts, headings, and colors of the page you’re currently reading are displaying on the front-end. The coding and decoding processes in the server have extracted this information from a database. Any action performed on the server, at the application layer that interacts with the database, usually MySQL in the case of WordPress is considered back-end development.
 
@@ -108,6 +111,7 @@ frontend:
     - 25956
     - 25958
     - 25959
+  description_image: "/assets/img/role-based-photos/front-end-developer.png"
   description: |-
     Front-end developers are responsible for what’s known as "the presentation layer" of a website. They deal with the look and feel of all layout, text, icons, images, and color schemes. A wide range of skills are needed to perform as a top Front-end Developer, involving both technical and creative abilities.
 
@@ -141,6 +145,7 @@ full_stack:
     - 25962
     - 25964
     - 25968
+  description_image: "/assets/img/role-based-photos/full-stack-developer.png"
   description: |-
     Software architecture models possess a client and a server. Client computers send requests to server computers, where servers receive the request and execute operations. A full-stack developer develops both the client and system server networks within the computer system. As more companies, content, and experiences migrate online, more full-stack developers are needed.
 
@@ -172,6 +177,7 @@ pm:
     - 26003
     - 26021
     - 26034
+  description_image: "/assets/img/role-based-photos/project-manager.png"
   description: |-
     What is project management? In tech, project management is the process of planning, organizing, staffing, and executing a software project. A good project manager wears four hats: overseer, communicator, leader, and facilitator.
 
@@ -203,6 +209,7 @@ qa_tester:
     - 26025
     - 26034
     - 26044
+  description_image: "/assets/img/role-based-photos/qa-tester.png"
   description: |-
     QA testers help to eliminate errors across websites, software, or mobile applications. Successful software projects require skilled individuals who can quickly resolve issues.
 
@@ -233,6 +240,7 @@ sys_admin:
     - 26056
     - 26057
     - 26058
+  description_image: "/assets/img/role-based-photos/sysadmin.png"
   description: |-
     System administrators safeguard your operating systems and business applications. They keep tabs on the reliability of one-to-many computer systems and maintain their integrity. As you look to hire a system administrator, look for someone with the following traits.
     ### They’re patient
@@ -262,6 +270,7 @@ ux_designer:
     - 25990
     - 25993
     - 25995
+  description_image: "/assets/img/role-based-photos/ux-designer.png"
   description: |-
     The average UX designer job description covers a lot of ground. But what does a UX designer do? And what is UX design? UX designers — known as user interface designers or user experience designers — support user behavior by leveraging a deep understanding of both your customers and product.
 
@@ -297,6 +306,7 @@ visual_designer:
     - 25992
     - 25993
     - 25997
+  description_image: "/assets/img/role-based-photos/visual-designer.png"
   description: |-
     What is visual design? It's the use of graphics and other media to shape a brand’s digital and physical image. As you look to hire a visual designer, find people with these skills and traits.
     ### They have a trained eye
