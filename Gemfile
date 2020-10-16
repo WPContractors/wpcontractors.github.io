@@ -6,7 +6,7 @@ group :jekyll_plugins do
   gem "html-proofer"
   gem "jekyll-feed"
   gem "jekyll-get-json", git: "https://github.com/albertvolkman/jekyll-get-json"
-  gem "jekyll-datapage-generator", :git => "https://github.com/albertvolkman/jekyll-datapage_gen.git", :branch => "theme_layouts"
+  gem "jekyll-datapage-generator", :git => "https://github.com/avillafiorita/jekyll-datapage_gen.git", :branch => "master"
   gem "jekyll-menus"
   gem "jekyll-paginate-v2", :git => "https://github.com/albertvolkman/jekyll-paginate-v2.git", :branch => "theme_layouts"
   gem "jekyll-remote-theme", :git => "https://github.com/benbalter/jekyll-remote-theme.git", :branch => "master"
