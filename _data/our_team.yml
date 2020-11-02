@@ -6,7 +6,7 @@ slides:
       Our story begins with two software developers who met at their day jobs and discovered they had quite a bit in common.
 
       Chris McGrath and Albert Volkman founded WP Contractors to address their shared interest. Together with a team of ambitious go-getters, they build one of the world's largest WordPress talent networks
-    img: /assets/img/our-team/page/wp.png
+    img: /assets/img/our-team/page/ot01.jpg
     img_alt: "Image alt"
   - title: "We've built a WordPress talent network that suits contractors and employers alike"
     description: |-
@@ -15,13 +15,13 @@ slides:
       There simply weren't enough developers to fill open roles, and anyone good was already busy.
 
       The solution? A platform where advice support, tools, and people can come together.
-    img: /assets/img/our-team/page/ot02.png
+    img: /assets/img/our-team/page/ot02.jpg
   - title: "We're in it for the people"
     description: |-
       Our vision is built upon the idea that relationships matter. People matter. Networks matter.
 
       We strive to lower the rist of the hire by building a vast network of hight-quality, prescreened digital WordPress professionals available for whatever work you current team cna't handle.
-    img: /assets/img/our-team/page/ot03.png
+    img: /assets/img/our-team/page/ot03.jpg
 team_by_number:
   title: "Our company, by the numbers"
   btn_text: "Learn more"
