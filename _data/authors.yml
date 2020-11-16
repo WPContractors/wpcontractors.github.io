@@ -1,5 +1,36 @@
 ---
+casey-horgan:
+  name: Casey Horgan
+  profile_image: "/img/casey-horgan.jpg"
+  image_meta: "/img/casey-horgan-meta.png"
+  bio: Casey Horgan is an experienced editor, B2B content marketer, and wordsmith.
+    Her talents include SEO, content creation, marketing research, and graphic design.
+    When she's not writing, she studies primary source documents at the Accademia
+    di Merano's Ezra Pound Research Center in northern Italy.
 chris-mcgrath:
   name: Chris McGrath
+  profile_image:
+  image_meta:
   bio: 'Chris McGrath is a digital content marketer and WordPress developer, interested
-    in Vue.js, CraftCMS, and creating awesome web experiences. '
+    in Vue.js, CraftCMS, and creating awesome web experiences.'
+evan-farmer:
+  name: Evan Farmer
+  profile_image:
+  image_meta:
+  bio:
+kelton-reid:
+  name: Kelton Reid
+  profile_image: "/img/kelton-reid.jpg"
+  image_meta: "/img/kelton-reid-meta.png"
+  bio: Kelton Reid is an independent podcast producer, writer, mediaphile, and the
+    former VP of Multimedia Production for Copyblogger. Find out how great writers
+    keep the cursor moving on his podcast [The Writer Files](https://writerfiles.libsyn.com/),
+    and connect with Kelton on [Twitter](https://twitter.com/KeltonReid).
+m-shakaib-zafar:
+  name: M Shakaib Zafar
+  profile_image: "/img/m-shakaib-zafar.jpg"
+  image_meta: "/img/m-shakaib-zafar.jpg"
+  bio: M Shakaib Zafar is a Software Engineer at Programmers Force. He creates diverse
+    and attention-caching websites for a variety of clients. Having won the Young
+    Developer Award twice, his services have been solicited by companies including
+    Programmers Force (ISO Certified) and Gertrude Marketers
