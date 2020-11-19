@@ -16,7 +16,7 @@
 #
 # Available _config.yml settings :
 # - author_dir:          The subfolder to build author pages in (default is 'authors').
-# - author_title_suffix: The string used after the author name in the page title (default is
+# - author_title_prefix: The string used before the author name in the page title (default is
 #                          'Author: ').
 
 module Jekyll
@@ -40,18 +40,18 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'author_index.html')
       self.data['author']    = author
       # Set the title for this page.
-      title_suffix            = site.config['author_title_suffix'] || 'author: '
+      title_prefix             = site.config['author_title_prefix'] || 'author: '
+      #self.data['title']       = "#{title_prefix}#{author}"
       if site.data['authors'][author].nil?
         @full_name             = author
       else
         @full_name             = "#{site.data['authors'][author]['name']}"
       end
-      self.data['title']       = "#{@full_name}#{title_suffix}"
+      self.data['title']       = "#{title_prefix}#{@full_name}"
       # Set the meta-description for this page.
       meta_description_prefix  = site.config['author_meta_description_prefix'] || 'author: '
       self.data['description'] = site.data['authors'][author]['bio']
-      self.data['image'] = site.data['authors'][author]['image_meta']
-      self.data['profile_image'] = site.data['authors'][author]['profile_image']
+      self.data['image'] = site.data['authors'][author]['image']
     end
 
   end
