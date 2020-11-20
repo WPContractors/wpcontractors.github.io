@@ -4,22 +4,47 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: file
-  name: image
-  label: image
+  label: Title
+  config:
+    required: true
 - type: text
   name: description
-  label: description
+  label: Description
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: authorz
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: 
+      file: 
+      path: 
+  label: Author
+- type: file
+  name: image
+  label: Header Image
 - type: file
   name: thumbnail
-  label: thumbnail
-- type: text
-  name: color_overlay
-  label: color_overlay
-- type: text
-  name: author
-  label: author
-- type: list
-  name: categories
-  label: categories
+  label: Thumbnail Image
+- name: color_overlay
+  type: color
+  label: Color Overlay
+  config:
+    required: false
+    color_format: Hex
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
