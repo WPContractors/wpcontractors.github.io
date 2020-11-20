@@ -1,0 +1,25 @@
+---
+label: Posts
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: color_overlay
+  label: color_overlay
+- type: text
+  name: author
+  label: author
+- type: list
+  name: categories
+  label: categories
