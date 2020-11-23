@@ -15,10 +15,10 @@ One of the best (and easiest) ways to speed up your WordPress website is through
 
 First of all, you’ll probably want to install and run ShortPixel on your website, specifically if you don’t already have an image optimization plugin. ShortPixel is free to start using but there are certain limitations, as you’ll only get 100 free optimizations per month. They do offer various affordable monthly plans, one-time credit purchase options, and dedicated server options as well. And although the Enable Media Replace plugin is created by the ShortPixel development team, it will function just fine on its own.
 
-## Default Media File Replacement
+### Default Media File Replacement
 
-Replacing images and other media files in WordPress can be a tedious process, which is not always a problem if that isn’t something you have to do frequently. However, if you do find that you’re needing to swap out photos or update documents on your website on a regular basis, you’ll quickly notice that the default process for doing such tasks is somewhat complicated.  
-  
+Replacing images and other media files in WordPress can be a tedious process, which is not always a problem if that isn’t something you have to do frequently. However, if you do find that you’re needing to swap out photos or update documents on your website on a regular basis, you’ll quickly notice that the default process for doing such tasks is somewhat complicated.
+
 For instance, in order to simply replace an image that is already displayed on a page or post of your site, you’ll have to follow these steps:
 
 1. Access the image or document in the media library
@@ -30,7 +30,7 @@ For instance, in order to simply replace an image that is already displayed on a
 
 When switching out media files this way, it’s important to go through the steps in the order noted above, especially if you want to keep the same file name. If you decide to replace a media file with another one that has exactly the same name, and upload the new file before deleting the old file, then the new file name would automatically be appended with a “-1” placed at the end, so there are no conflicts when those files are served up.
 
-## Enable Media Replace to Change Files with Ease
+### Enable Media Replace to Change Files with Ease
 
 Regardless of whether or not you’re using the ShortPixel image optimization plugin, utilizing Enable Media Replace really couldn’t be more simple. Once it is installed and activated, it’s ready to use right away...all you need to do is go into your media library, select the item that you’d like to replace, and you’ll notice a new option on the “Attachment details” screen that says “Replace media.”
 
@@ -45,7 +45,7 @@ Before you finally upload the replacement file, there are a couple of other opti
 
 Finally, there are also three date options to choose from as well: Replace the date, keep the date, and set a custom date. These are pretty self explanatory, but just for the sake of clarity, replacing the date will change the original upload date to the date the new file was uploaded, keeping the date will leave the original upload date in place, and setting a custom date will allow you to set the upload date to any date of your choosing.
 
-## Considerations, Applications, and Conclusions
+### Considerations, Applications, and Conclusions
 
 Enable Media Replace allows you to seamlessly upload and replace any item in your media library without having to delete the file being replaced or even going to the page or post where the file is linked. This can be a real time saver for website owners who regularly update images or provide downloadable documents that need to be updated frequently.
 
