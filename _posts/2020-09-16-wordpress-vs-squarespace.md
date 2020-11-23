@@ -1,7 +1,8 @@
 ---
 title: WordPress vs. Squarespace
 image: "/img/under-construction-laptop.jpg"
-description: A place where community members can network and help one another
+description: 'How well do the two CMS offerings stand up against one another? Let''s
+  take a look. '
 thumbnail: "/uploads/webfactory-ltd-minfsrivuyg-unsplash.jpg"
 color_overlay: "#009480"
 author: evan-farmer
