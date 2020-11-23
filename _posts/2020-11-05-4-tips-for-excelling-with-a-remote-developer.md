@@ -2,13 +2,14 @@
 title: 4 Tips for Excelling with a Remote WordPress Developer
 image: "/img/wordpress-scramble.jpg"
 description: A place where community members can network and help one another
-thumbnail: "/img/wordpress-scramble.jpg"
+thumbnail: "/uploads/brooke-cagle-lccfi_26dia-unsplash-1.jpg"
 color_overlay: "#009480"
 author: chris-mcgrath
-categories:
-- Perspective
----
+categories: []
+date: 2020-11-30 09:00:00 +0000
+authorz: evan-farmer
 
+---
 Contracts are about relationships. Understanding how to form, nurture, and develop those relationships is imperative for agencies working with contractors and remote contract teams. As with any other relational exchange, contracting is a two-way street and both parties involved have to take some initiative to be prepared.
 
 ## Communication
