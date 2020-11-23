@@ -7,6 +7,7 @@ color_overlay: "#009480"
 author: evan-farmer
 categories: []
 date: 2020-11-30 11:00:00 +0000
+authorz: evan-farmer
 
 ---
 Agency owners, developers, and anyone who uses WordPress can benefit from a better understanding of how to use SEO plugins. These tools help improve search rankings and boost site traffic. When used properly, they can even increase conversions, and improve your overall marketing ROI.
