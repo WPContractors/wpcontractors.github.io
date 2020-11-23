@@ -12,7 +12,8 @@ authorz: evan-farmer
 ---
 Contracts are about relationships. Understanding how to form, nurture, and develop those relationships is imperative for agencies working with contractors and remote contract teams. As with any other relational exchange, contracting is a two-way street and both parties involved have to take some initiative to be prepared.
 
-## Communication
+### Communication
+
 First of all, everyone involved will need to communicate adequately. Being diligently communicative and responsive is the key factor in getting a project started, updated, and launched in a timely manner. The quicker each party involved can act to respond or answer questions about the project at hand, the more effectively everyone can move toward a successful outcome.
 
 For an agency that needs to hire an independent contractor, there are several important factors to keep in mind, before you even begin the search for the [right contractor for your project](/blog/2020/07/31/5-tips-for-hiring-the-right-wordpress-contractor/).
@@ -25,28 +26,36 @@ Once you've assessed these three necessary aspects of finding a reliable WordPre
 
 Now that we’ve established some ways in which agencies can set out to best utilize the expertise of the contractors they hire, let’s discuss some specific ways that these measures can be maintained throughout the entirety of your project.
 
-## Understanding Your Project Brief
+### Understanding Your Project Brief
+
 Preparation is key when it comes to being successful. Without thoughtful guidance and careful planning, “scope creep” can derail any well-intentioned project quickly. Therefore, you’ll want to be sure that everyone involved, especially your WordPress contractor, has a good understanding of the goals, deadlines, and budget outlined in your project brief.
 
 A project brief defines your goals and outcomes, sets deadlines and success criteria, and establishes the budget limitations of your project. It can help you speed up the development process and get to your end goal more quickly, and can also help avoid unnecessary back-and-forth discussions early on, so everyone can keep focus on the project at hand.
 
-## Preparing Your Brief
-### Budgeting
+### Preparing Your Brief
+
+#### Budgeting
+
 If you’re in the market for a WordPress contractor, you really can’t expect to get started without first establishing how much you’ll need to spend. Detailing your budget may require some research, though many contractors offer consultation to help determine the cost involved in more extensive projects in particular.
 
-### Goals and Outcomes
+#### Goals and Outcomes
+
 This is where you will define objectives that your developer should focus on, while also outlining the expectations you have for the end results. Spelling out specific goals with distinctly detailed outcomes will help ensure the whole process is much easier to manage, and thus more likely to be promptly completed.
 
-### Setting Deadlines for your WordPress Contractor
+#### Setting Deadlines for Your WordPress Contractor
+
 Having definite deadlines will help keep both you and your contractor accountable to perform tasks in a timely manner, as your team moves through each milestone along your project timeline. This will help you set realistic expectations to ensure that goals are achieved and your project is developed and delivered in a reasonable amount of time.
 
 ### Establishing Success Criteria for your WordPress Contractor
+
 To ensure that everyone involved in your project is on the same page when it comes to realizing its satisfactory achievement, you have to establish your success criteria. These can be defined as the objective and measurable end results that can be evaluated upon successful completion of the project, such as: increasing sales by 10 percent, expanding your brand awareness, or decreasing bounce rate and increasing conversions, to name a few.
 
 ### Being Considerate of Your WordPress Contractor’s Expertise
+
 While easily overlooked, it’s important to keep in mind your contractor's experience throughout the duration of your contract agreement. For one thing, experienced WordPress contractors are not only professionals when it comes to the work they do, but they also have many insights for agency owners. So, be sure not to use any language in your project brief that may assume the simplicity or time requirement of tasks to be performed. Your contractor should be well aware of the complexity and amount of time required to complete your project, and will quote accordingly.
 
-## Considerations for Contractors
+### Considerations for Contractors
+
 Any WordPress contractor looking to be hired by an agency should also keep all the above in mind when seeking out projects. Consider the fact that working under contract is first and foremost about establishing and maintaining relationships. Expect to be provided with a project brief that outlines the budget, goals, outcomes, deadlines, and success criteria, and stay mindful of these important elements of your contract agreement.
 
 Agencies and contractors alike can be more effective, efficient, and successful in their respective endeavors with just a little forethought and planning. If you want to get more tips or are looking for a contractor, [let us know](https://esteemed.io/get-a-quote/)!
