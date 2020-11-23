@@ -28,8 +28,8 @@ fields:
     options: []
     source:
       type: documents
-      section: 
-      file: 
+      section: data
+      file: _data/authors.yml
       path: 
   label: Author
 - type: file
