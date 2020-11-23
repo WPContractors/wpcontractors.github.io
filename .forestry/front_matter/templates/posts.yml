@@ -48,3 +48,5 @@ fields:
   type: tag_list
   default: []
   label: Categories
+pages:
+- _posts/media-replacement-with-enable-media-replace-by-shortpixel.md
