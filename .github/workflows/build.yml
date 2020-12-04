@@ -22,5 +22,4 @@ jobs:
           target_branch: 'master'
 env:
   PROFILES_ENDPOINT: ${{ secrets.PROFILES_ENDPOINT }}
-  JOBS_ENDPOINT: ${{ secrets.JOBS_ENDPOINT}}
   CONFIG_ENDPOINT: ${{ secrets.CONFIG_ENDPOINT }}

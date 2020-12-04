@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-datapage-generator", :git => "https://github.com/avillafiorita/jekyll-datapage_gen.git", :branch => "master"
   gem "jekyll-menus"
   gem "jekyll-paginate-v2", :git => "https://github.com/albertvolkman/jekyll-paginate-v2.git", :branch => "theme_layouts"
+  gem 'jekyll-redirect-from'
   gem "jekyll-remote-theme", :git => "https://github.com/benbalter/jekyll-remote-theme.git", :branch => "master"
 end
 
