@@ -1,9 +1,11 @@
 ---
 date: 2020-12-10 15:10:08 +0000
-authorz: ''
+authorz: matt-pritchard
 categories: []
 title: Level Up Your WordPress Game with WP-CLI
-description: ''
+description: Building and managing WordPress websites often require time-consuming
+  tasks. Did you know that everything within wp-admin can be completed faster with
+  one tool? WP CLI!
 image: "/uploads/wp-cli.png"
 thumbnail: "/uploads/wp-cli.png"
 color_overlay: ''
