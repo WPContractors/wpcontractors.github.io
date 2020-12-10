@@ -40,6 +40,9 @@ Add the flat **--allow-root** to your commands.
 With these commands, you can quickly generate nicely formatted tables that contain information such as status, update, and version of your plugins and themes.
 
     wp plugin list
+
+![](/uploads/pluginlist.png)
+
     wp theme list
 
 If working with a Multisite substitute, use the flag:
@@ -62,6 +65,8 @@ You can quickly disable plugins individually or all at once and easily change th
 
     wp theme activate twentytwenty
 
+![](/uploads/installandactivatetheme.png)
+
 What if you only have one theme installed and that's causing the errors? No worries, you can download any theme from the WordPress repository and activate, all in one simple command:
 
     wp theme install twentytwenty && wp theme activate twentytwenty
@@ -75,6 +80,8 @@ Updating and rolling back plugin/theme and core updates couldn't be any easier t
 1. **To update to the newest plugin, theme or core version:**
 
     wp core update
+
+![](/uploads/pluginupdate.png)
 
 2. **To force a downgrade:**
 
@@ -119,6 +126,8 @@ You can even update any option in the wp_options database table. Here are some e
 **Update site blog description.**
 
     wp option update blogdescription "My website description"
+
+![](/uploads/blogdescriptionupdate.png)
 
 ### Endless Possibilities with WP-CLI
 
