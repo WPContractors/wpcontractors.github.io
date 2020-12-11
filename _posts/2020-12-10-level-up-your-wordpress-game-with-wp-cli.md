@@ -6,7 +6,7 @@ title: Level Up Your WordPress Game with WP-CLI
 description: Building and managing WordPress websites often require time-consuming
   tasks. Did you know that everything within wp-admin can be completed faster with
   one tool? WP CLI!
-image: "/uploads/wp-cli.png"
+image: "/uploads/wpcli.png"
 thumbnail: "/uploads/wp-cli.png"
 color_overlay: ''
 
