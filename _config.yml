@@ -90,6 +90,7 @@ defaults:
     values:
       layout: "default"
       image: /img/meta/main.jpg
+      contact_form: true
   -
     scope:
       type: "posts"
