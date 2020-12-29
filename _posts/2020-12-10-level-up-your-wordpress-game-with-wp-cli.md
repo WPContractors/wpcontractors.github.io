@@ -1,6 +1,6 @@
 ---
-date: 2020-12-10 15:10:08 +0000
-authorz: matt-pritchard
+date: 2020-12-10T15:10:08.000+00:00
+authorz: jessica-devine
 categories: []
 title: Level Up Your WordPress Game with WP-CLI
 description: Building and managing WordPress websites often require time-consuming
