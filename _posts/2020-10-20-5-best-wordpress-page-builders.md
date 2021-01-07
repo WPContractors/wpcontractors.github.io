@@ -7,7 +7,7 @@ color_overlay: "#009480"
 author: evan-farmer
 categories: []
 date: 2020-11-23 07:00:00 +0000
-authorz: evan-farmer
+author: evan-farmer
 
 ---
 Options for customizing and editing your WordPress site are plentiful these days. Standard with every fresh WordPress install is the native block editor, Gutenberg. Gutenberg is effective for laying out some basic pages and drafting blog posts. However, when it comes to doing advanced customizations, a more robust page builder may be just what you're looking for.

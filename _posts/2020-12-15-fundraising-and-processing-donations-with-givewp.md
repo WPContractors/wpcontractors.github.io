@@ -1,6 +1,6 @@
 ---
 date: 2020-12-15 00:00:49 +0000
-authorz: evan-farmer
+author: evan-farmer
 categories: []
 title: Fundraising and Processing Donations with GiveWP
 description: GiveWP is a powerful fundraising, marketing, and donation processing

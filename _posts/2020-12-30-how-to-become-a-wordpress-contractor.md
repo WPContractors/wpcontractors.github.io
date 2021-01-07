@@ -1,6 +1,6 @@
 ---
 date: 2020-12-30 19:20:03 +0000
-authorz: jessica-devine
+author: jessica-devine
 categories: []
 title: How to Become a WordPress Contractor
 description: 'Learn more about WordPress developer Jessica Devine''s journey as a

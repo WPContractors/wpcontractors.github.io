@@ -1,6 +1,6 @@
 ---
 date: 2020-11-23 22:04:18 +0000
-authorz: evan-farmer
+author: evan-farmer
 categories: []
 title: Media Replacement with Enable Media Replace by ShortPixel
 description: Learn how to use the Enable Media Replace plugin, made by the developers

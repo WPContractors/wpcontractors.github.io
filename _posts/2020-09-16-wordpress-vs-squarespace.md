@@ -7,7 +7,7 @@ thumbnail: "/uploads/webfactory-ltd-minfsrivuyg-unsplash.jpg"
 color_overlay: "#009480"
 author: evan-farmer
 categories: []
-authorz: evan-farmer
+author: evan-farmer
 date: 2020-11-16 08:00:00 +0000
 
 ---

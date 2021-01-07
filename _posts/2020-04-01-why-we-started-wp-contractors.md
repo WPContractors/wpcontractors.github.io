@@ -7,7 +7,7 @@ color_overlay: "#009480"
 author: chris-mcgrath
 categories: []
 date: 2020-11-02 08:00:00 +0000
-authorz: chris-mcgrath
+author: chris-mcgrath
 
 ---
 The driver behind launching this platform is simple. Our success with Drupal Contractors founded in 2011 https://drupalcontractors.com, now at 300+ Drupal resources, has shown us that our approach in cultivating one-to-one relationships with engineers, architects, project managers and testing resources is working. In 2017, I partnered with long-time Drupal contributor [Albert Volkman](https://www.drupal.org/u/albert-volkman) as our CTO asking he focus on ensuring and increasing the quality of our workforce. Being engineers ourselves we felt it important to focus on learning what skills individuals have and what projects they are looking to connect with on what terms. While simultaneously building relationships with agencies and employers and learning as intimately as we can their needs we are reducing time to hire, increasing retention and project success rate for our clients and connecting our workforce with interesting opportunities. In 2019 we formed Esteemed.io to be able to launch additional (product or category + contractors.com) properties our first being wpcontractors.com where we hope to leverage the experience we have gained in the Drupal community.

@@ -8,7 +8,7 @@ author: evan-farmer
 categories:
 - Perspective
 date: 2020-10-18 23:00:00 +0000
-authorz: evan-farmer
+author: evan-farmer
 
 ---
 Finding and hiring the right WordPress contractor doesn't have to be difficult. Let's explore five important things to consider as you search for the right fit.

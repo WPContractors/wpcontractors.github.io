@@ -7,7 +7,7 @@ color_overlay: "#009480"
 author: chris-mcgrath
 categories: []
 date: 2020-11-30 09:00:00 +0000
-authorz: evan-farmer
+author: evan-farmer
 
 ---
 Contracts are about relationships. Understanding how to form, nurture, and develop those relationships is imperative for agencies working with contractors and remote contract teams. As with any other relational exchange, contracting is a two-way street and both parties involved have to take some initiative to be prepared.

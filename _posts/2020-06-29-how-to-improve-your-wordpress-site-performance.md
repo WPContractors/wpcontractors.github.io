@@ -7,7 +7,7 @@ color_overlay: "#009480"
 author: m-shakaib-zafar
 categories: []
 date: 2020-11-09 08:00:00 +0000
-authorz: m-shakaib-zafar
+author: m-shakaib-zafar
 
 ---
 Boosting your website’s speed is the ultimate goal for any WordPress user. Ideally, your users can browse your website quickly and easily. But various factors can slow your WordPress site’s page-load time, including web hosting and SEO.

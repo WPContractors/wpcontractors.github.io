@@ -1,6 +1,6 @@
 ---
 date: 2020-12-07 17:28:04 +0000
-authorz: matt-pritchard
+author: matt-pritchard
 categories: []
 title: Using Query Monitor to Improve WordPress Pagespeed
 description: Want to learn how to use Query Monitor to improve your WordPress pages?
