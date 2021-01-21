@@ -6,8 +6,8 @@ title: 'WordPress Development Environments: Local vs. Desktop Server '
 description: There are many options available for local website development. Desktop
   Server and Local are two of the best tools made specifically for WordPress and you
   should try them both today.
-image: ''
-thumbnail: ''
+image: "/uploads/caspar-camille-rubin-0qvbnep1y04-unsplash-copy.jpg"
+thumbnail: "/uploads/caspar-camille-rubin-0qvbnep1y04-unsplash.jpg"
 color_overlay: ''
 
 ---
