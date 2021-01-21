@@ -13,7 +13,7 @@ color_overlay: ''
 ---
 In the world of web development, there are various tools that one can use for setting up a local virtual server. Some are more of an integrated development environment (IDE) for testing and building websites or other software projects, others are more specific to the task of creating a website locally.
 
-There are classic local server tools like [XAMMP](https://www.apachefriends.org/download.html) and [MAMP](https://www.mamp.info/en/) and some tools are more command-line-oriented, while others are web-based. However, they each provide a unique feature set that is often geared toward UX, in regard to both the skill level and common workflow patterns of their users. 
+There are classic local server tools like [XAMMP](https://www.apachefriends.org/download.html) and [MAMP](https://www.mamp.info/en/) and some tools are more command-line-oriented, while others are web-based. However, they each provide a unique feature set that is often geared toward UX, in regard to both the skill level and common workflow patterns of their users.
 
 ### **Benefits of Local WP Development**
 
@@ -67,5 +67,4 @@ Although Desktop Server has been around for much longer, and also has a substant
 
 With all the great features included with the Local app, its extensibility with add-ons, and advanced syncing capabilities, Local is a great choice for all your website development, deployment, and ongoing site maintenance needs!
 
-  
- ****
+Agencies and contractors alike can be more effective, efficient, and successful in their respective endeavors with just a little forethought and planning. If you want to get more tips or are looking for a contractor, [let us know](https://esteemed.io/get-a-quote/)!
