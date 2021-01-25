@@ -49,6 +49,7 @@ fields:
   default: []
   label: Categories
 pages:
+- _posts/11-best-plugins-for-wordpress-performance.md
 - _posts/2020-11-23-media-replacement-with-enable-media-replace-by-shortpixel.md
 - _posts/2020-12-10-level-up-your-wordpress-game-with-wp-cli.md
 - _posts/2021-01-21-wordpress-development-environments-local-vs.desktop-server.md
