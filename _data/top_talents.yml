@@ -1,0 +1,27 @@
+- id: architect
+  img: '/assets/img/professionals/person_1.jpg'
+  title: Architects
+- id: art_director
+  img: '/assets/img/professionals/person_2.jpg'
+  title: Art Directors
+- id: backend
+  img: '/assets/img/professionals/person_3.jpg'
+  title: Back-end Developers
+- id: frontend
+  img: '/assets/img/professionals/person_4.jpg'
+  title: Front-end Developers
+- id: full_stack
+  img: '/assets/img/professionals/person_5.jpg'
+  title: Full-Stack Developers
+- id: pm
+  img: '/assets/img/professionals/person_6.jpg'
+  title: Project Managers
+- id: sys_admin
+  img: '/assets/img/professionals/person_7.jpg'
+  title: System Administrators
+- id: ux_designer
+  img: '/assets/img/professionals/person_8.jpg'
+  title: UX Designers
+- id: visual_designer
+  img: '/assets/img/professionals/person_9.jpg'
+  title: Visual Designers
