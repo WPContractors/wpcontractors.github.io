@@ -18,6 +18,8 @@ google_analytics: UA-167435008-2
 logo:
   white: /assets/img/wp-logo-horiz-white.svg
   black: /assets/img/wp-logo-horizontal-blk.svg
+getting_started_img_1: /assets/img/hire_contractors_0.png
+getting_started_img_2: /assets/img/jobs_wp_new_3_0.png
 
 collections:
   skills:
