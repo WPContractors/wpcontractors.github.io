@@ -10,6 +10,16 @@ main:
     - 25990
     - 25997
     - 25968
+top:
+  - 25944
+  - 26029
+  - 25951
+  - 25956
+  - 25962
+  - 26057
+  - 25952
+  - 25985
+  - 25990
 architect:
   title: "Hire your next star architect to scale your business."
   image: "/assets/img/contractors/architect.png"
