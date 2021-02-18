@@ -20,6 +20,8 @@ logo:
   black: /assets/img/wp-logo-horizontal-blk.svg
 getting_started_img_1: /assets/img/hire_contractors_0.png
 getting_started_img_2: /assets/img/jobs_wp_new_3_0.png
+favicon: /assets/img/favicon.ico
+homepage_hero_img: /assets/img/polaroid.png
 
 collections:
   skills:
