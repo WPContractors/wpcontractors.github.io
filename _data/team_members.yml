@@ -1,60 +1,60 @@
 - name: Chris McGrath
-  img: "/assets/img/our-team/team/Chris McGrath.png"
-  img_alt: ""
+  img: /assets/img/our-team/team/Chris McGrath.png
+  img_alt: Chris McGrath
   title: CEO
 - name: Albert Volkman
-  img: /assets/img/our-team/team/Albert Volkman.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/Albert Volkman.jpg
+  img_alt: Albert Volkman
   title: CTO
 - name: Rob Schaust
-  img: /assets/img/our-team/team/Rob Schaust.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/Rob Schaust.jpg
+  img_alt: Rob Schaust
   title: Vice President
 - name: Matt Obert
-  img: /assets/img/our-team/team/matt-obert.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/matt-obert.jpg
+  img_alt: Matt Obert
   title: Director of Screening
 - name: Matthew Ellis Pritchard
-  img: /assets/img/our-team/team/Matthew Ellis Pritchard.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/Matthew Ellis Pritchard.jpg
+  img_alt: Matthew Ellis Pritchard
   title: Director of Marketing
 - name: Will Kirchheimer
-  img: /assets/img/our-team/team/will-kirchheimer.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/will-kirchheimer.jpg
+  img_alt: Will Kirchheimer
   title: Senior, Principal engineer
 - name: Julia Panchenko
-  img: /assets/img/our-team/team/Julia Panchenko.png"
-  img_alt: ""
+  img: /assets/img/our-team/team/Julia Panchenko.png
+  img_alt: Julia Panchenko
   title: Executive Assistant
 - name: Bianca Perez-Rubio
-  img: /assets/img/our-team/team/Bianca Perez-Rubio.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/Bianca Perez-Rubio.jpg
+  img_alt: Bianca Perez-Rubio
   title: Associate Business Manager
 - name: Trishia Cachila
-  img: /assets/img/our-team/team/trishia-cachila.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/trishia-cachila.jpg
+  img_alt: Trishia Cachila
   title: Operations Manager
 - name: Jenny Lam
-  img: /assets/img/our-team/team/Jenny Lam.png"
-  img_alt: ""
+  img: /assets/img/our-team/team/Jenny Lam.png
+  img_alt: Jenny Lam
   title: Social Media Coordinator
 - name: Josh Kendall
-  img: /assets/img/our-team/team/josh-kendall.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/josh-kendall.jpg
+  img_alt: Josh Kendall
   title: Front-end Developer
 - name: Alex Novak
-  img: /assets/img/our-team/team/Alex Novak.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/Alex Novak.jpg
+  img_alt: Alex Novak
   title: Back-end Developer
 - name: Patrick Lake
   img: /assets/img/our-team/team/patrick-lake.jpg
-  img_alt: ""
+  img_alt: Patrick Lake
   title: Full-stack developer
 - name: Kelton Reid
-  img: /assets/img/our-team/team/Kelton Reid.png"
-  img_alt: ""
+  img: /assets/img/our-team/team/Kelton Reid.png
+  img_alt: Kelton Reid
   title: Content Writer
 - name: Casey Horgan
-  img: /assets/img/our-team/team/Casey Horgan.jpg"
-  img_alt: ""
+  img: /assets/img/our-team/team/Casey Horgan.jpg
+  img_alt: Casey Horgan
   title: Web Content Creator
