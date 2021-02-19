@@ -25,7 +25,7 @@ slides:
 team_by_number:
   title: "Our company, by the numbers"
   btn_text: "Learn more"
-  btn_link: "/our-history"
+  btn_link: "/our-history/"
   numbers:
     - number: 08
       description: |-
