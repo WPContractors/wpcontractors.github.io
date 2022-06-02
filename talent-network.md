@@ -1,6 +1,6 @@
 ---
-title: Join the talent network
-permalink: /talent-network/
+title: Join the Esteemed Colleagues Community
+permalink: /join-colleagues/
 ---
 
 <!--[if lte IE 8]>
