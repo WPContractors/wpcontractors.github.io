@@ -15,6 +15,7 @@ twitter: wp_contractors
 linkedin: wpcontractors
 facebook: wpcontractors
 google_analytics: UA-167435008-2
+recaptcha_api_key: 6LcC3KAhAAAAAMSRHTEA2IdzlbNBRGiWBoGprcfc
 logo:
   white: /assets/img/wp-logo-horiz-white.svg
   black: /assets/img/wp-logo-horizontal-blk.svg
