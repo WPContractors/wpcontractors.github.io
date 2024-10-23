@@ -1,6 +1,6 @@
 ---
 title: Join the Esteemed Colleagues Community
-permalink: /join-colleagues/
+permalink: https://colleagues.esteemed.io/opportunities
 ---
 
 <!--[if lte IE 8]>
