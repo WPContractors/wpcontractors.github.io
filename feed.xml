@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://wpcontractors.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wpcontractors.github.io/" rel="alternate" type="text/html" /><updated>2024-10-23T22:37:20+00:00</updated><id>https://wpcontractors.github.io/feed.xml</id><title type="html">WP Contractors</title><subtitle></subtitle><entry><title type="html">Costs of Hosting a WordPress Site</title><link href="https://wpcontractors.github.io/blog/2021/02/17/costs-of-hosting-a-wordpress-site/" rel="alternate" type="text/html" title="Costs of Hosting a WordPress Site" /><published>2021-02-17T16:29:05+00:00</published><updated>2021-02-17T16:29:05+00:00</updated><id>https://wpcontractors.github.io/blog/2021/02/17/costs-of-hosting-a-wordpress-site</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2021/02/17/costs-of-hosting-a-wordpress-site/"><![CDATA[<p>There are many options these days, when it comes to hosting and maintaining a website. DIY site-builders like Squarespace and Wix are appealing for their affordable prices and ease-of-use. But they serve more as a “one-stop-shop,” lacking flexibility and having limitations.</p>
+
+<p>However, the extremely customizable nature of WordPress is beyond comparison. The ecosystem of themes, plugins, SaaS tools, and other support services is quite vast. But the hosting options available can be overwhelming, to say the least.</p>
+
+<p>The first things to consider when you’re ready to launch a website are where to host it and what top-level domain to purchase. Overall, hosting costs are going to vary, depending on the data storage and bandwidth needs of your site.</p>
+
+<p>First off, we’ll assume that you’re registering a new domain and setting up a WP site with a managed WP host, instead of opting for another platform. And for some perspective on why you might want to choose <a href="https://wpcontractors.com/blog/2020/11/16/wordpress-vs-squarespace/" target="_blank">WordPress vs. Squarespace, see here</a>.</p>
+
+<h3 id="initial-costs">Initial Costs</h3>
+
+<p>Every professional web service out there will have some introductory deals. However, if you look beyond the marketing, you’ll notice some companies are more cost-effective and consistent with their offerings. Typically, they’ll offer tiered plans to grab your attention and help you get started.</p>
+
+<p>That being said, sometimes it is worthwhile to take advantage of a great deal. You can always switch or upgrade after the introductory period. However, make sure you understand what you’re signing up for. Some require a lengthy contract, or have other stipulations. Even if the first year is inexpensive, regular pricing might be higher than other comparable services.</p>
+
+<p>Initially, you can expect to pay $10 - $20 per year when registering a new domain. And hosting can cost anywhere from $15 to upwards of $250 per month on average. That primary ongoing investment in your internet property is what you’ll pay to maintain your domain and web hosting services. That’s anywhere from $190 per year, up to as much as $3000 annually, for a more premium enterprise level set up.</p>
+
+<h3 id="buying-domains-and-wordpress-hosting">Buying Domains and WordPress Hosting</h3>
+
+<p>Many companies offer free or cheap domain registration and cheaper starting rates on hosting. This can make for a more economical start. However, the trade off is often found in the level of support, or fewer options with lower-tiered plans.</p>
+
+<p>Obviously, the biggest players will be front-and-center, since they have the advertising budgets for it. Some are really great, and some leave much to be desired. But the experience of most web hosting services often depends on just a couple of things: the amount of support needed, and the server resources required.</p>
+
+<p>If you’re adept at configuring server settings, working in cPanel, changing MX records, etc, you might be tempted to do all things. Perhaps you don’t need a lot of technical support from your domain registrar and/or web hosting service. Considering all the work involved though, you may want to offload those duties.</p>
+
+<h3 id="options-for-managed-wp-hosting">Options for Managed WP Hosting</h3>
+
+<p>Shared hosting is the cheapest option for serving up any basic site. Cloud-based hosting offers greater scalability. And a virtual private server or dedicated web server can be good choices as well. Though, to reduce the complexities, we’re just going to discuss managed WordPress hosting here.</p>
+
+<p>Even if you’re technically proficient with everything front and back end, configuring server settings and performing updates is time-consuming. So paying a little more for managed hosting will pay off in the long run. Especially since up time and security are critical to the profitability of your business.</p>
+
+<p>Ultimately, a good host could be the difference between launching a successful project and losing potential customers. If your server isn’t optimized for WordPress and ready to accommodate an influx of web traffic, you may experience slow load times and bandwidth restrictions. Or many visitors may encounter an inaccessible website right when up time is most important…never to return again!</p>
+
+<h3 id="best-managed-wp-hosts">Best Managed WP Hosts</h3>
+
+<p>Many would say that <a href="https://wpengine.com/plans-solutions/" target="_blank">WP Engine</a> is the best when it comes to managed WordPress hosting. Starting at $25 per month, their service runs on Google Cloud Platform and every plan includes a CDN. They also provide their proprietary <a href="https://wpengine.com/evercache/" target="_blank">Evercache</a> system for speed and scalability. If you never want to be concerned about troubleshooting or configuring server settings, WP Engine is the way to go.</p>
+
+<p><a href="https://www.bluehost.com/wordpress/managed-wordpress" target="_blank">Bluehost</a> is next in line, when it comes to the best of managed WP hosting services. And they’re a bit more economical as well. For a single site, you can get going for $15 per month. You also get twice as much storage, and their expert support is outstanding as well.</p>
+
+<p>If your goal is to grow a large ecommerce site or need a highly scalable enterprise solution, consider <a href="https://www.nexcess.net/wordpress/#pricing-link" target="_blank">Nexcess</a>. They offer tons of bandwidth with their hosting packages, starting at 2 TB with their entry level plan. Aside from their generous bandwidth allowances, they also offer auto-scalability. And they won’t even charge for the first 24 hours of a surge in traffic!</p>
+
+<h3 id="finding-the-right-fit">Finding the Right Fit</h3>
+
+<p>Depending on your immediate and long term needs, you’ll definitely want to consider the WP hosts noted above. As mentioned at the beginning of the article, it’s certainly possible to manage your own self-hosted website. Though it’s more time-consuming and can be both less scalable and more vulnerable to security threats as well.</p>
+
+<p>For the most dependable, scalable, and secure hosting environment for your site, <a href="" target="_blank">move to managed WordPress hosting</a>. Not only will your site be hosted on a server optimized for WordPress, but there are other benefits as well. Ultimately, it will provide peace of mind and more time to do the work you want to be doing on your site, for years to come.</p>]]></content><author><name>Evan Farmer</name></author><summary type="html"><![CDATA[Hosting a WordPress site doesn’t have to be complicated or expensive. Though the benefits of managed WordPress hosting are worth the slightly higher costs.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/stephen-phillips-hostreviews-co-uk-2kh-6t6x_0i-unsplash.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/stephen-phillips-hostreviews-co-uk-2kh-6t6x_0i-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">9 WordPress Defines You Need to Learn</title><link href="https://wpcontractors.github.io/blog/2021/02/01/9-wordpress-defines-you-need-to-learn/" rel="alternate" type="text/html" title="9 WordPress Defines You Need to Learn" /><published>2021-02-01T21:18:54+00:00</published><updated>2021-02-01T21:18:54+00:00</updated><id>https://wpcontractors.github.io/blog/2021/02/01/9-wordpress-defines-you-need-to-learn</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2021/02/01/9-wordpress-defines-you-need-to-learn/"><![CDATA[<p>As a WordPress Contractor, you probably know how powerful defines can be inside the wp-config.php file. In this guide, we are sharing nine WordPress defines we suspect you didn’t already know. Get your notebooks ready as we’re about to share some awesome tricks and tips.</p>
+
+<p><strong><em>Note: Place these defines in wp-config.php just above the line #.</em></strong></p>
+
+<h3 id="1-skip-themesplugins-in-core-upgrades"><strong>1. Skip themes/plugins in core upgrades</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true);
+</code></pre></div></div>
+
+<p>This define stops WordPress core updates from reinstalling unused, bundled themes (like twentytwenty) and plugins (like hello dolly).</p>
+
+<h3 id="2-control-core-update-types"><strong>2. Control core update types</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('WP_AUTO_UPDATE_CORE', 'minor');
+</code></pre></div></div>
+
+<p>The above define allows WordPress to perform minor updates ONLY (ie. 5.5.x -&gt; 5.6.x) but not major versions (ie. 5.9.x -&gt; 6.0.x). This is extremely useful as major updates are known to cause the most issue when updating WordPress. Whereas minor updates are less likely to cause any massive problem.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('AUTOMATIC_UPDATER_DISABLED', true);
+</code></pre></div></div>
+
+<p>Although, you can even disable all updates completely (if you needed to for some reason or another).</p>
+
+<h3 id="3-support-outbound-connections-through-a-proxy-server-amazing-for-intranet-sites"><strong>3. Support outbound connections through a proxy server (amazing for intranet sites)</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('WP_PROXY_HOST', '192.168.0.1');
+define('WP_PROXY_PORT', '8000');
+define('WP_PROXY_USERNAME', '');
+define('WP_PROXY_PASSWORD', '');
+define('WP_PROXY_BYPASS_HOSTS', 'localhost');
+</code></pre></div></div>
+
+<p>Make sure to leave <strong>WP_PROXY_USERNAME</strong> &amp; <strong>WP_PROXY_PASSWORD</strong> blank unless your network is using basic authentication. If it is, just fill in the user/password in the quotes.</p>
+
+<h3 id="4-use-a-variable-home-and-siteurl"><strong>4. Use a variable HOME and SITEURL</strong></h3>
+
+<p>You can override the database’s rigid HOME and SITEURL constant and allow the global host variable to be used instead:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define ('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
+define ('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
+</code></pre></div></div>
+
+<p>This handy trick allows for multiple domains to be used with the same WordPress instance. For example, you can pair the above with these next two to use another domain for your /wp-admin/ than your user-facing public site (more on this method here):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define ('COOKIE_DOMAIN', 'THING.YOURDOMAIN.COM');
+define ('WP_CONTENT_URL', "https://YOURDOMAIN.COM/wp-content");
+</code></pre></div></div>
+
+<p><strong>TIP</strong>: Using $_SERVER[‘HTTP_HOST’] may cause WP-CLI to throw errors when running commands because the variable is not set during its runtime. It looks like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PHP Notice: Undefined index: HTTP_HOST in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php...
+</code></pre></div></div>
+
+<p>Thankfully, it doesn’t actually break anything – it’s just irritating. You can solve it with a handy condition like this before the above defines (just make sure to change YOURDOMAIN.COM:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (defined('WP_CLI') &amp;&amp; WP_CLI) {
+$_SERVER['HTTP_HOST'] = $_SERVER['SERVER_NAME'] = 'YOURDOMAIN.COM'; }
+</code></pre></div></div>
+
+<h3 id="5-control-autosave-interval"><strong>5. Control autosave interval</strong></h3>
+
+<p>This define helps to prevent your database from getting bloated. As it sets the total number of allowed revisions per post/page. It also defines the interval at which posts/pages are snapshotted with the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('WP_POST_REVISIONS', 5);
+define('AUTOSAVE_INTERVAL', 300);
+</code></pre></div></div>
+
+<p>The AUTOSAVE_INTERVAL is set in seconds so 300 = 5 minutes.</p>
+
+<p>This trick can be particularly useful when handing a project over to a client, especially if they’re only updating content on the website and not too knowledgeable of WordPress core functions.</p>
+
+<h3 id="6-set-the-interval-to-automatically-empty-trash-in-days"><strong>6. Set the interval to automatically empty trash (in days)</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('EMPTY_TRASH_DAYS', 2);
+</code></pre></div></div>
+
+<p>Another fantastic define to automate the emptying of trash in WordPress, and prevent further database bloat.</p>
+
+<h3 id="7-compress-all-wordpress-scripts-into-one-request"><strong>7. Compress all WordPress scripts into one request</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('CONCATENATE_SCRIPTS', true);
+</code></pre></div></div>
+
+<p>This reduces the amount of requests made by WordPress by compressing and joining all scripts into one single bundle. Which can help support overall Website performance.</p>
+
+<h3 id="8-redirect-non-existent-pages-instead-of-404ing"><strong>8. Redirect non-existent pages instead of 404’ing</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('NOBLOGREDIRECT', 'https://YOURDOMAIN.COM/are-you-lost');
+</code></pre></div></div>
+
+<p>The above WordPress define is a great addition to the overall user experience and user interface. Rather than a boring 404 page, you can use a custom page to help the user get back on track.</p>
+
+<h3 id="9-set-an-interval-for-wordpress-mail"><strong>9. Set an interval for WordPress mail</strong></h3>
+
+<p>Finally, we close with some mail defines. The below will set the WP_MAIL_INTERVAL in sections. Note that 300 seconds is 5 minutes.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define('WP_MAIL_INTERVAL', 300);
+</code></pre></div></div>
+
+<p><strong>BONUS</strong>: List all loaded defines available on your site</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print_r(@get_defined_constants());
+</code></pre></div></div>
+
+<p>That’s it, pencils down! We bet you’ve learned something new today. Be sure to try out one of these new tricks as soon as you can!</p>]]></content><author><name>Jessica Devine</name></author><summary type="html"><![CDATA[As a WordPress Contractor, you probably know how powerful defines can be inside the wp-config.php file. In this guide, we are sharing nine WordPress defines we suspect you didn't already know.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/alex-bachor-fwst3ppoe-a-unsplash-1.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/alex-bachor-fwst3ppoe-a-unsplash-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">11 Best Plugins for WordPress Performance</title><link href="https://wpcontractors.github.io/blog/2021/01/25/11-best-plugins-for-wordpress-performance/" rel="alternate" type="text/html" title="11 Best Plugins for WordPress Performance" /><published>2021-01-25T22:19:44+00:00</published><updated>2021-01-25T22:19:44+00:00</updated><id>https://wpcontractors.github.io/blog/2021/01/25/11-best-plugins-for-wordpress-performance</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2021/01/25/11-best-plugins-for-wordpress-performance/"><![CDATA[<p>If your website lacks optimization, your audience might get frustrated with page load times. Users and customers have little patience for loading issues or errors.</p>
+
+<p>Google Analytics reports that the most popular queries for website optimization are related to speed and image compression. Entire companies, Quora threads, and blogs are dedicated to questions like: “Why is my website loading slowly?”; and, “How can I boost loading time?”</p>
+
+<p>On WordPress, many of these questions can be mitigated or resolved by installing or updating your WordPress plugins. This means you need to consider what type of plugins to use, and which ones will enhance your speed or performance.</p>
+
+<p>If you’re a beginner, you might not know about WordPress plugins. These handy tools can enhance your website by customizing it, adding special features, and maximizing performance.</p>
+
+<p>What do plugins do? WordPress performance plugins help with:</p>
+
+<ul>
+  <li>Easy set-up and dashboard for non-technical savvy people</li>
+  <li>Reducing HTTP requests and static CSS</li>
+  <li>Turning off the unnecessary running add-ins</li>
+  <li>Decreasing back-end load</li>
+  <li>User friendly and compatible</li>
+</ul>
+
+<h3 id="1-wp-rocket">1. WP Rocket</h3>
+
+<p>Don’t want to stress about web optimization? Since 2013, WP Rocket has been helping WordPress developers and users improve their performance. If you’re looking for all-in-one optimization, WP Rocket gives you full web optimization and improves your WordPress performance. Here are some of the features:</p>
+
+<ul>
+  <li>Easy-to-use instructions: WP Rocket is built with simplicity in mind. They care for their customers and know that web development can be a complicated task.</li>
+  <li>Cache<strong>:</strong> WP Rocket loads cache, reduces hit time, and loads the page faster.</li>
+  <li>CSS, Javascript, and HTML<strong>:</strong> WP Rocket compresses static CSS, Javascript, and HTML files to be readily available for web page development.</li>
+  <li>CloudFlare CDN: WP Rocket processes the CloudFlare CDN to get the cached content that improves the loading speed and reduces CPU usage on your web server.</li>
+</ul>
+
+<h3 id="2-perfmatters"><strong>2. Perfmatters</strong></h3>
+
+<p>A website with poor performance will turn away your potential audience. Sometimes even web plugins can slow down your site, due to cache issues. By incorporating Perfmatters into your WordPress site, you can manage these as well.</p>
+
+<p>Perfmatters “Quick-toggle options” can quickly help to:</p>
+
+<ul>
+  <li>Disable unnecessary scripts and assets you might not be using on your site, such as emojis, embeds, dashicons, etc.</li>
+  <li>Remove query strings from static resources to improve caching and fix warnings on speed tests.</li>
+  <li>Disable comments and URLs to reduce spam or stop people from trying to backlink.</li>
+  <li>And much more!</li>
+</ul>
+
+<h3 id="3-wp-smush"><strong>3. WP Smush</strong></h3>
+
+<p>WP Smush is an award-winning plugin geared toward image optimization and speed enhancement. Their proprietary technology can be custom configured to your specific site, meaning your website will stay fast!</p>
+
+<p>WP Smush optimizes your WordPress site by:</p>
+
+<ul>
+  <li>Compressing your website’s images, without affecting quality.</li>
+  <li>Making your image load in switch and flip of the load button.</li>
+  <li>Integrating with other installed plugins on your WordPress site</li>
+</ul>
+
+<h3 id="4-w3-total-cache"><strong>4. W3 Total Cache</strong></h3>
+
+<p>Every WordPress site possesses a cache — a system which brings visitors directly to the site but skips some steps in the loading process, saving time. However, you can boost the effectiveness of your WordPress site with W3 Total Cache. If you already have multiple plugins installed on your site, this is one of the best caching plugins!</p>
+
+<p>W3 Total Cache optimizes your WordPress site by:</p>
+
+<ul>
+  <li>Improving your site’s page ranking and aiding in your SEO performance</li>
+  <li>Boosting compatibility with mobile search engines</li>
+  <li>Increasing loading time by as much as 10x the original value</li>
+  <li>Reducing static CSS, HTML files, and JavaScript</li>
+</ul>
+
+<h3 id="5-wp-fastest-cache"><strong>5. WP Fastest Cache</strong></h3>
+
+<p>The plugin generates static sites that also boost page load times and improve search rankings. WP Fastest Cache offers to make your WordPress site run like a cheetah with the following feature</p>
+
+<ul>
+  <li>Uses MOD WRITE which is the fastest plugin method</li>
+  <li>Translates the computer language to human language and makes its features easy to use by admins</li>
+  <li>Provides SSL, CDN, and CloudFlare support</li>
+  <li>Not only packs in basic requirements for web optimization but also offers extra mobile and widget cache features, minify those zip files, CSS, and HTML plus files along with JS plus, database cleanup, image optimization, Google Font Async, and conversion of WebP</li>
+</ul>
+
+<h3 id="6-fast-velocity-minify"><strong>6. Fast Velocity Minify</strong></h3>
+
+<p>Fast Velocity Minify is complicated for beginners, including features that require technical knowledge. It is designed with developers and advanced-level admins in mind.</p>
+
+<p>Fast Velocity Minify is the upgraded version of WordPress plugins, which has WP Rocket’s features and WP Fastest Cache’s designations.</p>
+
+<p>The features of this Advanced Pro level plugin are:</p>
+
+<ul>
+  <li>Minification of CSS and JS files with PHP</li>
+  <li>Reduction of HTTP requests by merging CSS &amp; Javascript files into groups of files</li>
+  <li>Front-end request management</li>
+  <li>Google optimization, font inlining, merging and change</li>
+  <li>Page Speed Insights and enhancement</li>
+  <li>CDN support</li>
+  <li>WP-CLI Commands</li>
+</ul>
+
+<h3 id="7-all-in-one-wp-migration"><strong>7. All-in-One WP Migration</strong></h3>
+
+<p>All-in-One WP Migration can help you migrate your site to a new home or operating systems in a few clicks. It has awesome specs that offer to boost traffic up to 80%in a month.</p>
+
+<p>Some benefits include:</p>
+
+<ul>
+  <li>Not bound to specific hosts or operating systems</li>
+  <li>Export a site to any system.</li>
+  <li>Checks and optimizes web content and images.</li>
+  <li>Selects which files you want to export and which images should appear.</li>
+  <li>No required PHP extensions</li>
+  <li>Supports MYSQL and MYS</li>
+  <li>Provides quality assurance and a testing system</li>
+  <li>Import whatever you want and any kind of file</li>
+  <li>Extends <a href="https://wpcontractors.com/blog/2020/12/10/level-up-your-wordpress-game-with-wp-cli/">WP-CLI</a> integration</li>
+  <li>Supports Hosting, Cloud Storage and Multisite extensions</li>
+</ul>
+
+<h3 id="8-really-simple-ssl-plugin"><strong>8. Really Simple SSL Plugin</strong></h3>
+
+<p>Not certain where a potential threat may be? Start with your SSL. The Really Simple SSL plugin provides a suite of SSL-related solutions that can improve your WordPress site right away.</p>
+
+<p>Some benefits include:</p>
+
+<ul>
+  <li>Extra HTTPS security</li>
+  <li>Replacement for your knockdown SSL</li>
+  <li>Advanced security headers</li>
+  <li>Mixed content scanning</li>
+</ul>
+
+<h3 id="9-yoast-seo"><strong>9. Yoast SEO</strong></h3>
+
+<p>Yoast is a complete SEO service provider with an additional web-optimizing tool. SEO is one of the most important factors to consider when trying to get your content to rank in Google or other search engines. Yoast takes out considerable guesswork when optimizing your website for SEO.</p>
+
+<p>Some features include:</p>
+
+<ul>
+  <li>Indexing your website on major search engines.</li>
+  <li>Disseminating content to search engines</li>
+  <li>Creating titles that attract users</li>
+  <li>Providing meta-description templates</li>
+</ul>
+
+<h3 id="10-rank-math"><strong>10. Rank Math</strong></h3>
+
+<p>Created by WP Developers, WP Super Cache offers robust solutions to complex caching issues, like clearing and treating users’ web caches, preventing slow-downs.</p>
+
+<p>Want to bring consistent traffic to your website? Try Rank Math. It’s one of the leading free expert plugins for WordPress SEO.</p>
+
+<p>Some features include:</p>
+
+<ul>
+  <li>Sending breadcrumbs to search engines</li>
+  <li>Optimizing your content’s metadata</li>
+  <li>Simplifying social sharing</li>
+</ul>
+
+<h3 id="11-wp-super-cache"><strong>11. WP Super Cache</strong></h3>
+
+<p>Created by WP Developers, WP Super Cache offers robust solutions to complex caching issues like specific user’s web browsing cache which happens when the outdated page’s web files are saved for faster future loading.</p>
+
+<p>Some features include:</p>
+
+<ul>
+  <li>Zip up your gzip-compressed files</li>
+  <li>Modify page caches, pre-loading cache and advanced cache pre-load</li>
+  <li>CloudFlare and CDN support</li>
+</ul>
+
+<p>As a WordPress developer, the number of plugins to choose from can be overwhelming. It can be stressful researching the right one for your site. We hope this list is a good starting point for your development efforts, and if you need a hand, drop us a line! We’d be happy to find you the right people to get started knocking down those hurdles on your projects.</p>]]></content><author><name>M Shakaib Zafar</name></author><summary type="html"><![CDATA[Just getting started? Let’s talk WordPress plugins. This list of 11 plugins can boost your SEO, speed up your site, and maximize performance.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/stephen-phillips-hostreviews-co-uk-sspzml7fpwc-unsplash.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/stephen-phillips-hostreviews-co-uk-sspzml7fpwc-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">WordPress Development Environments: Local vs. Desktop Server</title><link href="https://wpcontractors.github.io/blog/2021/01/21/wordpress-development-environments-local-vs.desktop-server/" rel="alternate" type="text/html" title="WordPress Development Environments: Local vs. Desktop Server" /><published>2021-01-21T17:12:12+00:00</published><updated>2021-01-21T17:12:12+00:00</updated><id>https://wpcontractors.github.io/blog/2021/01/21/wordpress-development-environments-local-vs.desktop-server</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2021/01/21/wordpress-development-environments-local-vs.desktop-server/"><![CDATA[<p>In the world of web development, there are various tools that one can use for setting up a local virtual server. Some are more of an integrated development environment (IDE) for testing and building websites or other software projects, others are more specific to the task of creating a website locally.</p>
+
+<p>There are classic local server tools like <a href="https://www.apachefriends.org/download.html" target="_blank">XAMMP</a> and <a href="https://www.mamp.info/en/" target="_blank">MAMP</a> and some tools are more command-line-oriented, while others are web-based. However, they each provide a unique feature set that is often geared toward UX, in regard to both the skill level and common workflow patterns of their users.</p>
+
+<h3 id="benefits-of-local-wp-development"><strong>Benefits of Local WP Development</strong></h3>
+
+<p>Most consider it best practice to have a local copy of any production website available for testing and making changes. This helps reduce the risk of breaking the live site, while giving the developer a sandbox environment to test changes.</p>
+
+<p>It’s wise to make this practice a part of your approach, and iis an essential part of forming a productive and safe workflow as a developer. Fortunately, there are some great tools out there to help get a local development set up running in no time!</p>
+
+<p>Now, if you’re using <a href="https://wpcontractors.com/blog/2020/12/10/level-up-your-wordpress-game-with-wp-cli/" target="_blank">WP-CLI</a> in your daily workflow, you may not necessarily be a huge fan of these GUI oriented solutions for local development. With Local, in particular, you have to use their application to open the SSH container separately for each site, instead of directly executing commands in the working directory. However, the premium version of Desktop Server has a DS-CLI tool, giving you command line access to your projects, and WP-CLI is fully integrated.</p>
+
+<h3 id="wp-local-dev-solutions"><strong>WP Local Dev Solutions</strong></h3>
+
+<p>Now, let’s consider the two local dev tools mentioned already, Local and Desktop Server, which are specific to WordPress. Both of these pieces of software must be downloaded and installed on your machine and they each have a free and Pro version available.</p>
+
+<p>There are good reasons to consider them both, so let’s take a look at some of the pros and cons. We’ll explore the methods of deployment available, hosting options for production, and the unique features provided with both platforms.</p>
+
+<h3 id="desktop-server"><strong>Desktop Server</strong></h3>
+
+<p>The team at ServerPress launched Desktop Server about a decade ago so their product definitely has some longevity to it. The company brand and the software they maintain is reminiscent of Microsoft, but rest assured, they do offer support for both the latest Mac OS and Windows platforms. During installation, Desktop Server runs a wizard with simple instructions and some basic options for getting your virtual server up and running.</p>
+
+<p>Once it’s set up, creating a local dev site is fairly straightforward, and utilizes a similar wizard for the process. Just follow the prompts and provide the necessary information, such as your system password, when confirming administrative access for creating the virtual servers. More on the setup process can be found <a href="https://docs.serverpress.com/article/150-getting-started-with-desktopserver" target="_blank">here</a>.</p>
+
+<h3 id="desktop-server-limited--premium"><strong>Desktop Server Limited &amp; Premium</strong></h3>
+
+<p>When starting off with the free version of Desktop Server, you’re limited to just three sites at any one time. This means that once you’ve created those three sites, before you spin up another installation of WordPress and start developing a new site, you’ll have to delete one of the others first.</p>
+
+<p>However, you can still create as many sites as you want using Desktop Server Limited, but you can only manage three at a time. And once you’ve used the application enough to reach that limit, you should have a good idea of whether or not it’s worth it to <a href="https://serverpress.com/get-desktopserver/" target="_blank">pay $99 per year</a> to license the software.</p>
+
+<p>With Desktop Server Premium, you’ll have unlimited site creation and management capabilities. The paid service also gives you access to expedited support response, assisted deployment to any web host, localhost SSL support, and full seamless WP-CLI integration, just to name a few things.</p>
+
+<h3 id="looking-at-local"><strong>Looking at Local</strong></h3>
+
+<p>As a more recent local dev tool, Local has gone by a few different names in its comparably shorter lifespan. First, it went by Pressmatic, before being <a href="https://wptavern.com/flywheel-acquires-wordpress-local-development-tool-pressmatic" target="_blank">acquired by Flywheel</a>, and then it was known as Local by Flywheel for a time. After the Flywheel acquisition, the product was made free for all users, with some major perks for signing up to use the Pro version!</p>
+
+<p>These days, Flywheel has since been <a href="https://wpengine.com/blog/wp-engine-to-acquire-flywheel/" target="_blank">acquired by WP Engine</a> and there are some additional host specific features for those who deploy to Flywheel or WP Engine. Even on the free version, you can push and pull your sites to and from your server with <a href="https://localwp.com/connect/" target="_blank">Local Connect</a>, but currently you do still have to use Flywheel or WP Engine for hosting.</p>
+
+<p>Additionally, with the Pro version there’s also a feature called <a href="https://localwp.com/help-docs/local-pro/how-does-the-magic-sync-viewer-work-in-local-pro/" target="_blank">MagicSync</a> that “intelligently recommends which files to push or pull and gives you ultimate control over exactly which files should be synced to support your unique workflow.” Overall, Local Pro offers some seriously powerful tools for optimizing your workflow, no matter where your sites are hosted!</p>
+
+<h3 id="more-local-perks"><strong>More Local Perks</strong></h3>
+
+<p>Even though it does have a fancy, modern interface and has gone through many changes over its short lifespan thus far, Local is clearly quite accessible and very extensible for web dev novices and experts alike.</p>
+
+<p>This local development tool is just full of useful features including an Apache or Nginx web server, MailHog, SSL certificates, and XDebug support. There are also several <a href="https://localwp.com/add-ons/" target="_blank">great add-ons</a>, and Local allows for developers to <a href="https://localwp.com/get-involved/build/" target="_blank">build their own</a> as well, to further modify or extend its functionalities.</p>
+
+<p>Aside from all the great features included with Local, the main product is distributed for free, without limitations, and there’s also a very informative and active <a href="https://localwp.com/community/" target="_blank">community</a> where tons of knowledge and information can be gleaned!</p>
+
+<h3 id="finding-the-best-tool-for-the-job"><strong>Finding the Best Tool for the Job</strong></h3>
+
+<p>While Local Pro has a much steeper price tag than Desktop Server Premium ($20/month compared to $99/year), the free version of Local really has almost no limitations. Neither product has any huge barriers to entry and they are both certainly worth trying out.</p>
+
+<p>Although Desktop Server has been around for much longer, and also has a substantial user base and community built up around it, Local really seems to be the next up and coming local development platform. Whereas Desktop Server has more longevity and a substantial user base, it has fewer “bells and whistles,” and a more standard design.</p>
+
+<p>With all the great features included with the Local app, its extensibility with add-ons, and advanced syncing capabilities, Local is a great choice for all your website development, deployment, and ongoing site maintenance needs.</p>
+
+<p>Agencies and contractors alike can be more effective, efficient, and successful in their WordPress development with some forethought and planning. If you want to get more tips  on WordPress development or are looking for a contractor, <a href="https://esteemed.io/get-a-quote/" target="_blank">let us know</a>!</p>]]></content><author><name>Evan Farmer</name></author><summary type="html"><![CDATA[There are many options available for local website development. Desktop Server and Local are two of the best tools made specifically for WordPress and you should try them both today.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/caspar-camille-rubin-0qvbnep1y04-unsplash-copy.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/caspar-camille-rubin-0qvbnep1y04-unsplash-copy.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is it Time for WordPress Maintenance?</title><link href="https://wpcontractors.github.io/blog/2021/01/19/is-it-time-for-wordpress-maintenance/" rel="alternate" type="text/html" title="Is it Time for WordPress Maintenance?" /><published>2021-01-19T16:26:54+00:00</published><updated>2021-01-19T16:26:54+00:00</updated><id>https://wpcontractors.github.io/blog/2021/01/19/is-it-time-for-wordpress-maintenance</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2021/01/19/is-it-time-for-wordpress-maintenance/"><![CDATA[<p>WordPress is an open-source CMS with an enormous community of contributors who are working to improve the platform. That alongside over <strong><em>55,000 Plugins in the WordPress Repository</em></strong> means that regular updates are required to keep your WordPress site up to scratch.</p>
+
+<p>Without updates, your WordPress website could certainly appear to be working as normal without any concerns. Some might even think, <strong><em>why fix it if it’s not broken</em>?</strong> With that, let’s break down why WordPress Maintenance is critical.</p>
+
+<h3 id="security"><strong>Security</strong></h3>
+
+<p>First and foremost, security should be the primary reason why you keep your websites up to date. Even with the rigorous testing of teams involved with plugins/themes and contributing to WP core - Still, some bugs and security issues can raise their heads months later.</p>
+
+<p>If your website hasn’t been updated in over six months, it’s very likely a plugin or theme has a well-known security gap at that point. Hackers can deploy bots to crawl the web scanning for out of date WordPress websites. Once they hit those websites, they attack. <strong>They can steal your data, completely deface your site, and more.</strong></p>
+
+<h3 id="bug-free-wordpress-website"><strong>Bug-Free WordPress Website</strong></h3>
+
+<p>A huge benefit of keeping your WordPress site up to date is that it should keep it free from any bugs. You can rest easy knowing that it’s unlikely any “random” bugs will come to disturb your workday. And it keeps your WordPress site always using best practices within the industry.</p>
+
+<h3 id="faster-wordpress--new-features"><strong>Faster WordPress &amp; New Features</strong></h3>
+
+<p>WordPress core, plugin, and theme updates often come with cool new features and performance upgrades. The developers are not only adding security patches. They are also implementing new features as well as improving the performance and speed of their code.</p>
+
+<p>By keeping up with the changelogs, you can play around with these new features. For example, major <strong><em>WordPress Core updates always come with something new and shiny to use</em></strong>. As of WordPress 5.5, the CMS can now automatically update its plugins and themes. While this is awesome, there are some caveats in that, they might result in format or functions breaking on the website. In those cases a manual visual check of the site would be required soon after the auto update completes.</p>
+
+<p>With any website, speed is crucial. I’m sure you’ve all heard how page speed above 3 seconds can massively reduce your conversion rates. Well, this is where regular updates can help. Each update can potentially increase page speed, even by a minor amount. But those milliseconds <strong><em>really</em></strong> matter in the greater scheme of things.</p>
+
+<h3 id="wordpress-maintenance-best-practices"><strong>WordPress Maintenance Best Practices</strong></h3>
+
+<p>Before you start frantically updating your WordPress website, there are a few considerations to make.</p>
+
+<ul>
+  <li><em>Whose website are you updating, yours or a client?</em></li>
+  <li><em>Would maintenance mode or potential downtime result in loss of revenue?</em></li>
+  <li><em>Does your client have strict uptime SLAs?</em></li>
+  <li><em>Do you have backups?</em></li>
+</ul>
+
+<p>Most importantly, this all boils down to a few decisions that need to be made <strong><em>before</em></strong> starting any maintenance duties. You will decide whether you’ll be updating on the live server, or utilizing a sandbox/staging area to perform these updates.</p>
+
+<p>If it’s the case where you can update on the live server, then you should <strong><em>still identify the best time frame</em></strong> to do so. Usually, this is late at night or over the weekends. Whenever there is the <strong><em>least amount of traffic</em></strong> on the website. If the website is accepting payments or user data, <strong><em>maintenance mode</em></strong> should be enabled before you begin. This prevents any lingering users on the site from having a negative experience. You should also have a fresh backup to restore to in case of critical error.</p>
+
+<p>Otherwise, you’re going to want to either copy the site over to a staging environment or over to a local sandbox environment. In cases where uptime is vital to the success of the business, then all updates should be performed and well tested before deploying back over to the live server.</p>
+
+<p>Last but not least, when you find an issue. It’s likely the same problem could be affecting others in the WordPress community. Before you start hacking into the code, search for the same error or plugin update online. Someone else might have already provided the solution. Or find out if the plugin developer plans on releasing any patches for it. This small step can save you a lot of time and effort.</p>
+
+<p>WordPress Maintenance is essential when managing any sites built with this CMS. To keep your website performant, secured, and bug-free make sure to update often. Set some time away each month to make these necessary updates. You’ll thank yourself for it later.</p>
+
+<p>Need someone to give you a hand with your WordPress maintenance needs? We have over 250 WordPress experts in our network, pre-screened and vetted to save you extra time. Get in touch with us by filling out the form below!</p>]]></content><author><name>Jessica Devine</name></author><summary type="html"><![CDATA[WordPress Maintenance is essential when managing any sites built with this CMS. To keep your website performant, secured, and bug-free make sure to update often.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/pexels-ivan-samkov-4458554.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/pexels-ivan-samkov-4458554.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to Become a WordPress Contractor</title><link href="https://wpcontractors.github.io/blog/2020/12/30/how-to-become-a-wordpress-contractor/" rel="alternate" type="text/html" title="How to Become a WordPress Contractor" /><published>2020-12-30T19:20:03+00:00</published><updated>2020-12-30T19:20:03+00:00</updated><id>https://wpcontractors.github.io/blog/2020/12/30/how-to-become-a-wordpress-contractor</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2020/12/30/how-to-become-a-wordpress-contractor/"><![CDATA[<blockquote>
+  <p><em>After seven years of customer and technical support, Jessica Devine started her WordPress contracting career. With just one year of building WordPress websites behind her, she was able to leave behind her 9-5 and finally own her time and finances. Here’s her story.</em></p>
+</blockquote>
+
+<p>Ten years ago, I was introduced to tech after going straight into a web development degree. After two years of college, I found myself in some financial difficulties which led me to drop out. Leaving feeling defeated, I wasn’t confident to use my new skills but knew I would return at some point to finish my education. I worked in customer service for some time for an online retail company, eventually landing a tech support role for a WordPress hosting company. This reintroduction to tech is what gave me the fire to return to my studies.</p>
+
+<p>I picked up a one-year online boot camp in Full-Stack Software development. This diploma covered everything from HTML, CSS, and JavaScript to MySQL, Python, and Django Frameworks. After receiving my qualification, I decided that even though I could code websites from scratch, I would use WordPress as my preferred platform to develop on.</p>
+
+<p>After quickly picking up local clients and receiving excellent feedback, I realized I had the skills to become completely self-employed. The freedom of time, finance, and location as a freelance WordPress developer are some of the main reasons it suits my lifestyle.</p>
+
+<h3 id="what-is-wordpress"><strong>What is WordPress</strong></h3>
+
+<p>WordPress is a free and open-source platform to build websites. Technically speaking, it’s a Content Management System (CMS) built with PHP and MySQL and most often hosted within a LAMP stack. That being Linux, Apache, MySQL, and PHP.</p>
+
+<p>WordPress runs roughly 38%+ of <strong>all</strong> websites in existence. What started as a simple blogging platform in 2003 grew into being one of the most widely used Content Management Systems today.</p>
+
+<p>Beyond WordPress as a CMS, there is a massive following and community behind it. There are hundreds of thousands of WordPress developers all around the world who help contribute to the community. Whether it be helping out novice developers in WordPress forums or actually contributing code to WordPress core, everyone is involved.</p>
+
+<h3 id="why-wordpress"><strong>Why WordPress</strong></h3>
+
+<p>One of the reasons WordPress is so popular is that it can be completely free to use. New developers can typically start by downloading a local version of WordPress from <a href="http://wordpress.org">wordpress.org</a> and start developing instantly.</p>
+
+<p>WordPress is also versatile. Any website can be built with WordPress. From basic brochure-style websites to complicated e-commerce sites, the possibilities with WordPress are endless.</p>
+
+<p>Even without any coding skills, <em>anyone</em> can start building WordPress websites. The beauty of WordPress is that it allows users to install prebuilt plugins and themes to give their website its style and functionality. Some are free to use, others cost a premium.</p>
+
+<p>While the ease of entry allows new developers to try out the platform before ever making any commitment, successful developers should upskill in code to make tweaks to styling and functionality. Then, they should focus on eventually developing custom plugins and themes.</p>
+
+<p>From my own experience as a full-stack developer, I can produce high-quality, stunning websites much faster with WordPress than coding from scratch. My background in development and web hosting showed WordPress’ power. For this reason, I prefer to focus on the design and UX, using prebuilt solutions through WordPress. If a client needs a custom solution, I can always tweak something as needed.</p>
+
+<h3 id="whats-an-average-day-for-a-wordpress-contractor"><strong>What’s an average day for a WordPress Contractor?</strong></h3>
+
+<p>No single day is ever the same when working as a contractor. However, there are usually some common tasks and events which occur daily, especially when working with multiple clients and projects.</p>
+
+<p>First thing in the morning, I check my emails. I look for anything that requires immediate assistance, like any broken or hacked websites. In either case, I research the specific problem and check it against my other clients’ sites in case they are susceptible to the same kind of hack.</p>
+
+<p>Following that, I check for any plugins or theme updates across all of the websites I manage. For security, it’s best to keep everything up to date as often as you can. It’s not always possible though, some plugin/theme updates may clash with other code on the site causing the website to break after an update. Those cases require extra time to work out those issues in a sandbox environment.</p>
+
+<p>Once maintenance and updates are complete, I work on client projects. Any day I could be designing web pages and updating custom CSS. Or implementing functionality like eCommerce and booking systems, or testing vigorously before the website’s launch date. The daily work depends on each project and its respective milestones.</p>
+
+<p>Then before or after lunch, time is allocated for client meetings. As a freelancer, it’s important to sell your services with discovery calls. As well as update existing clients on progress, to pre-launch training with the client showing them how to use their shiny new website. <a href="https://esteemed.io/blog/2020/09/02/6-soft-skills-every-developer-needs-to-get-hired/">Using soft skills</a> and building customer rapport is nearly half the job of a freelance developer. It goes beyond just having technical skills.</p>
+
+<p>Finally, I like to leave some time in the day for continuous development, whether it be improving my skills or learning new ones. In tech, you never stop learning. It’s vital to stay up to date on trends and new technologies.</p>
+
+<p>Contract WordPress development requires a combination of skill sets to take full advantage of its opportunities. WordPress developers need to be technical, with a creative eye to build out beautiful websites. They also need to be social in a way they can easily converse with new and existing clients. They need to be learners as if every day is a school day. With these factors, you have yourself an expert WordPress developer.</p>]]></content><author><name>Jessica Devine</name></author><summary type="html"><![CDATA[Learn more about WordPress developer Jessica Devine's journey as a contract resource!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/wpdev1-1.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/wpdev1-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fundraising and Processing Donations with GiveWP</title><link href="https://wpcontractors.github.io/blog/2020/12/15/fundraising-and-processing-donations-with-givewp/" rel="alternate" type="text/html" title="Fundraising and Processing Donations with GiveWP" /><published>2020-12-15T00:00:49+00:00</published><updated>2020-12-15T00:00:49+00:00</updated><id>https://wpcontractors.github.io/blog/2020/12/15/fundraising-and-processing-donations-with-givewp</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2020/12/15/fundraising-and-processing-donations-with-givewp/"><![CDATA[<p>If you’re involved in fundraising for a non-profit, looking to crowdsource funds, are trying to gain sponsorships for a project, or need to collect donations for any purpose, <a href="https://givewp.com/">GiveWP</a> is a great tool for all the above!</p>
+
+<p>Even if you’ve missed your chance to take advantage of Giving Tuesday, there’s plenty of opportunity to make an appeal for some year-end giving from your supporters, fans, and friends. Whether you’re raising funds for a non-profit organization or a personal venture, this plugin is perfect for adding a donation form with a payment gateway to your WordPress site.</p>
+
+<h3 id="overview-of-the-givewp-plugin">Overview of the GiveWP Plugin</h3>
+
+<p>The core of GiveWP can be <a href="https://wordpress.org/plugins/give/">downloaded for free from WordPress.org</a> or from within the WP admin dashboard area where you typically add Plugins. This basic free version helps you create professional donation forms and accept payments via Stripe and PayPal Standard. You can also manage donors and view detailed reports regarding recent donations.</p>
+
+<p>There’s a <a href="https://givewp.com/addons/">plethora of add-ons</a> that can greatly extend the functionality of GiveWP, seven of which can be downloaded free of charge. Among the many premium add-on extensions, you can gain support for various other payment gateways, recurring donations, fee recovery, currency switching, custom fields and integrations for email marketing services.</p>
+
+<p>Premium add-ons can be purchased on an individual basis, but you’ll want to familiarize yourself with the basics before buying any, as GiveWP offers several <a href="https://givewp.com/pricing/">plans</a> that include many of these features. The highest tier plan includes them all, plus VIP support!</p>
+
+<h3 id="setting-up-givewp">Setting Up GiveWP</h3>
+
+<p>Once installed on your site, you’ll be taken through a step-by-step setup guide that will help you determine your cause, set your location, and choose features for your first donation form. When that is complete, the next step will be connecting your payment gateways.</p>
+
+<p>On the free version, just PayPal and Stripe are the default options for receiving payments, which you can start setting up through the setup guide interface. This can also be configured in Donations&gt;Settings within the WordPress admin dashboard.</p>
+
+<p>The set up guide provides the option of checking out the available add-ons, but we recommend you familiarize yourself with the other aspects of GiveWP before considering those.</p>
+
+<h3 id="creating-donation-forms">Creating Donation Forms</h3>
+
+<p>In the process of configuring GiveWP, you’ll be prompted to establish your first donation form. The guided setup interface walks you through the options, and helps you publish an initial form with a donation button and even gives you a preview of how it will appear on the frontend.</p>
+
+<p>To utilize donation forms, you simply copy and paste a shortcode into the Page or Post where you’d like it displayed. GiveWP automatically generates a shortcode for every form created, and displays a handy “Copy Shortcode” button in the Donations&gt;All Forms dashboard settings.</p>
+
+<p>There’s also two types of form designs you can choose from: Legacy and Multi-step. The Legacy form is more basic and easier to create, as you just select your donation button text and then confirm the style and options to be displayed. The Multi-Step form is the best option for those who want more control over their forms. For each step of the donation process, you can delineate the headline, description, color scheme, and buttons, among other things.</p>
+
+<p>Every aspect of the donation process can be changed to suit your needs. Define minimum and maximum donation amounts, make various suggested donation levels, and set a donation goal, so site visitors can see the current status of your fundraising initiative. The Form Fields category is where you set the default payment gateway, enable test donations, allow anonymous donations, and define registration requirements, if you’d like.</p>
+
+<h3 id="donations-donors-and-data">Donations, Donors, and Data</h3>
+
+<p>One of the more powerful aspects of the GiveWP plugin are the data collection and analyzation tools built in. Some fundraising solutions merely offer a payment processing gateway, leaving your donor information available only through their website or other application.</p>
+
+<p>By contrast, GiveWP builds a profile of all donors and donations processed on your site. The information is then stored in the database, using <a href="https://wordpress.org/support/article/post-types/">WordPress post types</a>, and GiveWP simply refers to this as the <a href="https://givewp.com/features/donor-database/">donor database</a>.</p>
+
+<p>This information is made available on the backend of your site, and for each donation, you can see who donated, how much they gave, the status of their payment, the date that the transaction occurred, and much more.</p>
+
+<p>This feature is quite useful, for various reasons. First of all, having a database of your donors not only helps you better understand who is contributing donations and why, but also provides many marketing opportunities.</p>
+
+<p>GiveWP integrates with popular email marketing services and can be connected to CRMs such as SalesForce, by using the <a href="https://givewp.com/addons/zapier/">Zapier add-on</a>. This can help you continue building relationships with your donors, keeping them updated with the latest news and encouraging them to donate again.</p>
+
+<h3 id="further-customizations-settings-and-tools">Further Customizations, Settings, and Tools</h3>
+
+<p>As was mentioned previously, GiveWP has quite a variety of both free and premium add-ons that can be used for extending functionality. We won’t go into great detail about those here, but GiveWP has categorized them on their <a href="https://givewp.com/addons/">Add-ons page</a> as Payment Gateways, Marketing, Tools, Accounting, and Must Have plugins, and you can find more information there.</p>
+
+<h4 id="give-wp-settings">Give WP Settings</h4>
+
+<p>Aside from the many add-ons that are available, the GiveWP plugin settings area has lots of configuration settings for forms, payments, emails, and other things, which you’ll want to get acquainted with first and foremost. Here, you can define your base country and state, select WordPress pages for the success, failed payment, and history pages, define currency settings, configure access control, enable reCAPTCHA and set the order sequence for donation IDs.</p>
+
+<p>In the next settings page, under the Payment Gateways tab, payment processors can be configured, enabled, or disabled and test donations can also be enabled to help you ensure everything gets set up correctly.</p>
+
+<p>Under the Default Options tab, you can enable and disable form fields, post types, taxonomies, and terms and conditions.</p>
+
+<h4 id="emails">Emails</h4>
+
+<p>The Emails tab is where you can customize the email messages that GiveWP sends out to donors and administrators whenever a donation is submitted, and here you can amend the subject, header and message for each of these. There are template tags available to help you personalise each one, and you can also add your name, logo and address information to every email that goes out, if you’d like.</p>
+
+<h4 id="license">License</h4>
+
+<p>The License tab is where licensing information for premium add-ons can be entered, which is necessary for receiving automatic plugin updates for those extensions.</p>
+
+<h4 id="advanced">Advanced</h4>
+
+<p>On the Advanced tab, various other settings are configured, like changing the default GiveWP style, removing all plugin data when you uninstall GiveWP, and changing the default user role for donors. In this area you can also clear the cache, disable scripts, disable the setup guide and define the form slug or page URL prefix.</p>
+
+<h4 id="tools">Tools</h4>
+
+<p>Finally, we have the Tools area, where you can export a CSV file of your project’s donation history or a PDF of donations and revenue. There you can also export a CSV of all donors or even export a JSON file of your GiveWP settings for importing into another WordPress installation. This is also where donation and settings can be imported, and you can generate new API keys, recalculate statistics and see error logs, system information and API requests, as well.</p>
+
+<p>Overall, GiveWP is a powerful fundraising and donation processing tool. For more potential use case scenarios, we encourage you to browse the <a href="https://givewp.com/blog/">GiveWP blog</a> for various marketing and fundraising ideas!</p>]]></content><author><name>Evan Farmer</name></author><summary type="html"><![CDATA[GiveWP is a powerful fundraising, marketing, and donation processing solution for non-profits, businesses, and individual WordPress site owners alike.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/markus-winkler-wlbvaf-kmr0-unsplash.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/markus-winkler-wlbvaf-kmr0-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Level Up Your WordPress Game with WP-CLI</title><link href="https://wpcontractors.github.io/blog/2020/12/10/level-up-your-wordpress-game-with-wp-cli/" rel="alternate" type="text/html" title="Level Up Your WordPress Game with WP-CLI" /><published>2020-12-10T15:10:08+00:00</published><updated>2020-12-10T15:10:08+00:00</updated><id>https://wpcontractors.github.io/blog/2020/12/10/level-up-your-wordpress-game-with-wp-cli</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2020/12/10/level-up-your-wordpress-game-with-wp-cli/"><![CDATA[<p>Building and managing WordPress websites often require time-consuming tasks. Did you know that everything within wp-admin can be completed faster with one tool? And did you know that in moments of fatal plugin and theme error, you can respond quickly to mitigate the situation? If this sounds like what you’ve been looking for, then buckle up and get ready to level up your WordPress game.</p>
+
+<h3 id="what-is-wp-cli"><strong>What is WP CLI?</strong></h3>
+
+<p>WP-CLI is a command-line interface, specifically designed for WordPress. With it, you can quickly toggle plugin status, easily version control your plugins, themes, and WordPress core files. You can even update options in the database and much, much more.</p>
+
+<p>Before we get into the grit of WP-CLI, let’s outline some preconditions needed to use this interface. Depending on where your WordPress site is hosted, you may or may not have direct access to this tool, as it requires <a href="https://en.wikipedia.org/wiki/SSH_(Secure_Shell)">SSH access</a>. If you’re self-hosted or working with WordPress locally, then feel free to move onto the next section. For those already hosted, check out your hosting providers’ support center–if that fails contact their support team to find out.</p>
+
+<p>If self-hosting with a provider like Digital Ocean, their default WordPress image comes with WP CLI automatically installed. If WP CLI is not already installed or you’re working locally, then check out these <a href="https://wp-cli.org/#installing">steps on how to install.</a></p>
+
+<h3 id="using-wp-cli"><strong>Using WP CLI</strong></h3>
+
+<p>Let’s start with the basics. Every WP CLI command follows the same pattern of use. More or less, the commands are formatted accordingly.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp thing dothething --extra-things
+</code></pre></div></div>
+
+<p>Now that you understand the syntax, let’s look at some of the amazing things you can do with WP-CLI.</p>
+
+<p><strong>Quick tip</strong>, if you run into this error:</p>
+
+<blockquote>
+  <p>Error: YIKES! It looks like you’re running this as root. You probably meant to run this as the user that your WordPress installation exists under.</p>
+</blockquote>
+
+<p>Add the flat <strong>–allow-root</strong> to your commands.</p>
+
+<h3 id="list-plugins--themes-for-wp-cli"><strong>List Plugins &amp; Themes for WP CLI</strong></h3>
+
+<p>With these commands, you can quickly generate nicely formatted tables that contain information such as status, update, and version of your plugins and themes.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp plugin list
+</code></pre></div></div>
+
+<p><img src="/uploads/pluginlist.png" alt="" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp theme list
+</code></pre></div></div>
+
+<p>If working with a Multisite substitute, use the flag:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp plugin list --url=blog.site.com
+</code></pre></div></div>
+
+<p>Sometimes when your website is experiencing errors from plugins or themes, it can prevent the CLI from displaying results. To bypass this, use the flags:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp theme list --skip-plugins --skip-themes
+</code></pre></div></div>
+
+<h3 id="break-fix-support"><strong>Break-Fix Support</strong></h3>
+
+<p>Has your client ever alerted you that their website is down, and all you see on the browser is a white screen or a site-wide 500 error? If so, then you <em>know</em> the panic that sets in. Without a wp-admin dashboard, how are you to access the site? This is where WP CLI shines.</p>
+
+<p>You can quickly disable plugins individually or all at once and easily change the theme.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp plugin deactivate bbpress
+
+wp plugin deactivate --all
+
+wp theme activate twentytwenty
+</code></pre></div></div>
+
+<p><img src="/uploads/installandactivatetheme.png" alt="" /></p>
+
+<p>What if you only have one theme installed and that’s causing the errors? No worries, you can download any theme from the WordPress repository and activate, all in one simple command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp theme install twentytwenty &amp;&amp; wp theme activate twentytwenty
+</code></pre></div></div>
+
+<p>Better yet, if you have <a href="https://wordpress.org/support/article/debugging-in-wordpress/">WordPress debugging</a> enabled you should hopefully have an error identifying the exact plugin or theme causing your issue.</p>
+
+<h3 id="version-control">Version Control</h3>
+
+<p>Updating and rolling back plugin/theme and core updates couldn’t be any easier than with WP CLI.</p>
+
+<ol>
+  <li>
+    <p><strong>To update to the newest plugin, theme or core version:</strong></p>
+
+    <p>wp core update</p>
+  </li>
+</ol>
+
+<p><img src="/uploads/pluginupdate.png" alt="" /></p>
+
+<ol>
+  <li>
+    <p><strong>To force a downgrade:</strong></p>
+
+    <p>wp core update –version=5.5.4 –force</p>
+  </li>
+  <li>
+    <p><strong>To downgrade/rollback a plugin or theme:</strong></p>
+
+    <p>wp plugin update woocommerce –version=4.7.1</p>
+  </li>
+</ol>
+
+<h3 id="database">Database</h3>
+
+<p>Quickly export, reset, and import databases:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp db export
+
+wp db reset
+
+wp db import yourfile.sql
+</code></pre></div></div>
+
+<p><strong>Run a search and replace:</strong></p>
+
+<p>If you’re changing domains or adding SSL to your WordPress site, the following commands are a must in your development toolbelt:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp search-replace "old-domain.com" 
+"new.domain.com" --precise --all-tables
+
+wp search-replace "http://my-domain.com" 
+"https://my.domain.com" --precise --all-tables
+</code></pre></div></div>
+
+<p>You can also use the flag <strong><em>–dry-run</em></strong> to see what the results of the search and replace would be.</p>
+
+<p><strong>Important</strong>: when making these types of changes to the database, it’s crucial to purge your cache and reset your permalinks with the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp rewrite flush
+
+wp cache flush
+</code></pre></div></div>
+
+<h3 id="direct-updates-within-database">Direct Updates within Database</h3>
+
+<p>You can even update any option in the wp_options database table. Here are some examples:</p>
+
+<p><strong>Update site blog description.</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wp option update blogdescription "My website description"
+</code></pre></div></div>
+
+<p><img src="/uploads/blogdescriptionupdate.png" alt="" /></p>
+
+<h3 id="endless-possibilities-with-wp-cli">Endless Possibilities with WP-CLI</h3>
+
+<p>We’ve only just tipped the iceberg of all things you can do with WP CLI. It’s an extremely powerful interface, with endless options. You’ll save so much time as a WordPress developer, it’s worth your time picking up this new skill. Even if you’ve never used SSH before, let this be your introduction.</p>
+
+<p>If you want to level up your WordPress game in 2021, apply this knowledge you’ve learned today!</p>]]></content><author><name>Jessica Devine</name></author><summary type="html"><![CDATA[Building and managing WordPress websites often require time-consuming tasks. Did you know that everything within wp-admin can be completed faster with one tool? WP CLI!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/wpcli.png" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/wpcli.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Using Query Monitor to Improve WordPress Pagespeed</title><link href="https://wpcontractors.github.io/blog/2020/12/07/using-query-monitor-to-improve-wordpress-pagespeed/" rel="alternate" type="text/html" title="Using Query Monitor to Improve WordPress Pagespeed" /><published>2020-12-07T17:28:04+00:00</published><updated>2020-12-07T17:28:04+00:00</updated><id>https://wpcontractors.github.io/blog/2020/12/07/using-query-monitor-to-improve-wordpress-pagespeed</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2020/12/07/using-query-monitor-to-improve-wordpress-pagespeed/"><![CDATA[<p>Hello, readers! I wanted to share a personal experience, as well as a real case for optimizing the speed of your WordPress site. Here’s what happened and how I managed to solve the issue.</p>
+
+<p>I was approached by a client who had a website for the sale and rental of real estate. He didn’t use the site actively and for a long time he had about 100 properties listed on the site.</p>
+
+<p>The site worked quickly and its work suited the client. But then he decided to add the automatic import of properties to his site from a cloud service.</p>
+
+<p>As a result, there were about 20,000 real estate properties on the site, and each object had about 200 fields (floor, number of rooms, price, address, etc.), which exceeded 4,000,000 rows in one of the WP DB tables.</p>
+
+<p>At the same time, the work of the site slowed down 60-100 times. The main page with property listings would load for about 30 seconds … and filtering results sometimes just put the site on the blades.</p>
+
+<h3 id="failed-attempts-to-solve-the-problem"><strong>Failed attempts to solve the problem</strong></h3>
+
+<p>We tried multiple plugins to optimize and speed up the site: WP Rocket, Perfmatters, WP Fastest Cache, WP Super Cache, WP-Optimize, Autoptimize, Asset CleanUp, etc.</p>
+
+<p>But all of these plugins only added a small speed increase of about 5%. These of course did not singularly solve the problem.</p>
+
+<p>Also, a more expensive hosting package was purchased with more powerful processing and RAM. Still slow to load, sadly.</p>
+
+<p>Then I came across a plugin that, in the end, couldn’t solve the problem on its own. But it did help me find many problems that I could solve myself.</p>
+
+<p>Let’s go into more detail…</p>
+
+<h3 id="using-query-monitor-as-a-solution"><strong>Using Query Monitor as a Solution</strong></h3>
+
+<p>The plugin Query Monitor is the developer tools panel for WordPress. It enables debugging of database queries, PHP errors, hooks and actions, block editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more.</p>
+
+<p>It includes some advanced features such as debugging of Ajax calls, REST API calls, and user capability checks. It also can narrow down much of its output by plugin or theme, allowing you to quickly determine poorly performing plugins, themes, or functions.</p>
+
+<p>Query Monitor focuses heavily on presenting its information in a useful manner. For example, it can aggregate database queries grouped by the plugins, themes, or functions that are responsible for them.</p>
+
+<p>It adds an admin toolbar menu showing an overview of the current page, with complete debugging information shown in panels once you select a menu item.</p>
+
+<p>Here are some example screenshots:</p>
+
+<p><img src="/uploads/image1.png" alt="" /><br />
+<img src="/uploads/image2.png" alt="" /><br />
+<img src="/uploads/image3.png" alt="" /></p>
+
+<p>Here’s an overview of what it shows for each page load:</p>
+
+<ul>
+  <li>Database queries, including notifications for slow, duplicate, or erroneous queries. Allows filtering by query type (SELECT, UPDATE, DELETE, etc), responsible component (plugin, theme, WordPress core), and calling function, and provides separate aggregate views for each.</li>
+  <li>The template filename, the complete template hierarchy, and names of all template parts that were loaded or not loaded.</li>
+  <li>PHP errors presented nicely along with their responsible component and call stack, and a visible warning in the admin toolbar.</li>
+  <li>Blocks and associated properties in post content when using WordPress 5.0+ or the Gutenberg plugin.</li>
+  <li>Matched rewrite rules, associated query strings, and query vars.</li>
+  <li>Enqueued scripts and stylesheets, along with their dependencies, dependents, and alerts for broken dependencies.</li>
+  <li>HTTP API requests, with response code, responsible component, and time taken, with alerts for failed or erroneous requests.</li>
+  <li>User capability checks, along with the result and any parameters passed to the capability check.</li>
+  <li>Environment information, including detailed information about PHP, the database, WordPress, and the web server.</li>
+  <li>The values of all WordPress conditional functions such as is_single(), is_home(), etc.</li>
+  <li>Transients that were updated.</li>
+</ul>
+
+<p>As well as:</p>
+
+<ul>
+  <li>Whenever a redirect occurs, Query Monitor adds an HTTP header containing the call stack. This allows you to use your HTTP inspector or browser developer tools to track what caused the redirect.</li>
+  <li>The response from any Ajax request on the page will contain various debug information in its headers. PHP errors are also logged to the browser console.</li>
+  <li>The response from an authenticated WordPress REST API request will contain various debug information in the headers if the authenticated user has permission to view the Query Monitor data.</li>
+</ul>
+
+<p>This is just a godsend for any developer, isn’t it? You can easily track which plugin and which hook has slow requests, or how long your custom code takes to process.</p>
+
+<p>In my case, I found a lot of incorrect custom code on the client’s site, left behind by the previous developers of the site which slowed down the site with a large number of records in the database. For example, multiple irrational use of custom queries to the database to prepare data, although one could do without them.</p>
+
+<p>At the same time, in all requests, the data was selected all at once, and then they tried to filter them in php. Although immediately it was possible to receive only the necessary data and with this minimum в data it was already possible to work further.</p>
+
+<h3 id="never-give-up">Never give up!</h3>
+
+<p>With the help of this tool, I managed to return the previous site loading speed - about 300-500Ms instead of 30000Ms and increase the performance by <strong>60-100 times!</strong></p>
+
+<p>Good luck, and never give up!</p>]]></content><author><name>Matthew Pritchard</name></author><summary type="html"><![CDATA[Want to learn how to use Query Monitor to improve your WordPress pages? Read on to learn how to make your site lightning fast!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/uploads/tyler-franta-iusj25iyu1c-unsplash.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/uploads/tyler-franta-iusj25iyu1c-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">8 Best WordPressPlugins for Improving Your SEO</title><link href="https://wpcontractors.github.io/blog/2020/11/30/8-best-plugins-for-improving-your-seo/" rel="alternate" type="text/html" title="8 Best WordPressPlugins for Improving Your SEO" /><published>2020-11-30T11:00:00+00:00</published><updated>2020-11-30T11:00:00+00:00</updated><id>https://wpcontractors.github.io/blog/2020/11/30/8-best-plugins-for-improving-your-seo</id><content type="html" xml:base="https://wpcontractors.github.io/blog/2020/11/30/8-best-plugins-for-improving-your-seo/"><![CDATA[<p>Agency owners, developers, and anyone who uses WordPress can benefit from a better understanding of how to use SEO plugins. These tools help improve search rankings and boost site traffic. When used properly, they can even increase conversions, and improve your overall marketing ROI.</p>
+
+<p>Let’s review 8 of the best plugins that you can use for increasing your SEO, to help your website start ranking better, and to show more relevant information in search results.</p>
+
+<h3 id="1-yoast-seo">1. Yoast SEO</h3>
+
+<p><a href="https://yoast.com/wordpress/plugins/seo/">Yoast</a> is by far the most popular SEO plugin, and it’s also quite useful. With it, you can make an XML sitemap, connect services that provide Webmaster tools, like Google, Bing, or Yandex. You can exclude any posts, pages, tags, or categories that you don’t want to show up in search results. Yoast is nearly limitless!</p>
+
+<p>It’s most useful feature is the meta SEO box that gets added to all your posts and pages. In this area, you can set custom title tags, meta-robots tags, meta-descriptions, Open Graph Tags, and canonicals. Curious how your content stacks up aside the rest of the web? Check out the “Readability Analysis” tool, which gives an idea of how readable your content is, based on the Flesch Reading Ease score.</p>
+
+<h3 id="2-all-in-one-seo-pack">2. All-in-One SEO Pack</h3>
+
+<p>Another popular WordPress SEO option is the <a href="https://semperplugins.com/">All-in-One SEO Pack</a>. It’s similar to Yoast, but with some additional options. For more functionality, for example, you’ll have to install some free add-ons. With those added, you can edit your robots.txt file and your .htaccess file without having to use FTP. You can also block bots and referral spam.</p>
+
+<p>Out of the box, the free version of All-in-One SEO Pack has some great default features, generating meta-tags automatically, and allowing you to add sitelinks search box markup. The Pro version extends support for Google Tag Manager, an SEO alogrithm for images, and WooCommerce SEO optimization as well.</p>
+
+<h3 id="3-seopress">3. SEOPress</h3>
+
+<p>Sometimes the right tool fits perfectly with your theme and other plugins! A robust and fully-featured SEOplugin, <a href="https://www.seopress.org/features/">SEOPress</a> integrates seamlessly with popular plugins such as Elementor, Beaver Builder, WooCommerce, Google Analytics, Jetpack, Events Calendar, and WP-Rocket, to name a few!</p>
+
+<p>Even the free version of SEOPress comes with many features similar to what Yoast and others have to offer, but the Pro version is really quite affordable and has much less bloat as well. Aside from the fact that even the free version has a great feature set, it is also worth considering on the basis that it integrates with so many other useful and popular WordPress tools.</p>
+
+<h3 id="4-rankmath">4. RankMath</h3>
+
+<p>New to the scene, <a href="https://rankmath.com/">RankMath</a> is powerful and feature-rich, while also very user friendly. Like Yoast, it includes a set-up wizard to help walk you through the configuration process. The UI, however, is much nicer than any of the others mentioned above.</p>
+
+<p>Some unique features that only RankMath includes are: redirections, 404 errors, card previews for Twitter and Facebook, Google Search Console integrations, and rich results (or rich snippets) Schema markup. Schema markup is especially important, as other SEO plugins may only partially include this as a limited offering, or only have it available in their Pro versions.</p>
+
+<h3 id="more-seo-tools">More SEO Tools</h3>
+
+<p>The first four SEO plugins we’ve reviewed are full-featured stand alone products that can handle all your SEO needs. Each of them can be installed, configured, and upgraded in order to manage every aspect of search engine optimization.</p>
+
+<p>However, when using the free version of any SEO plugin, there are often features that are only available if you upgrade to the Pro version, and sometimes a specific function is best achieved through a separate plugin that can handle that particular task. The following four SEO-oriented plugins are for just that purpose.</p>
+
+<h3 id="5-shortpixel">5. Shortpixel</h3>
+
+<p>This image optimization plugin can help increase your SEO by compressing and reducing the file size of images uploaded to your WordPress media library. Once configured, it will optimize any future images uploaded to your site, and there’s a bulk optimization tool for optimizing the ones already there.</p>
+
+<p><a href="https://shortpixel.com/">Shortpixel</a> includes 100 free credits each month, and more credits can be purchased for your optimization needs above and beyond that. There’s also a great add-on plugin called Enable Media Replace, which allows you to swap out an image without deleting and re-uploading it, while preserving the file name.</p>
+
+<h3 id="6-redirection">6. Redirection</h3>
+
+<p><a href="https://redirection.me/">Redirection</a> is a very simple plugin for managing 301 redirects. Some SEO plugins include this feature in the free version, in others it is only part of their Pro version, and others don’t include it all. So, it’s good to have an option for adding this handy feature to your site. This particular plugin does the job well, at no extra cost to you!</p>
+
+<h3 id="7-broken-link-checker">7. Broken Link Checker</h3>
+
+<p>Similar to <a href="https://redirection.me/">Redirection</a>, the <a href="https://wordpress.org/plugins/broken-link-checker/">Broken Link Checker</a> plugin allows you to create 301 redirects, though it also continuously monitors and test all internal and external links, helping you to fix broken links and in turn, improving both your SEO and user experience on your site.</p>
+
+<p>The only downside with this particular plugin is that it can slow down overall site performance and speed, as it requires a fair amount of bandwidth. However, you can just run it on your site periodically, deactivating it between uses so it isn’t running constantly. As a side note, it is also included in the suite of dashboard tools available with the popular site management service, <a href="https://managewp.com/">ManageWP</a>.</p>
+
+<h3 id="8-autoptimize">8. Autoptimize</h3>
+
+<p>This plugin helps minify, compress, and cache your scripts and styles to help improve site performance and speed up page load times. If you’ve ever used a tool like <a href="https://gtmetrix.com/">GTMetrix</a> or <a href="https://www.pingdom.com/">Pingdom.com</a> to analyze your site performance, you’re probably aware that your codebase also needs some optimization to help speed things up a bit.</p>
+
+<p>The nice thing about <a href="https://wordpress.org/plugins/autoptimize/">Autoptimize</a> is that it’s fairly simple to use, and is mainly configured by checking or unchecking various boxes that toggle on and off various settings. It also has an integration with <a href="https://shortpixel.com/">Shortpixel</a>, which allows you to optimize and convert images to WebP “web graphics” format. These are then cached and served from Shortpixel’s CDN, which improves overall site speed even further!</p>
+
+<p>Optimizing your site to rank better in web search results is one of the most important aspects of making your brand more accessible and visible on the internet. If your website is in need of SEO improvement, try out some of the tools mentioned in this article. As always, WP Contractors can help connect you with <a href="https://esteemed.io/get-a-quote/">WordPress professionals</a> who can help you achieve your SEO goals!</p>]]></content><author><name>Evan Farmer</name></author><summary type="html"><![CDATA[A place where community members can network and help one another]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wpcontractors.github.io/img/site-analytics.jpg" /><media:content medium="image" url="https://wpcontractors.github.io/img/site-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

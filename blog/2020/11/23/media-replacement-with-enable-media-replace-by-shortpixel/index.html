@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167435008-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167435008-2');
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn how to use the Enable Media Replace plugin, made by the developers of the ShortPixel image optimization tool, for easily replacing media files on your WordPress site." />
+  <meta name="keywords" content="staffing, WordPress, wordpress, WP, WordPress freelancers, wordpress freelancers, WordPress contractors, WordPress staffing" />
+  <meta name="rating" content="general" />
+  <meta name="rights" content="Copyright WP Contractors an Esteemed Inc. business - 2019 / 2020" />
+  <link rel="canonical" href="https://wpcontractors.github.io/blog/2020/11/23/media-replacement-with-enable-media-replace-by-shortpixel/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="WP Contractors" />
+  <meta property="og:url" content="https://wpcontractors.github.io" />
+  <meta property="og:title" content="Media Replacement with Enable Media Replace by ShortPixel | WP Contractors" />
+  <meta property="og:description" content="Learn how to use the Enable Media Replace plugin, made by the developers of the ShortPixel image optimization tool, for easily replacing media files on your WordPress site." />
+  <meta property="og:image" content="https://wpcontractors.github.io/uploads/stephen-phillips-hostreviews-co-uk-sspzml7fpwc-unsplash.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:country_name" content="United States" />
+  <meta property="og:email" content="services@esteemed.io" />
+  <meta property="og:phone_number" content="360.701.7353" />
+  <meta property="og:region" content="Northwest" />
+  <meta property="og:locality" content="Seattle" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:site" content="@wp_contractors" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://wpcontractors.github.io" />
+  <meta name="twitter:title" content="Media Replacement with Enable Media Replace by ShortPixel | WP Contractors" />
+  <meta name="twitter:image" content="https://wpcontractors.github.io/uploads/stephen-phillips-hostreviews-co-uk-sspzml7fpwc-unsplash.jpg" />
+  <meta name="twitter:image:alt" content="WP Contractors" />
+  <meta name="dcterms.title" content="Media Replacement with Enable Media Replace by ShortPixel | WP Contractors" />
+  <meta name="dcterms.type" content="Text" />
+  <meta name="dcterms.identifier" content="https://wpcontractors.github.io/blog/2020/11/23/media-replacement-with-enable-media-replace-by-shortpixel/" />
+  <meta name="dcterms.format" content="text/html" />
+  <title>Media Replacement with Enable Media Replace by ShortPixel | WP Contractors</title>
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" media="all" />
+  <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+  <link type="text/css" rel="stylesheet" href="/assets/css/style.css" media="all" />
+</head>
+
+
+
+
+<body class="html no-sidebars i18n-en panel-layout-onecol panel-region-middle">
+  
+<a id="skip-link" href="#main" class="sr-only sr-only-focusable">Skip to main content</a>
+<header id="headers-wrapper">
+  <div id="header-esteemed" class="global-header" role="header">
+    <div class="container">
+      <div class="global-header-body">
+        <div class="siteHeader-body-left">
+            <div class="logo">
+                <a href="https://esteemed.io" title="Esteemed">
+                  <img typeof="foaf:Image" src="/assets/img/esteemed-bw-logo.svg" alt="Esteeemd IO" title="Esteemed" />
+                </a>
+            </div>
+        </div>
+        <div class="global-header-body-right">
+          <div class="region region-navigation-right">
+            <div class="global-header-body-right-link global-header-body-right-link--account">
+                <div class="right-button"><a href="http://esteemed.slack.com/">Log In</a></div>
+            </div>
+            <div class="global-header-body-right-link global-header-body-right-link--btn">
+                <div class="right-two-button"><a href="https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg" target="_blank">Join Colleagues</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-buttons display-buttons">
+      <button type="button" class="hamburger-top" data-toggle="collapse" data-target="#menu-global"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+      <div id="menu-global" class="collapse">
+        <div class="right-button"><a  href="http://esteemed.slack.com/">Log In</a></div>
+        <div class="right-two-button"><a href="https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg">Join Colleagues</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="header" class="siteHeader" role="header">
+    <nav id="js-bootstrap-offcanvas" class="navbar navbar-expand-xl navbar-offcanvas-right navbar-offcanvas-touch">
+      <div class="container">
+        <a class="navbar-brand" href="/" title="WP Contractors">
+          <img typeof="foaf:Image" src="/assets/img/wp-logo-horiz-white.svg" alt="WP Contractors" title="WP Contractors" class="align-top white-logo"/>
+          <img typeof="foaf:Image" src="/assets/img/wp-logo-horizontal-blk.svg" alt="WP Contractors" title="WP Contractors" class="align-top black-logo"/>
+        </a>
+        <button class="navbar-toggler js-hamburger offcanvas-toggle" type="button" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse mainMenu">
+          <button class="mobileMenu-close js-closeMobileMenu d-block d-lg-none"><i class="fa fa-times" aria-hidden="true"></i></button>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item nav-item-second">
+                  <a class="nav-link" href="https://talent.esteemed.io/jobs" target="_blank">Browse Jobs</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle dropdown-item-first" href="#">Browse Contractors<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                    
+                    <li><a href="/contractors/architect/" title="Architect">Architect</a></li>
+                    
+                    
+                    <li><a href="/contractors/art_director/" title="Art Director">Art Director</a></li>
+                    
+                    
+                    <li><a href="/contractors/backend/" title="Back-end Developer">Back-end Developer</a></li>
+                    
+                    
+                    <li><a href="/contractors/frontend/" title="Front-end Developer">Front-end Developer</a></li>
+                    
+                    
+                    <li><a href="/contractors/full_stack/" title="Full-Stack Developer">Full-Stack Developer</a></li>
+                    
+                    
+                    <li><a href="/contractors/pm/" title="Project Manager">Project Manager</a></li>
+                    
+                    
+                    <li><a href="/contractors/qa_tester/" title="QA Tester">QA Tester</a></li>
+                    
+                    
+                    <li><a href="/contractors/sys_admin/" title="Sys Admin">Sys Admin</a></li>
+                    
+                    
+                    <li><a href="/contractors/ux_designer/" title="UX Designer">UX Designer</a></li>
+                    
+                    
+                    <li><a href="/contractors/visual_designer/" title="Visual Designer">Visual Designer</a></li>
+                    
+                    <li><a href="/contractors/">See All</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a href="/#how-it-works" class="nav-link">How it works</a>
+            </li>
+          </ul>
+          <div class="region region-navigation-right">
+            
+            <div class="block block-block siteHeader-body-right-link siteHeader-body-right-link--account block--">
+              <div class="block__content">
+                <div class="sign_up-button"><a href="/getting-started/"><span class="mbri-edit"></span> Sign Up</a></div>
+              </div>
+            </div>
+            
+            <div class="block block-block siteHeader-body-right-link siteHeader-body-right-link--btn block--">
+              <div class="block__content">
+                <div><a class="btn btn--blue" href="https://colleagues.esteemed.io/opportunities">Become a Contractor</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrapper">
+    <div id="main" class="main">
+      <div id="content">
+        <div class="region region-content">
+          
+
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/blog/">Blog</a>
+
+    
+  </div>
+
+  <div class="row justify-content-center px-3 px-md-4 px-lg-5">
+    <div class="col-md-10 col-lg-8">
+      <div class="blog-post">
+        <h1 class="blog-post__title">Media Replacement with Enable Media Replace by ShortPixel</h1>
+
+        <div class="block-post__meta text-center pb-blog">
+          <div class="blog-post__author font-italic">
+            By <span class="font-weight-bold"><a href="/blog/author/evan-farmer/">Evan Farmer</a></span>
+          </div>
+
+          <div class="blog-post__date">
+            11.23.2020
+          </div>
+        </div>
+
+        
+          <div class="blog-post__image pb-blog">
+            <img src="/uploads/stephen-phillips-hostreviews-co-uk-sspzml7fpwc-unsplash.jpg" alt="Header Image">
+          </div>
+        
+
+        <div class="blog-post__content">
+          <p>One of the best (and easiest) ways to speed up your WordPress website is through media file size reduction and image optimization. While there are various tools that you can use to <a href="https://app.wpcontractors.com/content/how-improve-your-wordpress-site-performance">improve site performance</a>, here we’ll briefly discuss the <a href="https://wordpress.org/plugins/shortpixel-image-optimiser/">ShortPixel</a> plugin, with specific focus on a use case scenario involving the <a href="https://wordpress.org/plugins/enable-media-replace/">Enable Media Replace</a> companion plugin.</p>
+
+<p>First of all, you’ll probably want to install and run ShortPixel on your website, specifically if you don’t already have an image optimization plugin. ShortPixel is free to start using but there are certain limitations, as you’ll only get 100 free optimizations per month. They do offer various affordable monthly plans, one-time credit purchase options, and dedicated server options as well. And although the Enable Media Replace plugin is created by the ShortPixel development team, it will function just fine on its own.</p>
+
+<h3 id="default-media-file-replacement">Default Media File Replacement</h3>
+
+<p>Replacing images and other media files in WordPress can be a tedious process, which is not always a problem if that isn’t something you have to do frequently. However, if you do find that you’re needing to swap out photos or update documents on your website on a regular basis, you’ll quickly notice that the default process for doing such tasks is somewhat complicated.</p>
+
+<p>For instance, in order to simply replace an image that is already displayed on a page or post of your site, you’ll have to follow these steps:</p>
+
+<ol>
+  <li>Access the image or document in the media library</li>
+  <li>Delete that item</li>
+  <li>Upload the replacement image or document</li>
+  <li>Edit the post or page</li>
+  <li>Link the new image to that post or page again</li>
+  <li>Clear the cache to ensure you see the updated item on the front end</li>
+</ol>
+
+<p>When switching out media files this way, it’s important to go through the steps in the order noted above, especially if you want to keep the same file name. If you decide to replace a media file with another one that has exactly the same name, and upload the new file before deleting the old file, then the new file name would automatically be appended with a “-1” placed at the end, so there are no conflicts when those files are served up.</p>
+
+<h3 id="enable-media-replace-to-change-files-with-ease">Enable Media Replace to Change Files with Ease</h3>
+
+<p>Regardless of whether or not you’re using the ShortPixel image optimization plugin, utilizing Enable Media Replace really couldn’t be more simple. Once it is installed and activated, it’s ready to use right away…all you need to do is go into your media library, select the item that you’d like to replace, and you’ll notice a new option on the “Attachment details” screen that says “Replace media.”</p>
+
+<p>There, you’ll also notice a button that says “Upload a new file,” which will then take you to the “Replace media upload” screen. Selecting the replacement media file is much like uploading items into the media library, where you can either click the “Choose file” button to select a file from your computer, or you can simply drag and drop the file into the media upload area.</p>
+
+<p>Below the media upload area, there will be a sort of preview of the item that was selected for replacement, with a grey box that shows the original dimensions, and the size of the file is displayed below it. Once you’ve selected the file that will be uploaded to replace the old one, you’ll also see a similar preview of that one as well.</p>
+
+<p>Before you finally upload the replacement file, there are a couple of other options to consider and this is where the Enable Media Replace plugin really shows its strength. Here you two replacement options:</p>
+
+<ol>
+  <li>Just replace the file - the replacement file type must be the same and the file name remains unchanged, after it is uploaded.</li>
+  <li>Replace the file, use new file name and update all links - with this option, the name and type of the file you upload will replace the old file and all the links to the old file will be updated to point to the new file name (If there are other places on the web that link to the file being replaced, you’ll also have to add a redirect to avoid broken links).</li>
+</ol>
+
+<p>Finally, there are also three date options to choose from as well: Replace the date, keep the date, and set a custom date. These are pretty self explanatory, but just for the sake of clarity, replacing the date will change the original upload date to the date the new file was uploaded, keeping the date will leave the original upload date in place, and setting a custom date will allow you to set the upload date to any date of your choosing.</p>
+
+<h3 id="considerations-applications-and-conclusions">Considerations, Applications, and Conclusions</h3>
+
+<p>Enable Media Replace allows you to seamlessly upload and replace any item in your media library without having to delete the file being replaced or even going to the page or post where the file is linked. This can be a real time saver for website owners who regularly update images or provide downloadable documents that need to be updated frequently.</p>
+
+<p>One particular application that this plugin would be handy is for a website where various pdf documents are available for download. If an original file is found to have typos, or simply needs to be updated regularly, those files can be updated and then easily replaced with the mere click of a button, rather than going through the convoluted process that is necessary without Enable Media Replace.</p>
+
+<p>In conclusion, this simple, lightweight, and free plugin known as Enable Media Replace is a must have tool for anyone who finds themselves needing to replace media files on their website. Even if you don’t need to swap out media files very often, it’s so convenient and easy to use that it hardly makes sense not to have it installed.</p>
+
+        </div>
+
+        <div class="post-categories pt-blog">
+          <span class="post-categories--title">Category: </span>
+
+          
+        </div>
+
+        <div class="blog-post__author-block pt-blog pb-blog row">
+          <div class="col-12 hr pb-blog"></div>
+          <div class="col-md-4 col-lg-3">
+            <div class="blog-post__author-block--image">
+              <a href="/blog/author/evan-farmer/">
+                <img class="rounded-circle" src="/img/evan-farmer.jpg" alt="Evan Farmer">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-8 col-lg-9">
+            <div class="blog-post__author-block--name">
+              <a href="/blog/author/evan-farmer/">Evan Farmer</a>
+            </div>
+            <div class="blog-post__author-block--bio">
+              <p>Evan Farmer is a developer and blogger for WP Contractors. He specializes in creating informative, educational articles for developers to broaden their practice, and for agencies to improve how they source talent. Connect with him on <a href="https://app.wpcontractors.com/u/evan-26190">WP Contractors</a>.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<div id="contact-form" class="contact-form">
+  <section class="container">
+    <h2 class="contact-form__header">Do you need WordPress contractors to meet demand?</h2>
+    <p class="contact-form__description">Hire pre-screened, expert WordPress contractors. Our platform is part of the Esteemed Colleagues Community. We provide world-class WordPress talent that brands can trust — through tools they already use. We work as an extension of our clients in close collaboration to provide vetted architects, developers, designers and digital professionals.<br><br>If you need help hiring for digital, or to scale up to meet demand, please let us know. We'll be happy to get you started with a custom Esteemed subscription plan..</p>
+    <div class="contact-form__wrapper">
+      <!-- Begin Mailchimp Signup Form -->
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+      <div id="mc_embed_signup" class="mc_form">
+        <form action="https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&amp;id=a6b16fcb11" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group size1of2">
+              <label for="mce-FNAME">First Name </label>
+              <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+            </div>
+            <div class="mc-field-group size1of2">
+              <label for="mce-LNAME">Last Name </label>
+              <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+            </div>
+            <div class="mc-field-group size1of2">
+              <label for="mce-EMAIL">Email<span class="mce-required">*</span></label>
+              <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL"  required="" aria-required="true">
+            </div>
+            <div class="mc-field-group size1of2">
+              <label for="mce-MMERGE5">Website URL</label>
+              <input type="text" value="" name="MMERGE5" class=" url" id="mce-MMERGE5">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-PHONE">Phone Number </label>
+              <input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-MMERGE7">I'm a <span class="mce-required">*</span></label>
+              <select name="MMERGE7" class="" id="mce-MMERGE7"  required="" aria-required="true">
+                <option value=""></option>
+                <option value="Contractor">Contractor</option>
+                <option value="Agency">Agency</option>
+                <option value="Brand">Brand</option>
+              </select>
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-MMERGE6">How would you best describe your WordPress staffing needs?</label>
+              <textarea type="text" value="" name="MMERGE6" class="" id="mce-MMERGE6"></textarea>
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ec5b82da5b213df9999d28215_a6b16fcb11" tabindex="-1" value=""></div>
+            
+            <div class="submit"><input type="submit" value="Talk to us" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[6]='MMERGE7';ftypes[6]='option';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MMERGE5';ftypes[5]='url';fnames[7]='DESCRPTN';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+      <!--End mc_embed_signup-->
+    </div>
+  </section>
+</div>
+
+
+<div class="preFooter">
+  <div class="region region-pre-footer">
+    <div class="getStartBlocks">
+      <h6>Get Started</h6>
+      <div class="getStartBlocks-row">
+        <div class="getStartBlocks-row-btn">
+          <a class="btn btn--light" href="/get-a-quote/">Get a Quote</a>
+        </div>
+        <div class="getStartBlocks-row-btn">
+          <a class="btn btn--light" href="https://colleagues.esteemed.io/opportunities">Become a WordPress Contractor</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer id="siteFooter" class="siteFooter">
+  <div class="container">
+    <div class="siteFooter-top">
+        <div class="region region-footer-top-left">
+          <div class="footerCopyBlock">
+            <div class="block__content">
+              <h2><strong><span>WP Contractors</span></strong> matches pre-screened <strong>WordPress</strong> talent with the needs of your business.</h2>
+            </div>
+          </div>
+        </div>
+      <div class="siteFooter-top-row siteFooter-top-row--right">
+        <div class="region region-footer-top-right">
+          <div class="footerSocials">
+            <div class="block__content">
+              <div class="footerSocials-copy">
+                <h5>Stay in touch</h5>
+              </div>
+              <div class="footerSocials-body">
+                <div class="footerSocials-body-link">
+                  <a href="https://twitter.com/wp_contractors" class="custom-icon custom-icon--twitter" target="_blank"></a>
+                </div>
+                <div class="footerSocials-body-link">
+                  <a href="https://www.linkedin.com/company/wpcontractors/" class="custom-icon custom-icon--linkedin" target="_blank"></a>
+                </div>
+                <div class="footerSocials-body-link">
+                  <a href="https://www.facebook.com/wpcontractors" class="custom-icon custom-icon--facebook" target="_blank"></a>
+                </div>
+                <div class="footerSocials-body-link">
+                  <a href="mailto:service@esteemed.io" class="custom-icon custom-icon--email"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="siteFooter-body">
+      <div class="siteFooter-body-column siteFooter-body-column--left">
+        <div class="region region-footer-left">
+          <div class="footerMenu">
+            <h4 class="block__title">About</h4>
+            <div class="block__content">
+              <ul class="menu nav-pills nav-stacked nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="/our-team/">Our Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="/our-history/">Our History</a></li>
+                <li class="nav-item"><a class="nav-link" href="tel:13607123866">1 (360) 712-3866</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="siteFooter-body-column siteFooter-body-column--center">
+        <div class="region region-footer-center">
+          <div class="footerMenu">
+            <h4 class="block__title">Services</h4>
+            <div class="block__content">
+              <ul class="menu nav-pills nav-stacked nav flex-column">
+                <li>
+                  <a href="/services/professional/">WP Contractors Professional</a>
+                </li>
+                <li>
+                  <a href="/services/enterprise/">WP Contractors Enterprise</a>
+                </li>
+                <li>
+                  <a class="external-link" href="https://esteemed.io/" target="_blank">Recruitment Solutions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="siteFooter-body-column siteFooter-body-column--right">
+        <div class="region region-footer-right">
+          <div class="footerMenu">
+            <h4 class="block__title">Resources</h4>
+            <div class="block__content">
+              <div class="menu-block-wrapper menu-block-4 menu-name-menu-footer-nav parent-mlid-512 menu-level-1">
+                <ul class="menu nav-pills nav-stacked nav flex-column">
+                  <li class="nav-item"><a class="nav-link" href="/blog/">WP Contractors Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/partner-us/">Partner with Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/faq/">Help & FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="siteFooter-body-column siteFooter-body-column--right-last">
+        <div class="region region-footer-right-last">
+          <div class="footerMenu">
+            <h4 class="block__title">Find</h4>
+            <div class="block__content">
+              <ul class="menu nav-pills nav-stacked nav flex-column">
+                <li>
+                  <a class="external-link" href="https://talent.esteemed.io/jobs" target="_blank">Contracting Opportunties</a>
+                </li>
+                <li>
+                  <a href="/contractors/">Contractors in the U.S.</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="footerMenu">
+            <h4 class="block__title">Community</h4>
+            <div class="block__content">
+              <ul class="menu nav-pills nav-stacked nav flex-column">
+                
+                <li>
+                  <a class="external-link" href="https://make.wordpress.org/community/handbook/wordcamp-organizer/become-an-organizer/regional-wordcamps/" target="_blank">Regional Word Camps</a>
+                </li>
+                
+                <li>
+                  <a class="external-link" href="http://us.wordcamp.org/" target="_blank">U.S. Word Camp</a>
+                </li>
+                
+                <li>
+                  <a class="external-link" href="https://make.wordpress.org/core/handbook/contribute/" target="_blank">WP Code Contributions</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="siteFooter-bottom">
+      <div class="region region-footer-bottom">
+        <div class="footerCopyright">
+          <div class="block__content">
+            <p>Copyright &copy; 2024 WP Contractors, an Esteemed Inc business. All right reserved. <a href="/terms-use/">Terms of Use</a> | <a href="/privacy/">Privacy Policy</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="/assets/js/scripts.js"></script>
+
+</body>
+</html>
